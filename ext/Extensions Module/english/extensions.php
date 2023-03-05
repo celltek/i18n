@@ -8,9 +8,8 @@ define("_CE_ERROR_ZIP","Request not possible. PHP-ZIP is not installed on the we
 define("_CE_ERROR_SHOP","You have not purchased a license for the widget/module!");
 define("_CE_ERROR_DOMAIN","Domain does not match license!");
 define("_CE_ERROR_PAGE","This page does not exist.");
+define("_CE_DOMAIN_CHECK","Check/Change Domain");
 
-define("_EXT_SIGIN","Sign In");
-define("_EXT_SIGOUT","Sign Out");
 define("_EXT_VERIFIED_DEV","Verified Developer");
 define("_EXT_COMPATIBILITY","Compatibility");
 define("_EXT_RENT_VERSION","Rent");
