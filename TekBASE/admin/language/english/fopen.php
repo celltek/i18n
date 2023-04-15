@@ -12,7 +12,7 @@ define("_FOPENDBUPERROR","Database error! The position couldn't be changed!");
 define("_FOPENDBUPDATED","The position was changed!");
 define("_FOPENDBBALANCEERROR","Database error! The position couldn't be balanced!");
 define("_FOPENDBBALANCED","The position has been successfully balanced!");
-define("_FOPENDBREOPENEDERROR","Database error! The position couldn't be reopened!"");
+define("_FOPENDBREOPENEDERROR","Database error! The position couldn't be reopened!");
 define("_FOPENDBREOPENED","The position was reopened!");
 define("_FOPENDBDTAERROR","Database error! The DTA status couldn't be reseted!");
 define("_FOPENDBDTA","The DTA status has been successfully reseted!");
