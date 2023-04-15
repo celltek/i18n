@@ -1,0 +1,57 @@
+<?php
+
+define("_RATINGS","Customer ratings");
+define("_RATINGSNOVALUATIONS","Currently there are no ratings available!");
+define("_RATINGSVENDORSTATS","Shop statistics:");
+define("_RATINGSVALUATIONS","Ratings");
+define("_RATINGSCONCILIATIONSOK","successful conciliation procedures");
+define("_RATINGSCONCILIATIONSNO","unsuccessful conciliation procedures");
+define("_RATINGSCONCILIATIONOK","The conciliation procedure was successful!");
+define("_RATINGSCONCILIATIONNO","The conciliation procedure remained unsuccessful!");
+define("_RATINGSCUSTOMEROPINIONS","Customer opinions");
+define("_RATINGSVALUATIONSFROMCTOC","Ratings from customers for customers");
+define("_RATINGSREPORTED","This rating is being reviewed to find a solution.");
+define("_RATINGSANSWERFROM","Answer from");
+define("_RATINGSNEXTSITE","next page");
+define("_RATINGSPREVIOUSSITE","previous page");
+define("_RATINGSCURRENTVALUATION","Current rating");
+define("_RATINGSADDRESS","Address:");
+define("_RATINGSHOLDER","Holder:");
+define("_RATINGSEMAIL","Email:");
+define("_RATINGSPHONE","Phone:");
+define("_RATINGSFAX","Fax:");
+define("_RATINGSPOSITIVE","positive");
+define("_RATINGSNEUTRAL","neutral");
+define("_RATINGSNEGATIVE","negative");
+define("_RATINGSWEGARANTEE","We guarantee");
+define("_RATINGSGARANTEEINFO","We will never delete reviews, except for proven unlawful reviews, e.g. if the customer does not pay for their services or has already made use of their right of revocation.<br><br>However, bad reviews that could be resolved to the customer's full satisfaction in the conciliation procedure will remain, but will not be evaluated.<br><br>You can read about how the rating system works exactly and what security it offers for you as a customer under the following link.");
+define("_RATINGSNOTYET","Error - No rating possible");
+define("_RATINGSNOTYETINFO","Unfortunately, you are not authorized to rate the shop operator. If you have received an email requesting you to rate your provider, please click on the link in the email again. If you still see this error message, please send us your link to service@teklab.de, and we will immediately check it.");
+define("_RATINGSBACK","Back");
+define("_RATINGSNORATING","You have not given a rating. Please go back and rate the shop operator.");
+define("_RATINGSNOCOMMENT","You have not written a comment. Please go back and write a comment.");
+define("_RATINGSTOSHORT","The comment is too short. Please go back and write a more detailed comment.");
+define("_RATINGSALREADYRATED","A rating has already been submitted. You can no longer change your rating.");
+define("_RATINGSDBERROR","Your rating could not be saved. Please try again.");
+define("_RATINGSDBSAVED","Thank you for taking the time to rate the shop operator. You can now close the browser window");
+define("_RATINGSTOP","Top");
+define("_RATINGSFLOP","Flop");
+define("_RATINGSTEPONE","Step 1 - Status");
+define("_RATINGSTEPTWO","Step 2 - Rate");
+define("_RATINGSTEPTHREE","Step 3 - Comment");
+define("_RATINGSTEPFOUR","Step 4 - Check");
+define("_RATINGSTEPFIVE","Step 5 - Submit");
+define("_RATINGSTEPONEINFOMEM","You are logged in as user {%customerid%}. If you want to leave a rating anonymously for other users, please log out first. (<a href=\"members.php?op=Logout\" target=\"_blank\">log out</a>)");
+define("_RATINGSTEPONEINFONOMEM","You are currently not logged in or do not have a customer account yet. Therefore, the rating will be anonymous. If you want to support your shop operator, please log in to the customer area beforehand.");
+define("_RATINGSTEPTWOINFO","Please give your rating. To do so, select the appropriate selection fields.");
+define("_RATINGSTEPTHREEINFO","Please avoid excessive use of insults and swear words, as such ratings may be removed. Please always remain factual and fair.");
+define("_RATINGSTEPFOURINFO","Please check your rating again, as editing is no longer possible later. Have you rated the provider correctly? Do you think your comment should stay that way?");
+define("_RATINGSTEPFIVEINFO","Click on the button \"Publish Rating\" if you want to submit the rating like this.");
+define("_RATINGSSENDBUTTON","Publish Rating");
+define("_RATINGSNOTCONFIRMED","Error - No confirmation of arbitration possible");
+define("_RATINGSNOTCONFIRMEDINFO","Unfortunately, you are not authorized to confirm the successful arbitration. If you have received an email asking you to confirm the arbitration of the open case, please click on the link in the email again. If you still see this error, please contact your shop operator.");
+define("_RATINGSCONFIRMED","Arbitration successful");
+define("_RATINGSCONFIRMEDINFO","We thank you for taking the time to confirm the successful arbitration of the case.");
+define("_RATINGSCOUNT","Votes");
+
+?>
