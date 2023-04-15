@@ -1,37 +1,36 @@
 <?php
 
-define("_RESOURCESNOTALLFIELDS","Es wurden nicht alle mit einem * gekennzeichneten Felder ausgefüllt!");
-define("_RESOURCESCANTUPLOADED","Es wurde keine Datei angegeben bzw. sie konnte nicht hochgeladen werden!");
-define("_RESOURCESTITLEEXIST","Es existiert schon eine Datei mit diesem Titel!");
-define("_RESOURCESDBUPERROR","Datenbankfehler! Die Datei konnte nicht geändert werden!");
-define("_RESOURCESDBUPDATED","Die Datei wurde geändert!");
-define("_RESOURCESFILEEXIST","Es existiert schon ein Datei mit diesem Dateinamen!");
-define("_RESOURCESDBSAVEERROR","Datenbankfehler! Die Datei konnte nicht hinzugefügt werden!");
-define("_RESOURCESCREATED","Die Datei wurde soeben hinzugefügt!");
-define("_RESOURCESNEW","Datei eintragen");
-define("_RESOURCESNOENTRY","<b>Keine Dateien vorhanden!</b>");
-define("_RESOURCESDELETESEL","markierte Dateien löschen");
-define("_RESOURCESSTATUS","Der Dateistatus wird nun neu gesetzt!");
-define("_RESOURCESDBDELERROR","Datenbankfehler! Die Datei konnte nicht gelöscht werden!");
-define("_RESOURCESDBDELETED","Die Datei wurde soeben aus dem Webinterface gelöscht!");
-define("_RESOURCESTITLE","Titel oder Dateiname*:");
-define("_RESOURCESINFO","Beschreibung:");
-define("_RESOURCESGROUP","Gruppenzugriff*:");
-define("_RESOURCESNOGROUP","Nur Einzelzugriff");
-define("_RESOURCESALL","Alle Kunden");
-define("_RESOURCESGAME","Gameserver Kunden");
-define("_RESOURCESROOT","Root/Vserver Kunden");
-define("_RESOURCESSTREAM","Streamserver Kunden");
-define("_RESOURCESVOICE","Voiceserver Kunden");
-define("_RESOURCESMUSICBOT","TS3Musicbot Kunden");
-define("_RESOURCESMEMBER","Einzelzugriff*:");
-define("_RESOURCESNOMEMBER","Kein Kunde");
-define("_RESOURCESFILE","Datei*:");
+define("_RESOURCESNOTALLFIELDS","Not all fields marked with * have been filled out!");
+define("_RESOURCESCANTUPLOADED","No file was specified or it could not be uploaded!");
+define("_RESOURCESTITLEEXIST","A file with this title already exists!");
+define("_RESOURCESDBUPERROR","Database error! The file could not be updated!");
+define("_RESOURCESDBUPDATED","The file has been updated!");
+define("_RESOURCESFILEEXIST","A file with this file name already exists!");
+define("_RESOURCESDBSAVEERROR","Database error! The file could not be added!");
+define("_RESOURCESCREATED","The file has just been added!");
+define("_RESOURCESNEW","Add File");
+define("_RESOURCESNOENTRY","<b>No files available!</b>");
+define("_RESOURCESDELETESEL","delete selected files");
+define("_RESOURCESSTATUS","The file status will now be reset!");
+define("_RESOURCESDBDELERROR","Database error! The file could not be deleted!");
+define("_RESOURCESDBDELETED","The file has just been deleted from the web interface!");
+define("_RESOURCESTITLE","Title or file name*:");
+define("_RESOURCESINFO","Description:");
+define("_RESOURCESGROUP","Group Access*:");
+define("_RESOURCESNOGROUP","Individual Access Only");
+define("_RESOURCESALL","All Customers");
+define("_RESOURCESGAME","Game Server Customers");
+define("_RESOURCESROOT","Root/VServer Customers");
+define("_RESOURCESSTREAM","Stream Server Customers");
+define("_RESOURCESVOICE","Voice Server Customers");
+define("_RESOURCESMUSICBOT","TS3Musicbot Customers");
+define("_RESOURCESMEMBER","Individual Access*:");
+define("_RESOURCESNOMEMBER","No Customer");
+define("_RESOURCESFILE","File*:");
 define("_RESOURCESTEMPLATES","Text Templates");
-define("_RESOURCESVIEWTEMPLATE","Template Vorschau");
+define("_RESOURCESVIEWTEMPLATE","Template Preview");
 
-define("_QUESTIONRESOURCESCHANGE","Wollen sie den Status wirklich ändern?");
+define("_QUESTIONRESOURCESCHANGE","Do you really want to change the status?");
 
-define("_ASSISTENTRESOURCES","In diesem Modul können sie Dateien hochladen und freigeben. Diese können dann im Kundenbereich vom Kunden eingesehen werden.");
-
+define("_ASSISTENTRESOURCES","In this module you can upload and share files. These can then be viewed by the customer in the customer area.");
 ?>

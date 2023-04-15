@@ -1,28 +1,27 @@
 <?php
 
-define("_PREPAIDNOTALLFIELDS","Es wurden nicht alle mit einem * gekennzeichneten Felder ausgefüllt!");
-define("_PREPAIDDBUPERROR","Datenbankfehler! Der Eintrag konnte nicht geändert werden!");
-define("_PREPAIDDBUPDATED","Der Eintrag wurde geändert!");
-define("_PREPAIDEXIST","Es existiert schon ein Eintrag zu dem gewählten Typ!");
-define("_PREPAIDDBSAVEERROR","Datenbankfehler! Der Eintrag konnte nicht hinzugefügt werden!");
-define("_PREPAIDDBCREATED","Der Eintrag wurde soeben hinzugefügt!");
-define("_PREPAIDDELETESEL","markierte Einträge löschen");
-define("_PREPAIDNOENTRY","<b>Keine Einträge vorhanden!</b>");
-define("_PREPAIDSTATUS","Die ausgewählten Einträge werden nun gelöscht!");
-define("_PREPAIDDBDELERROR","Datenbankfehler! Der Eintrag konnte nicht gelöscht werden!");
-define("_PREPAIDDBDELETED","Der Eintrag wurde soeben aus dem Webinterface gelöscht!");
-define("_PREPAIDNEW","Prepaid eintragen");
-define("_PREPAIDTYP","Typ*:");
+define("_PREPAIDNOTALLFIELDS","Not all fields marked with * have been filled out!");
+define("_PREPAIDDBUPERROR","Database error! The entry could not be changed!");
+define("_PREPAIDDBUPDATED","The entry has been updated!");
+define("_PREPAIDEXIST","An entry for the selected type already exists!");
+define("_PREPAIDDBSAVEERROR","Database error! The entry could not be added!");
+define("_PREPAIDDBCREATED","The entry has just been added!");
+define("_PREPAIDDELETESEL","delete selected entries");
+define("_PREPAIDNOENTRY","<b>No entries available!</b>");
+define("_PREPAIDSTATUS","The selected entries will now be deleted!");
+define("_PREPAIDDBDELERROR","Database error! The entry could not be deleted!");
+define("_PREPAIDDBDELETED","The entry has just been deleted from the web interface!");
+define("_PREPAIDNEW","Add Prepaid rule");
+define("_PREPAIDTYP","Type*:");
 define("_PREPAIDTITLE","Name*:");
-define("_PREPAIDPRICESLOT","Preis pro Slot*:");
-define("_PREPAIDMINMAXSLOTS","Slotanzahl*:");
-define("_PREPAIDPRICERAM","Preis pro 512MB RAM:");
+define("_PREPAIDPRICESLOT","Price per slot*:");
+define("_PREPAIDMINMAXSLOTS","Number of slots*:");
+define("_PREPAIDPRICERAM","Price per 512MB RAM:");
 define("_PREPAIDMINMAXRAM","RAM in MB:");
-define("_PREPAIDPRICEGB","Preis pro 1GB*:");
-define("_PREPAIDMINMAXGB","Speicherplatz in GB*:");
+define("_PREPAIDPRICEGB","Price per 1GB*:");
+define("_PREPAIDMINMAXGB","Storage space in GB*:");
 
-define("_QUESTIONCPREPAIDCHANGE","Wollen Sie den Status wirklich ändern?");
+define("_QUESTIONCPREPAIDCHANGE","Do you really want to change the status?");
 
-define("_ASSISTENTPREPAID","In diesem Modul können Sie Prepaid Regeln anlegen. Der Kunde kann dann im Kundenbereich sein Guthaben aufladen und Gameserver anlegen.");
-
+define("_ASSISTENTPREPAID","In this module, you can create prepaid rules. The customer can then top up their credit in the customer area and create game servers.");
 ?>

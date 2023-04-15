@@ -1,34 +1,34 @@
 <?php
 
-define("_SUGGESTIONS","Feature Wünsche");
-define("_SUGGESTIONSNOENTRY","<b>Keine Feature Wünsche vorhanden!</b>");
-define("_SUGGESTIONSNOTALLFIELDS","Es wurden nicht alle mit einem * gekennzeichneten Felder ausgefüllt!");
-define("_SUGGESTIONSNOTFOUNDED","Der Feature Vorschlag ist nicht mehr verfügbar!");
-define("_SUGGESTIONSCOMMENTDBSAVEERROR","Datenbankfehler! Der Kommentar konnte nicht hinzugefügt werden!");
-define("_SUGGESTIONSCOMMENTCREATED","Der Kommentar wurde soeben hinzugefügt!");
-define("_SUGGESTIONSDBDELERROR","Datenbankfehler! Der Vorschlag konnte nicht gelöscht werden!");
-define("_SUGGESTIONSDBDELETED","Der Vorschlag wurde soeben aus dem Webinterface gelöscht!");
-define("_SUGGESTIONSDBIMPLEMENTED","Der Vorschlag wurde soeben als erledigt markiert!");
-define("_SUGGESTIONSDBIMPERROR","Datenbankfehler! Der Vorschlag konnte nicht als erledigt markiert werden!");
-define("_SUGGESTIONSSTATUS","Der Status wird nun neu gesetzt!");
-define("_SUGGESTIONSDELETESEL","markierte Vorschläge löschen");
-define("_SUGGESTIONSIMPLEMENTSEL","markierte Vorschläge erledigt");
-define("_SUGGESTIONSTEXT","Beschreibung*:");
-define("_SUGGESTIONSRATING","Bewertung:");
-define("_SUGGESTIONSTEXTTWO","Kommentar falls gewünscht:");
-define("_SUGGESTIONSGENERAL","Allgemein");
-define("_SUGGESTIONSLENGHT","Verbleibende Zeichen:");
-define("_SUGGESTIONSOPEN","offen");
-define("_SUGGESTIONSCLOSE","erledigt");
-define("_SUGGESTIONSINSERTDATE","Erstellt am:");
-define("_SUGGESTIONSCREATOR","Erstellt von:");
-define("_SUGGESTIONSCREATOR","Erstellt von:");
-define("_SUGGESTIONSOLDERCOMMENTS","Weitere Kommentare laden");
+define("_SUGGESTIONS","Feature Requests");
+define("_SUGGESTIONSNOENTRY","<b>No feature requests available!</b>");
+define("_SUGGESTIONSNOTALLFIELDS","Not all fields marked with * have been filled in!");
+define("_SUGGESTIONSNOTFOUNDED","The feature request is no longer available!");
+define("_SUGGESTIONSCOMMENTDBSAVEERROR","Database error! The comment could not be added!");
+define("_SUGGESTIONSCOMMENTCREATED","The comment has just been added!");
+define("_SUGGESTIONSDBDELERROR","Database error! The suggestion could not be deleted!");
+define("_SUGGESTIONSDBDELETED","The suggestion has just been deleted from the web interface!");
+define("_SUGGESTIONSDBIMPLEMENTED","The suggestion has just been marked as implemented!");
+define("_SUGGESTIONSDBIMPERROR","Database error! The suggestion could not be marked as implemented!");
+define("_SUGGESTIONSSTATUS","The status will now be reset!");
+define("_SUGGESTIONSDELETESEL","delete selected suggestions");
+define("_SUGGESTIONSIMPLEMENTSEL","mark selected suggestions as implemented");
+define("_SUGGESTIONSTEXT","Description*:");
+define("_SUGGESTIONSRATING","Rating:");
+define("_SUGGESTIONSTEXTTWO","Comment if desired:");
+define("_SUGGESTIONSGENERAL","General");
+define("_SUGGESTIONSLENGHT","Remaining characters:");
+define("_SUGGESTIONSOPEN","open");
+define("_SUGGESTIONSCLOSE","implemented");
+define("_SUGGESTIONSINSERTDATE","Created on:");
+define("_SUGGESTIONSCREATOR","Created by:");
+define("_SUGGESTIONSCREATOR","Created by:");
+define("_SUGGESTIONSOLDERCOMMENTS","Load more comments");
 define("_SUGGESTIONSTEMPLATES","Text Templates");
-define("_SUGGESTIONSVIEWTEMPLATE","Template Vorschau");
- 
-define("_QUESTIONSUGGESTIONSCHANGE","Wollen sie den Status wirklich ändern?");
+define("_SUGGESTIONSVIEWTEMPLATE","Template Preview");
 
-define("_ASSISTENTSUGGESTIONS","Hier können sie die Feature Wünsche samt Bewertungen und Kommentare anderer Kunden sehen.");
+define("_QUESTIONSUGGESTIONSCHANGE","Do you really want to change the status?");
+
+define("_ASSISTENTSUGGESTIONS","Here you can see the feature requests along with ratings and comments from other customers.");
 
 ?>

@@ -1,54 +1,54 @@
 <?php
 
-define("_STREAMLISTDBSAVEERROR","Datenbankfehler! Der Stream konnte nicht hinzugefügt werden!");
-define("_STREAMLISTCREATED","Der Stream wurde soeben hinzugefügt!");
-define("_STREAMLISTDBUPERROR","Datenbankfehler! Der Stream konnte nicht geändert werden!");
-define("_STREAMLISTDBUPDATED","Der Stream wurde geändert!");
-define("_STREAMLISTDBDELERROR","Datenbankfehler! Der Stream konnte nicht gelöscht werden!");
-define("_STREAMLISTDBDELETED","Der Stream wurde soeben aus dem Webinterface gelöscht!");
-define("_STREAMLISTSTATUS","Die ausgewählten Streams werden nun gelöscht!");
-define("_STREAMLISTNOTALLFIELDS","Es wurden nicht alle mit einem * gekennzeichneten Felder ausgefüllt!");
-define("_STREAMLISTEXIST","Es existiert schon ein Stream mit dem Namen!");
-define("_STREAMLISTNEW","Stream eintragen");
-define("_STREAMLISTNOENTRY","<b>Keine Streams vorhanden!</b>");
-define("_STREAMLISTDELETESEL","markierte Streams löschen");
-define("_STREAMLISTSHORT","Kürzel*:");
-define("_STREAMLISTNAME","Stream*:");
-define("_STREAMLISTTYP","Streamtyp*:");
-define("_STREAMLISTOTHERS","Sonstige");
-define("_STREAMLISTCANTCHANGE","(Kann nicht geändert werden!)");
-define("_STREAMLISTSCRIPT","Startscript*:");
-define("_STREAMLISTMULTI","Multi Images:");
-define("_STREAMLISTFILES","<b>Freigeschaltete Dateien für den Editor:</b>");
-define("_STREAMLISTNOFILES","Keine Dateien vorhanden!");
-define("_STREAMLISTISACTIVE","Stream für Rootserver Kunden aktivieren?");
-define("_STREAMLISTLOCK","Nicht aktiv");
-define("_STREAMLISTACTIVE","Aktiv");
-define("_STREAMLISTRESETLIST","Config Variablen schützen:");
-define("_STREAMLISTPORTRANGE","Portrange:");
-define("_STREAMLISTPORTSTEP","Schritte für Portvergabe:");
-define("_STREAMLISTUPDATESCRIPT","Updatescript:");
-define("_STREAMLISTMOREOPTIONS","<b>Erweiterte Einstellungen</b>");
+define("_STREAMLISTDBSAVEERROR","Database error! The stream could not be added!");
+define("_STREAMLISTCREATED","The stream has just been added!");
+define("_STREAMLISTDBUPERROR","Database error! The stream could not be modified!");
+define("_STREAMLISTDBUPDATED","The stream has been modified!");
+define("_STREAMLISTDBDELERROR","Database error! The stream could not be deleted!");
+define("_STREAMLISTDBDELETED","The stream has just been deleted from the web interface!");
+define("_STREAMLISTSTATUS","The selected streams are now being deleted!");
+define("_STREAMLISTNOTALLFIELDS","Not all fields marked with * have been filled out!");
+define("_STREAMLISTEXIST","A stream with that name already exists!");
+define("_STREAMLISTNEW","Add stream");
+define("_STREAMLISTNOENTRY","<b>No streams available!</b>");
+define("_STREAMLISTDELETESEL","delete marked streams");
+define("_STREAMLISTSHORT","Short name*:");
+define("_STREAMLISTNAME","Stream name*:");
+define("_STREAMLISTTYP","Stream type*:");
+define("_STREAMLISTOTHERS","Others");
+define("_STREAMLISTCANTCHANGE","(Cannot be changed!)");
+define("_STREAMLISTSCRIPT","Start script*:");
+define("_STREAMLISTMULTI","Multi images:");
+define("_STREAMLISTFILES","<b>Unlocked files for the editor:</b>");
+define("_STREAMLISTNOFILES","No files available!");
+define("_STREAMLISTISACTIVE","Activate stream for root server customers?");
+define("_STREAMLISTLOCK","Not active");
+define("_STREAMLISTACTIVE","Active");
+define("_STREAMLISTRESETLIST","Protect config variables:");
+define("_STREAMLISTPORTRANGE","Port range:");
+define("_STREAMLISTPORTSTEP","Steps for port assignment:");
+define("_STREAMLISTUPDATESCRIPT","Update script:");
+define("_STREAMLISTMOREOPTIONS","<b>Advanced settings</b>");
 
-define("_QUESTIONSTREAMLISTCHANGE","Wollen sie den Status wirklich ändern?");
+define("_QUESTIONSTREAMLISTCHANGE","Do you really want to change the status?");
 
-define("_ASSISTENTSTREAMLIST","In diesem Modul können sie Streams der Liste hinzufügen. Diese können dann im Programm Modul beim erstellen eines Programmes ausgewählt werden.
-Sie können nur Programme auf den Servern installieren, die vorher auch hier eingetragen worden sind. Außerdem müssen sie einmalig ein Image erstellen und in ihr \"Installpfad\" kopieren. 
-Der Name des Images muss dem angegebenem Kürzel entsprechen.<br><br>
-32Bit - für Programme die nur als 32Bit Variante verfügbar sind aber auch auf 64Bit Systemen laufen<br>
-64Bit - für Programme die nur als 64Bit Variante verfügbar sind<br>
-32/64Bit - für Programme die getrennt als 32Bit oder 64Bit Versionen verfügbar sind.<br><br>
-Als Variablen für das Startscript können sie folgendes verwenden:<br><br>
-gsslots (Anzahl der Zuhörer)<br>
-gsip (IP des Servers)<br>
-gsport (Port des Servers)<br>
-gsbitrate (Bitrate des Servers)<br><br>
-Beispiel<br>
+define("_ASSISTENTSTREAMLIST","In this module, you can add streams to the list. These can then be selected in the program module when creating a program.
+You can only install programs on the servers that have been previously registered here. Additionally, you must create an image once and copy it to your "install path".
+The name of the image must correspond to the specified short name.<br><br>
+32Bit - for programs that are only available as 32-bit versions but also run on 64-bit systems<br>
+64Bit - for programs that are only available as 64-bit versions<br>
+32/64Bit - for programs that are available separately as 32-bit or 64-bit versions.<br><br>
+You can use the following variables for the start script:<br><br>
+gsslots (number of listeners)<br>
+gsip (IP of the server)<br>
+gsport (port of the server)<br>
+gsbitrate (bitrate of the server)<br><br>
+Example<br>
 <b>./start.sh -Slots gsslots -Port gsport</b><br><br>
-Bei den Einstellungen für die Schritte bei der Portvergabe empfehlen wir mindestens 50 einzutragen, da der Shoutcast mit AutoDJ 2.x mehrere Ports belegt. Wenn sie als Port 8000 angeben
-so werden vom System noch 8010 und 8020 reserviert.
+For the settings for the steps in port assignment, we recommend entering at least 50, as Shoutcast with AutoDJ 2.x occupies several ports. If you specify port 8000, for example,
+the system reserves ports 8010 and 8020.
 <br><br>
-Als Updateskript können sie die Variablen gsimageserverone bzw. gsimageservertwo verwenden diese steht für den jeweiligen Imageserver.Im folgenden Beispiel würde das TekBASE das Update Image downloaden und entpacken.
+For the update script, you can use the variables gsimageserverone and gsimageservertwo, which stand for the respective image servers. In the following example, TekBASE would download and unpack the update image.
 <br><br>
 <b>wget gsimageserverone/sc2_update.tar;tar -xf sc2_update.tar;rm sc2_update.tar</b>");
 

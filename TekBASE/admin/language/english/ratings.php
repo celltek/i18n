@@ -1,46 +1,41 @@
 <?php
 
-define("_RATINGSSETTINGS","Einstellungen");
-define("_RATINGSDBUPERROR","Datenbankfehler! Die Antwort konnte nicht gespeichert werden!");
-define("_RATINGSDBUPDATED","Die Antwort wurde gespeichert!");
-define("_RATINGSOPTIONDBUPDATED","Die Einstellungen wurden gespeichert!");
-define("_RATINGSDELETED","Die Bewertung wurde gelöscht!");
-define("_RATINGSDELERROR","Datenbankfehler! Die Bewertung konnte nicht gelöscht werden!");
-define("_RATINGSBADDELCODE","Der Löschungs-Code ist leider nicht korrekt!");
-define("_RATINGSNOTALLFIELDS","Es wurden nicht alle mit einem * gekennzeichneten Felder ausgefüllt!");
-define("_RATINGSSTATUS","Den Kunden wird nun eine Email mit einem Bestätigungslink gesendet!");
-define("_RATINGSNOENTRY","<b>Keine Bewertungen vorhanden!</b>");
-define("_RATINGSCONCILIATIONENDSEL","markierte Bewertungen geschlichtet");
-define("_RATINGSCOMMENTTHIS","Kommentieren");
-define("_RATINGSMEMBER","Kunde:");
-define("_RATINGSVALUATION","Bewertung:");
-define("_RATINGSCOMMENT","Kommentar*:");
-define("_RATINGSDELCODE","Löschungs-Code*:");
-define("_RATINGSOK","Keine Probleme");
-define("_RATINGSCONCILIATION","In Schlichtung");
-define("_RATINGSSTARTCONCILIATION","Schlichtung einschalten:");
-define("_RATINGSCONCILIATIONOK","Schlichtung erfolgreich");
-define("_RATINGSCONCILIATIONNO","Schlichtung erfolglos");
-define("_RATINGSDELETEVALUATION","<b>Bewertung löschen</b>");
-define("_RATINGSDELETEINFO","Um eine Bewertung zu löschen benötigen Sie einen speziellen Code, dieser ist nur für die eine Bewertung gültig und kann unter <a href=\"http://teklab.de/members.php\" target=\"_blank\">teklab.de</a> im Kundenbereich generiert werden.<br>
-Dazu benötigen Sie die Kundennummer der Bewertung siehe oben.");
-define("_RATINGSNOEMAIL","Es wurde noch kein Email Konto für System Mails angelegt!");
-define("_RATINGSSENDED","Eine Email wurde an den Kunden gesendet!");
-define("_RATINGSSENDERROR","Es konnte keine Email an den Kunden gesendet werden!");
-define("_RATINGSKEYWORDS","Suchbegriffe:");
-define("_RATINGSDESCRIPTION","Seitenbeschreibung:");
-define("_RATINGSINFOTEXT","Infotext:");
+define("_RATINGSSETTINGS","Settings");
+define("_RATINGSDBUPERROR","Database error! The response could not be saved!");
+define("_RATINGSDBUPDATED","The response has been saved!");
+define("_RATINGSOPTIONDBUPDATED","The settings have been saved!");
+define("_RATINGSDELETED","The rating has been deleted!");
+define("_RATINGSDELERROR","Database error! The rating could not be deleted!");
+define("_RATINGSBADDELCODE","The deletion code is unfortunately incorrect!");
+define("_RATINGSNOTALLFIELDS","Not all fields marked with * have been filled in!");
+define("_RATINGSSTATUS","An email with a confirmation link has now been sent to the customer!");
+define("_RATINGSNOENTRY","<b>No ratings available!</b>");
+define("_RATINGSCONCILIATIONENDSEL","ratings marked reconciled");
+define("_RATINGSCOMMENTTHIS","Comment");
+define("_RATINGSMEMBER","Customer:");
+define("_RATINGSVALUATION","Rating:");
+define("_RATINGSCOMMENT","Comment*:");
+define("_RATINGSDELCODE","Deletion code*:");
+define("_RATINGSOK","No problems");
+define("_RATINGSCONCILIATION","In conciliation");
+define("_RATINGSSTARTCONCILIATION","Activate conciliation:");
+define("_RATINGSCONCILIATIONOK","Conciliation successful");
+define("_RATINGSCONCILIATIONNO","Conciliation unsuccessful");
+define("_RATINGSDELETEVALUATION","<b>Delete rating</b>");
+define("_RATINGSDELETEINFO","To delete a rating, you need a special code, which is only valid for that rating and can be generated in the customer area at <a href="http://teklab.de/members.php\" target="_blank">teklab.de</a>. You need the customer number of the rating, see above.");
+define("_RATINGSNOEMAIL","No email account has been set up for system emails yet!");
+define("_RATINGSSENDED","An email has been sent to the customer!");
+define("_RATINGSSENDERROR","An email could not be sent to the customer!");
+define("_RATINGSKEYWORDS","Search terms:");
+define("_RATINGSDESCRIPTION","Page description:");
+define("_RATINGSINFOTEXT","Info text:");
 define("_RATINGSBANNER","Banner URL:");
-define("_RATINGSSEOLINK","SEO Link:");
-define("_RATINGSSOCIALLINK","Facebook Link:");
-define("_RATINGSPHONEINFO","Telefon Gebühren:");
-define("_RATINGACTIVE","Bewertungssystem aktivieren:");
+define("_RATINGSSEOLINK","SEO link:");
+define("_RATINGSSOCIALLINK","Facebook link:");
+define("_RATINGSPHONEINFO","Phone charges:");
+define("_RATINGACTIVE","Activate rating system:");
 
-define("_QUESTIONRATINGSCHANGE","Waren die Schlichtungen wirklich erfolgreich?");
+define("_QUESTIONRATINGSCHANGE","Were the conciliations really successful?");
 
-define("_ASSISTENTRATINGS","In diesem Modul können sie die Bewertungen ihrer Kunden sehen. Bitte beachten sie, dass eine Manipulation der Datenbank zur Sperrung der Bewertung führt und für alle
-User sichtbar ist. Wenn eine Bewertung beleidigend ist können sie bei TekLab die Löschung beantragen und bekommen dafür einen Code zugesendet. Für alle anderen Bewertungen versuchen Sie eine Schlichtung.
-Sollte diese erfolgreich sein, so kann der Kunde dies durch einen Link bestätigen. Bei einer eingeschalteten Schlichtung wird dies auf der Bewertungsseite vermerkt. Sie müssen dann den Kunden anschreiben
-um den Vorfall abzuklären.");
-
+define("_ASSISTENTRATINGS","In this module, you can see the ratings of your customers. Please note that manipulating the database will result in the rating being blocked and visible to all users. If a rating is offensive, you can request its deletion from TekLab and you will be sent a code for that purpose. For all other ratings, try to reconcile. If this is successful, the customer can confirm this by clicking on a link. If conciliation is activated, this will be noted on the rating page. You will then need to contact the customer to clarify the situation.");
 ?>
