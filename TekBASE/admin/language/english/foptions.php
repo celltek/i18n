@@ -1,37 +1,45 @@
 <?php
 
-define("_FOPTIONSFIRM","Firma*:");
-define("_FOPTIONSTAXID","Steuernummer*:");
-define("_FOPTIONSVATID","Ust-ID:");
-define("_FOPTIONSHOLDER","Geschäftsführer:");
-define("_FOPTIONSSTREET","Strasse*:");
-define("_FOPTIONSCITY","Stadt*:");
-define("_FOPTIONSZIPCODE","PLZ*:");
-define("_FOPTIONSCOUNTRY","Land*:");
-define("_FOPTIONSPHONEONE","Telefon*:");
+define("_FOPTIONSFIRM","Company*:");
+define("_FOPTIONSTAXID","Tax number*:");
+define("_FOPTIONSVATID","VAT ID:");
+define("_FOPTIONSHOLDER","Business owner:");
+define("_FOPTIONSSTREET","Street*:");
+define("_FOPTIONSCITY","City*:");
+define("_FOPTIONSZIPCODE","ZIP*:");
+define("_FOPTIONSCOUNTRY","Country*:");
+define("_FOPTIONSPHONEONE","Phone*:");
 define("_FOPTIONSPHONETWO","Hotline:");
 define("_FOPTIONSFAX","Fax:");
-define("_FOPTIONSWEBSITE","Homepage*:");
-define("_FOPTIONSCUSTOMER","Kontoinhaber*:");
-define("_FOPTIONSACCOUNT","Kontonummer*:");
-define("_FOPTIONSBANKCODE","Bankleitzahl*:");
+define("_FOPTIONSEMAIL","Invoice email*:");
+define("_FOPTIONSWEBSITE","Website*:");
+define("_FOPTIONSACCOUNTSYS","DATEV*:");
+define("_FOPTIONSBOOKACCOUNT","Account*:");
+define("_FOPTIONSCUSTOMER","Account holder*:");
+define("_FOPTIONSACCOUNT","Acount number*:");
+define("_FOPTIONSBANKCODE","Bank routing number*:");
 define("_FOPTIONSBANK","Bank*:");
 define("_FOPTIONSIBAN","Iban:");
 define("_FOPTIONSBIC","Bic:");
-define("_FOPTIONSCREDITORID","Gläubiger ID:");
-define("_FOPTIONSBILLID","Rechnungskennung*:");
-define("_FOPTIONSBILLLOGO","Rechnungslogo:");
-define("_FOPTIONSBILLMONTH","Rechnungsmonat Anzeige:");
-define("_FOPTIONSBILLINMONTH","Monatsname");
-define("_FOPTIONSBILLINDAYS","Tag.Monat.-Tag.Monat.");
-define("_FOPTIONSBILLDAYS","Rechnungsvorlauf in Tagen:");
-define("_FOPTIONSSTARTDATE","Startdatum*:");
-define("_FOPTIONSIMPOK","Die Daten wurden aus dem CMS Modul importiert!");
+define("_FOPTIONSENDOFECOYEAR","End of financial year*:");
+define("_FOPTIONSIOSV","payment of tax*:");
+define("_FOPTIONSIOSVS","Debit payment of tax");
+define("_FOPTIONSIOSVI","Credit payment of tax");
+define("_FOPTIONSBILLID","Invoice ID*:");
+define("_FOPTIONSBILLLOGO","Invoice logo:");
+define("_FOPTIONSBILLMONTH","Month view:");
+define("_FOPTIONSBILLINMONTH","Month name");
+define("_FOPTIONSBILLINDAYS","Day.Month.-Day.Month.");
+define("_FOPTIONSDATEEXAMPLE","(DD.MM.YYYY)");
+define("_FOPTIONSSTARTDATE","Start date*:");
+define("_FOPTIONSDBUPERROR","Database error! The setting couldn't be changed!");
+define("_FOPTIONSDBUPDATED","The settings was changed!");
+define("_FOPTIONSNOTALLFIELDS","All required fields marked with an * weren't filled in!");
+define("_FOPTIONSIMPOK","The company settings was successfully imported from the cms modules!");
 
-
-define("_ASSISTENTFOPTIONS","In diesem Modul können sie die Einstellungen zu ihrer Firma vornehmen, diese werden unter anderem für die Rechnungen genutzt. Der Datev, das Wirtschaftsjahr und das Startdatum
-können nur 1 MAL eingestellt werden! Wenn möglich setzen sie bitte das Startdatum in den Monat, an dem sie diese Version des Webinterface das erste mal nutzen. Sie können jedoch auch jedes andere Startdatum wählen,
-doch müssten sie dann noch unter Geschäftsvorfälle die Buchungen archivieren um alle Perioden abzuschließen.<br><br>
-Rechnungslogos bitte nur als gif, jpg oder png Dateien!");
+define("_ASSISTENTFOPTIONS","With this module, you can change all the important information for your company. This will be used for invoicing. 
+The Datev, the fiscal year and the start date can only be set 1 time! If possible, set the start date to the month you start using this webinterface. 
+You can select another start date, but you will have to archive all transaction and close the period under business transactions. Please only use .jpg or .png format
+ for your company logo here and unsure the file is placed in your /images folder.");
 
 ?>

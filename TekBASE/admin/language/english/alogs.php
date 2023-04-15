@@ -1,25 +1,25 @@
 <?php
 
-define("_ALOGSDBDELERROR","Datenbankfehler! Der Log konnte nicht gelöscht werden!");
-define("_ALOGSDBDELETED","Der Log wurde soeben aus dem Webinterface gelöscht!");
-define("_ALOGSDBDELALLERROR","Datenbankfehler! Die Logs konnten nicht gelöscht werden!");
-define("_ALOGSDBDELETEDALL","Die Logs wurde soeben aus dem Webinterface gelöscht!");
-define("_ALOGSSTATUS","Die ausgewählten Logs werden nun gelöscht!");
-define("_ALOGSNOENTRY","<b>Keine Logs vorhanden!</b>");
-define("_ALOGSDELETESEL","markierte Logs löschen");
-define("_ALOGSDELETEALL","alle Logs löschen");
-define("_ALOGSDAY","Tag:");
-define("_ALOGSMONTH","Monat:");
-define("_ALOGSYEAR","Jahr:");
-define("_ALOGSMODULE","Modul:");
+define("_ALOGSDBDELERROR","Database error! The log could not be deleted!");
+define("_ALOGSDBDELETED","The log was just deleted from the web interface!");
+define("_ALOGSDBDELALLERROR","Database error! The logs could not be deleted!");
+define("_ALOGSDBDELETEDALL","The logs were just deleted from the web interface!");
+define("_ALOGSSTATUS","The selected logs are now being deleted!");
+define("_ALOGSNOENTRY","<b>No logs available!</b>");
+define("_ALOGSDELETESEL","delete selected logs");
+define("_ALOGSDELETEALL","delete all logs");
+define("_ALOGSDAY","Day:");
+define("_ALOGSMONTH","Month:");
+define("_ALOGSYEAR","Year:");
+define("_ALOGSMODULE","Module:");
 define("_ALOGSSTAT","Status:");
 define("_ALOGSADMIN","Administrator:");
-define("_ALOGSSTATONE","fehlerhaft");
-define("_ALOGSSTATTWO","erfolgreich");
+define("_ALOGSSTATONE","failed");
+define("_ALOGSSTATTWO","successful");
 
-define("_QUESTIONALOGSCHANGE","Wollen sie den Status wirklich ändern?");
+define("_QUESTIONALOGSCHANGE","Do you really want to change the status?");
 
-define("_ASSISTENTALOGS","In diesem Modul werden die Logs verwaltet. Sie können nach bestimmten Kriterien die Logs durchsuchen.
-Auch können sie einzelne Logs oder komplett alle Logs löschen.");
+define("_ASSISTENTALOGS","In this module, the logs are managed. You can search the logs based on specific criteria.
+You can also delete individual logs or all logs at once.");
 
 ?>

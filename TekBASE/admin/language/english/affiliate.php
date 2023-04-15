@@ -1,30 +1,30 @@
 <?php
 
-define("_AFFILIATEARCH","Archiv");
-define("_AFFILIATESTATUS","Der Provisionsstatus wird nun neu gesetzt!");
-define("_AFFILIATEDBCONFIRMED","Die Provision wurde bestätigt!");
-define("_AFFILIATEDBCONFIRMEDERROR","Datenbankfehler! Die Provision konnte nicht bestätigt werden!");
-define("_AFFILIATEDBCHANCELED","Die Provision wurde abgelehnt!");
-define("_AFFILIATEDBCHANCELEDERROR","Datenbankfehler! Die Provision konnte nicht abgelehnt werden!");
-define("_AFFILIATEDBDELETED","Die Provision wurde soeben gelöscht!");
-define("_AFFILIATEDELERROR","Datenbankfehler! Die Provision konnte nicht gelöscht werden!");
-define("_AFFILIATEDBARCHIVED","Die Provision wurde archiviert!");
-define("_AFFILIATEDBARCHIVEDERROR","Datenbankfehler! Die Provision konnte nicht archiviert werden!");
-define("_AFFILIATEDBALLREADYARCHIVED","Die Provision wurde bereits archiviert!");
-define("_AFFILIATENOENTRY","<b>Keine Statistiken vorhanden!</b>");
-define("_AFFILIATECONFSEL","markierte Provisionen bestätigen");
-define("_AFFILIATENOCONFSEL","markierte Provisionen ablehnen");
-define("_AFFILIATEARCHIVSEL","markierte Provisionen archivieren");
-define("_AFFILIATEDELETESEL","markierte Provisionen löschen");
-define("_AFFILIATECONFIRMOPEN","Provision noch nicht bestätigt");
-define("_AFFILIATECONFIRMED","Provision bestätigt");
-define("_AFFILIATECONFIRMERROR","Bestellung storniert/nicht bezahlt");
+define("_AFFILIATEARCH","Archive");
+define("_AFFILIATESTATUS","The commission status has been updated!");
+define("_AFFILIATEDBCONFIRMED","The commission has been confirmed!");
+define("_AFFILIATEDBCONFIRMEDERROR","Database error! The commission could not be confirmed!");
+define("_AFFILIATEDBCHANCELED","The commission has been rejected!");
+define("_AFFILIATEDBCHANCELEDERROR","Database error! The commission could not be rejected!");
+define("_AFFILIATEDBDELETED","The commission has been deleted!");
+define("_AFFILIATEDELERROR","Database error! The commission could not be deleted!");
+define("_AFFILIATEDBARCHIVED","The commission has been archived!");
+define("_AFFILIATEDBARCHIVEDERROR","Database error! The commission could not be archived!");
+define("_AFFILIATEDBALLREADYARCHIVED","The commission has already been archived!");
+define("_AFFILIATENOENTRY","<b>No statistics available!</b>");
+define("_AFFILIATECONFSEL","confirm selected commissions");
+define("_AFFILIATENOCONFSEL","reject selected commissions");
+define("_AFFILIATEARCHIVSEL","archive selected commissions");
+define("_AFFILIATEDELETESEL","delete selected commissions");
+define("_AFFILIATECONFIRMOPEN","Commission not yet confirmed");
+define("_AFFILIATECONFIRMED","Commission confirmed");
+define("_AFFILIATECONFIRMERROR","Order canceled/not paid");
 
-define("_QUESTIONAFFILIATECHANGE","Wollen sie den Status wirklich ändern?");
+define("_QUESTIONAFFILIATECHANGE","Do you really want to change the status?");
 
-define("_ASSISTENTAFFILIATE","In diesem Modul sehen sie alle Provisionen und deren Status. Wenn sie eine noch nicht bestätigte
-Provision archivieren wird sie automatisch als bestätigt markiert. Archivierte Provisionen die nicht abgelehnt werden, werden
-automatisch dem Kunden als Guthaben zugeschrieben. Falls sie das TekBILL verwenden denken sie bitte daran unter Geschäftsvorfälle
-eine Ausgangsbuchung und eine Eingangsbuchung in Höhe der Gutschrift einzutragen.");
+define("_ASSISTENTAFFILIATE","In this module you can view all commissions and their status. If you archive an unconfirmed
+commission, it will automatically be marked as confirmed. Archived commissions that are not rejected will
+automatically be credited to the customer's account as credit. If you use TekBILL, please remember to enter a
+debit and credit transaction in the amount of the credit under business transactions.");
 
 ?>

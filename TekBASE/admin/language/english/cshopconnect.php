@@ -1,38 +1,37 @@
 <?php
 
-define("_CSHOPCONNECTNOTALLFIELDS","Es wurden nicht alle mit einem * gekennzeichneten Felder ausgefüllt!");
-define("_CSHOPCONNECTDBUPERROR","Datenbankfehler! Der Eintrag konnte nicht geändert werden!");
-define("_CSHOPCONNECTDBUPDATED","Der Eintrag wurde geändert!");
-define("_CSHOPCONNECTEXIST","Es existiert schon ein Eintrag zu dem gewählten Produkt!");
-define("_CSHOPCONNECTDBSAVEERROR","Datenbankfehler! Der Eintrag konnte nicht hinzugefügt werden!");
-define("_CSHOPCONNECTDBCREATED","Der Eintrag wurde soeben hinzugefügt!");
-define("_CSHOPCONNECTDELETESEL","markierte Einträge löschen");
-define("_CSHOPCONNECTNOENTRY","<b>Keine Einträge vorhanden!</b>");
-define("_CSHOPCONNECTSTATUS","Die ausgewählten Einträge werden nun gelöscht!");
-define("_CSHOPCONNECTDBDELERROR","Datenbankfehler! Der Eintrag konnte nicht gelöscht werden!");
-define("_CSHOPCONNECTDBDELETED","Der Eintrag wurde soeben aus dem Webinterface gelöscht!");
-define("_CSHOPCONNECTNEW","Automatisierung eintragen");
+define("_CSHOPCONNECTNOTALLFIELDS","Not all fields marked with an * have been filled out!");
+define("_CSHOPCONNECTDBUPERROR","Database error! The entry could not be changed!");
+define("_CSHOPCONNECTDBUPDATED","The entry has been changed!");
+define("_CSHOPCONNECTEXIST","An entry for the selected product already exists!");
+define("_CSHOPCONNECTDBSAVEERROR","Database error! The entry could not be added!");
+define("_CSHOPCONNECTDBCREATED","The entry has just been added!");
+define("_CSHOPCONNECTDELETESEL","delete selected entries");
+define("_CSHOPCONNECTNOENTRY","<b>No entries available!</b>");
+define("_CSHOPCONNECTSTATUS","The selected entries will now be deleted!");
+define("_CSHOPCONNECTDBDELERROR","Database error! The entry could not be deleted!");
+define("_CSHOPCONNECTDBDELETED","The entry has just been deleted from the web interface!");
+define("_CSHOPCONNECTNEW","Enter automation");
 define("_CSHOPCONNECTDOWN","Download");
-define("_CSHOPCONNECTPACKET","Kundenpaket");
-define("_CSHOPCONNECTPRODUCT","Artikel*:");
-define("_CSHOPCONNECTTYP","Typ*:");
-define("_CSHOPCONNECTNAME","Angezeigter Dateiname*:");
-define("_CSHOPCONNECTFILE","Datei*:");
-define("_CSHOPCONNECTCAT","Variations Kategorie");
-define("_CSHOPCONNECTOWN","Oder Standardwert");
+define("_CSHOPCONNECTPACKET","Customer package");
+define("_CSHOPCONNECTPRODUCT","Product*:");
+define("_CSHOPCONNECTTYP","Type*:");
+define("_CSHOPCONNECTNAME","Displayed file name*:");
+define("_CSHOPCONNECTFILE","File*:");
+define("_CSHOPCONNECTCAT","Variation category");
+define("_CSHOPCONNECTOWN","Or default value");
 
-define("_CSHOPCONNECTONEMONTH","1 Monat");
-define("_CSHOPCONNECTTHREEMONTHS","3 Monate");
-define("_CSHOPCONNECTSIXMONTHS","6 Monate");
-define("_CSHOPCONNECTTWELVEMONTHS","12 Monate");
-define("_CSHOPCONNECTTWENTYFOURMONTHS","24 Monate");
-define("_CSHOPCONNECTCYCLE","Vorauszahlung*:");
-define("_CSHOPCONNECTCONTRACT","Vertragslaufzeit*:");
-define("_CSHOPCONNECTCHANCELDAYS","Kündigungsfrist in Tagen*:");
+define("_CSHOPCONNECTONEMONTH","1 month");
+define("_CSHOPCONNECTTHREEMONTHS","3 months");
+define("_CSHOPCONNECTSIXMONTHS","6 months");
+define("_CSHOPCONNECTTWELVEMONTHS","12 months");
+define("_CSHOPCONNECTTWENTYFOURMONTHS","24 months");
+define("_CSHOPCONNECTCYCLE","Advance payment*:");
+define("_CSHOPCONNECTCONTRACT","Contract term*:");
+define("_CSHOPCONNECTCHANCELDAYS","Cancellation period in days*:");
 
-define("_QUESTIONCSHOPCONNECTCHANGE","Wollen Sie den Status wirklich ändern?");
+define("_QUESTIONCSHOPCONNECTCHANGE","Do you really want to change the status?");
 
-define("_ASSISTENTCSHOPCONNECT","In diesem Modul können Sie Automatisierungen anlegen. Bestellt ein Kunde dann den hinterlegten Artikel, so wird zum Beispiel der Download-Link
-dem Kunden automatisch bereitgestellt. Dies eigenet sich für jegliche Art von Download-Content sowie Gameserver und Streamserver.");
+define("_ASSISTENTCSHOPCONNECT","In this module, you can create automations. When a customer orders the stored product, for example, the download link will be automatically provided to the customer. This is suitable for any type of download content as well as game servers and stream servers.");
 
 ?>

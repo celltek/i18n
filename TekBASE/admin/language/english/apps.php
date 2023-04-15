@@ -1,35 +1,34 @@
 <?php
 
-define("_APPSDBSAVEERROR","Datenbankfehler! Das Programm konnte nicht gespeichert werden!");
-define("_APPSDBUPERROR","Datenbankfehler! Das Programm konnte nicht geändert werden!");
-define("_APPSDBDELERROR","Datenbankfehler! Das Programm konnte nicht gelöscht werden!");
-define("_APPSCREATED","Das Programm wurde soeben erstellt!");
-define("_APPSINSTALLERROR","Das Programm konnte nicht installiert werden!");
-define("_APPSDBDELETED","Das Programm wurde soeben aus dem Webinterface gelöscht!");
-define("_APPSSTATUS","Der Programmstatus wird nun neu gesetzt!");
-define("_APPSDBUPDATED","Das Programm wurde geändert!");
-define("_APPSIPPORTEXIST","Es existiert schon ein Programm mit der IP und dem Port!");
-define("_APPSPATHEXIST","Das Verzeichnis existiert schon für diesen Kunden!");
-define("_APPSNOTALLFIELDS","Es wurden nicht alle mit einem * gekennzeichneten Felder ausgefüllt!");
-define("_APPSMEMBER","Kunde*:");
-define("_APPSAPP","Programm*:");
+define("_APPSDBSAVEERROR","Database error! The program could not be saved!");
+define("_APPSDBUPERROR","Database error! The program could not be changed!");
+define("_APPSDBDELERROR","Database error! The program could not be deleted!");
+define("_APPSCREATED","The program has just been created!");
+define("_APPSINSTALLERROR","The program could not be installed!");
+define("_APPSDBDELETED","The program has just been deleted from the web interface!");
+define("_APPSSTATUS","The program status is being updated!");
+define("_APPSDBUPDATED","The program has been changed!");
+define("_APPSIPPORTEXIST","There is already a program with the IP and port!");
+define("_APPSPATHEXIST","The directory already exists for this customer!");
+define("_APPSNOTALLFIELDS","Not all fields marked with * have been filled in!");
+define("_APPSMEMBER","Customer*:");
+define("_APPSAPP","Program*:");
 define("_APPSSERVER","Server IP*:");
 define("_APPSPORT","Port:");
-define("_APPSPATH","Verzeichnis*:");
+define("_APPSPATH","Directory*:");
 define("_APPSPATHEXAMPLE","(egg, bnc, ...)");
-define("_APPSNOENTRY","<b>Keine Programme vorhanden!</b>");
-define("_APPSNEW","Programm erstellen");
-define("_APPSDELETESEL","markierte Programme löschen");
-define("_APPSSTARTSEL","markierte Programme neustarten");
-define("_APPSSTOPSEL","markierte Programme stoppen");
-define("_APPSINSTALLSEL","markierte Programme neuinstalliern");
-define("_APPSWEBFTP","WebFTP erlauben:");
-define("_APPSLINKTOPRODUCT","Produkt zuweisen:");
-define("_APPSREINSTALLED","Das Programm wird nun neuinstalliert!");
+define("_APPSNOENTRY","<b>No programs available!</b>");
+define("_APPSNEW","Create program");
+define("_APPSDELETESEL","delete selected programs");
+define("_APPSSTARTSEL","restart selected programs");
+define("_APPSSTOPSEL","stop selected programs");
+define("_APPSINSTALLSEL","reinstall selected programs");
+define("_APPSWEBFTP","Allow WebFTP:");
+define("_APPSLINKTOPRODUCT","Assign product:");
+define("_APPSREINSTALLED","The program is being reinstalled!");
 
-define("_QUESTIONAPPSCHANGE","Wollen sie den Status wirklich ändern?");
+define("_QUESTIONAPPSCHANGE","Do you really want to change the status?");
 
-define("_ASSISTENTAPPS","In diesem Modul können sie Programme erstellen, löschen, neustarten oder stoppen. Bitte beachten sie, dass wenn ein Kunde
-auf einer IP schon ein Programm hat, nicht noch einmal das selbe Verzeichniss gewählt wird, denn dies kann zu Fehlern führen.");
+define("_ASSISTENTAPPS","In this module you can create, delete, restart or stop programs. Please note that if a customer already has a program on an IP, do not choose the same directory again, as this can lead to errors.");
 
 ?>

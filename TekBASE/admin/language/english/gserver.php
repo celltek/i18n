@@ -1,72 +1,73 @@
 <?php
 
-define("_GSERVERNOTALLFIELDS","Es wurden nicht alle mit einem * gekennzeichneten Felder ausgefüllt!");
-define("_GSERVERIPPORTEXIST","Es existiert schon ein Gameserver mit der IP und dem Port!");
-define("_GSERVERPATHEXIST","Das Verzeichnis existiert schon für diesen Kunden!");
-define("_GSERVERDBUPERROR","Datenbankfehler! Der Gameserver konnte nicht geändert werden!");
-define("_GSERVERDBUPDATED","Der Gameserver wurde geändert!");
-define("_GSERVERDBSAVEERROR","Datenbankfehler! Der Gameserver konnte nicht hinzugefügt werden!");
-define("_GSERVERCREATED","Der Gameserver wurde soeben hinzugefügt!");
-define("_GSERVERNEW","Gameserver eintragen");
-define("_GSERVERNOENTRY","<b>Keine Gameserver vorhanden!</b>");
-define("_GSERVERDELETESEL","markierte Gameserver löschen");
-define("_GSERVERSTARTSEL","markierte Gameserver neustarten");
-define("_GSERVERSTOPSEL","markierte Gameserver stoppen");
-define("_GSERVERSERVICEONSEL","Wartungsmodus aktivieren");
-define("_GSERVERSERVICEOFFSEL","Wartungsmodus deaktivieren");
-define("_GSERVERINSTALLSEL","markierte Gameserver neuinstalliern");
-define("_GSERVERMEMBER","Kunde*:");
-define("_GSERVERGAME","Spiel*:");
+define("_GSERVERNOTALLFIELDS","All required fields marked with an * weren't filled in!");
+define("_GSERVERIPPORTEXIST","A game server with this ip and port already exists!");
+define("_GSERVERPATHEXIST","This directory already exists for this customer!");
+define("_GSERVERDBUPERROR","Database error! The game server couldn't be changed!");
+define("_GSERVERDBUPDATED","The game server was changed!");
+define("_GSERVERDBSAVEERROR","Database error! The game server couldn't be added!");
+define("_GSERVERCREATED","The game server was successfully added!");
+define("_GSERVERNEW","Add a game server");
+define("_GSERVERNOENTRY","<b>No game server available!</b>");
+define("_GSERVERDELETESEL","delete selected game servers");
+define("_GSERVERSTARTSEL","restart selected game servers");
+define("_GSERVERSTOPSEL","stop selected game servers");
+define("_GSERVERSERVICEONSEL","activate service mode");
+define("_GSERVERSERVICEOFFSEL","deactivate service mode");
+define("_GSERVERINSTALLSEL","reinstall selected game servers");
+define("_GSERVERMEMBER","Customer*:");
+define("_GSERVERGAME","Game*:");
 define("_GSERVERSERVER","Server IP*:");
-define("_GSERVERPORT","Serverport*:");
-define("_GSERVERCPUCORES","CPU Kern zuweisen:");
-define("_GSERVERRAM","RAM falls notwendig:");
-define("_GSERVERTICKRATE","Max Tickrate:");
-define("_GSERVERGAMESWITCH","Gameswitch:");
-define("_GSERVERGAMESWITCHMAX","Gameswitch Server max:");
-define("_GSERVERPROTECTED","Protection Mode:");
-define("_GSERVERSLOTS","Slotanzahl*:");
-define("_GSERVERPATH","Verzeichnis*:");
+define("_GSERVERPORT","Server port*:");
+define("_GSERVERTICKRATE","Max tickrate:");
+define("_GSERVERGAMESWITCH","Game switch:");
+define("_GSERVERSLOTS","Slots*:");
+define("_GSERVERPATH","Directory*:");
 define("_GSERVERPATHEXAMPLE","(cs, css, bfii, ...)");
+define("_GSERVERMULTIONE","32Bit");
+define("_GSERVERMULTITWO","64Bit");
+define("_GSERVERMULTITHREE","32/64Bit");
 define("_GSERVERQUERY","Queryport:");
-define("_GSERVERCLAN","Clanserver");
-define("_GSERVERPUBLIC","Public");
-define("_GSERVERSERVERSTATUS","Serverstatus:");
-define("_GSERVERPASSWORD","Serverpasswort:");
-define("_GSERVERPASSWORDEXAMPLE","(nur Clanservern)");
-define("_GSERVERSCRIPT","Eigenes Startscript:");
-define("_GSERVERUSERSCRIPT","Startscript anpassbar:");
-define("_GSERVERSTATUS","Der Gameserverstatus wird nun neu gesetzt!");
-define("_GSERVERSERVICEON","Der Wartungsmodus wurde aktiviert!");
-define("_GSERVERSERVICEONERROR","Der Wartungsmodus konnte nicht aktiviert werden!");
-define("_GSERVERSERVICEONDBERROR","Datenbankefehler! Der Wartungsmodus konnte nicht aktiviert werden!");
-define("_GSERVERSERVICEOFF","Der Wartungsmodus wurde deaktiviert!");
-define("_GSERVERSERVICEOFFDBERROR","Datenbankefehler! Der Wartungsmodus konnte nicht deaktiviert werden!");
-define("_GSERVERDBDELERROR","Datenbankfehler! Der Gameserver konnte nicht gelöscht werden!");
-define("_GSERVERDBDELETED","Der Gameserver wurde soeben aus dem Webinterface gelöscht!");
-define("_GSERVERREINSTALLED","Der Gameserver wird nun neuinstalliert!");
-define("_GSERVERREINSTALLERROR","Der Gameserver konnte nicht neuinstalliert werden!");
-define("_GSERVERINSTALLERROR","Der Gameserver konnte nicht installiert werden!");
-define("_GSERVERRSERVER","<b>Rootserver:</b>");
+define("_GSERVERCLAN","Clan server");
+define("_GSERVERPUBLIC","Public server");
+define("_GSERVERSERVERSTATUS","Server status:");
+define("_GSERVERPASSWORD","Server password:");
+define("_GSERVERPASSWORDEXAMPLE","(only clan server)");
+define("_GSERVERSCRIPT","Own start script:");
+define("_GSERVERUSERSCRIPT","Start script adjustable:");
+define("_GSERVERSTATUS","The selected game server status will be changed!");
+define("_GSERVERSERVICEON","The service mode was activated!");
+define("_GSERVERSERVICEONERROR","The service mode couldn't be activated!");
+define("_GSERVERSERVICEONDBERROR","Database error! The service mode couldn't be activated!");
+define("_GSERVERSERVICEOFF","The service mode was deactivated!");
+define("_GSERVERSERVICEOFFDBERROR","Database error! The service mode couldn't be deactivated!");
+define("_GSERVERDBDELERROR","Database error! The game server couldn't be deleted!");
+define("_GSERVERDBDELETED","The game server has been successfully deleted!");
+define("_GSERVERINSTALL","The game server will be reinstalled!");
+define("_GSERVERINSTALLERROR","The game server couldn't be reinstalled!");
+define("_GSERVERMEMADDRESS","<b>Address:</b>");
+define("_GSERVERMEMPHONE","Phone:");
+define("_GSERVERMEMEMAIL","Email:");
+define("_GSERVERRSERVER","<b>Root server:</b>");
 define("_GSERVERCPUINFO","<b>CPU:</b>");
-define("_GSERVERRAMTWO","<b>RAM:</b>");
+define("_GSERVERRAM","<b>RAM:</b>");
 define("_GSERVERHDDISK","<b>HDD:</b>");
 define("_GSERVERTRAFFIC","<b>Traffic:</b>");
-define("_GSERVERSWITCH","Gameswitch Server");
-define("_GSERVERBACKUP","Backup erlauben:");
-define("_GSERVERREINSTALL","Neuinstallation erlauben:");
-define("_GSERVERWEBFTP","WebFTP erlauben:");
-define("_GSERVERSCREENLOG","Screenlog");
-define("_GSERVEREASYCONF","<b>Zusätzliche Erweiterung:</b>");
-define("_GSERVERLINKTOPRODUCT","Produkt zuweisen:");
+define("_GSERVERSWITCH","Game switch server");
+define("_GSERVERNOSWITCH","No game switch server");
+define("_GSERVERLOAD","Workload:");
+define("_GSERVERPERCENT","%");
+define("_GSERVERBACKUP","Backup available:");
+define("_GSERVERWEBFTP","WebFTP available:");
 
 
-define("_QUESTIONGSERVERCHANGE","Wollen sie den Status wirklich ändern?");
+define("_QUESTIONGSERVERCHANGE","Are you sure you wish to make these changes?");
 
-define("_ASSISTENTGSERVER","In diesem Modul können sie Gameserver erstellen, löschen, neustarten oder stoppen. Bitte beachten sie, dass wenn ein Kunde
-auf einer IP schon einen Gameserver hat, nicht noch einmal das selbe Verzeichniss gewählt wird, denn dies kann zu Fehlern führen. Sollten sie Gameswitch auswählen
-so können sie dem Kunden mehrere Gameserver auf der gleichen IP und dem gleichen Port installieren, das Webinterface stoppt dann automatische alle Server mit
-der gleichen IP und Port bevor es einen anderen startet. So können sie dem Kunden zum Beispiel 10 verschieden Gameserver installieren aber der Kunde kann immer
-nur einen starten.");
+define("_ASSISTENTGSERVER","With this module you can create and manage game servers. You can start, stop or delete multiple game servers at the same time. 
+You can also set individual servers to maintenance mode. This mean that the customer cannot manage the server. We will also find the online status, 
+the game and if a clan server is being used as a public server (without password). Clan server (passworded servers) are listed in Red text.
+<br><br>
+If gameswitch was selected, customer can install multiple game servers on the same IP and Port. The webinterface will automatically stop the existing game 
+servers before switching to the new game. For instance, you can install 10 different games for the customer, but only one can be running at any one time.");
 
 ?>

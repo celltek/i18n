@@ -1,25 +1,25 @@
 <?php
 
-define("_GAMETEMPNEW","Template eintragen");
-define("_GAMETEMPNOTALLFIELDS","Es wurden nicht alle mit einem * gekennzeichneten Felder ausgefüllt!");
-define("_GAMETEMPEXIST","Diese Template existiert schon für die Datei!");
-define("_GAMETEMPDBUPERROR","Datenbankfehler! Das Template konnte nicht geändert werden!");
-define("_GAMETEMPDBUPDATED","Das Template wurde geändert!");
-define("_GAMETEMPDBDELERROR","Datenbankfehler! Das Template konnte nicht gelöscht werden!");
-define("_GAMETEMPDBDELETED","Das Template wurde soeben aus dem Webinterface gelöscht!");
-define("_GAMETEMPDBSAVEERROR","Datenbankfehler! Das Template konnte nicht hinzugefügt werden!");
-define("_GAMETEMPCREATED","Das Template wurde soeben hinzugefügt!");
-define("_GAMETEMPNOENTRY","<b>Keine Templates vorhanden!</b>");
-define("_GAMETEMPDELETESEL","markierte Templates löschen");
-define("_GAMETEMPSTATUS","Die ausgewählten Templates werden nun gelöscht!");
-define("_GAMETEMPNAME","Name*:");
-define("_GAMETEMPGAME","Spiel*:");
-define("_GAMETEMPFILE","Datei*:");
-define("_GAMETEMPTEXT","Inhalt*:");
+define("_GAMETEMPNEW","Add a template");
+define("_GAMETEMPNOTALLFIELDS","All required fields marked with an * weren't filled in!");
+define("_GAMETEMPEXIST","A template with this title already exists for this file!");
+define("_GAMETEMPDBUPERROR","Database error! The template couldn't be changed!");
+define("_GAMETEMPDBUPDATED","The template was changed!");
+define("_GAMETEMPDBDELERROR","Database error! The template couldn't be deleted!");
+define("_GAMETEMPDBDELETED","The template has been successfully deleted!");
+define("_GAMETEMPDBSAVEERROR","Database error! The template couldn't be added!");
+define("_GAMETEMPCREATED","The template was successfully added!");
+define("_GAMETEMPNOENTRY","<b>No templates available!</b>");
+define("_GAMETEMPDELETESEL","delete selected templates");
+define("_GAMETEMPSTATUS","The selected templates will be deleted!");
+define("_GAMETEMPNAME","Title*:");
+define("_GAMETEMPGAME","Game*:");
+define("_GAMETEMPFILE","File*:");
+define("_GAMETEMPTEXT","Text*:");
 
-define("_QUESTIONGAMETEMPCHANGE","Wollen sie den Status wirklich ändern?");
+define("_QUESTIONGAMETEMPCHANGE","Are you sure you wish to make these changes?");
 
-define("_ASSISTENTGAMETEMP","In diesem Modul können sie jeder Dateie eigene Templates hinzufügen, die der Kunde dann im Webinterface auswählen und bearbeiten kann. Tragen sie hier keine Templates
-ein dann kann der Kunde im Webinterface auch keine Templates auswählen.");
+define("_ASSISTENTGAMETEMP","Here you can add file templates for your customers use. This could be for example the server.cfg for Counter-Strike with 
+setting for the ESL or other leagues. Your customers can then easily load this config using 2 clicks.");
 
 ?>

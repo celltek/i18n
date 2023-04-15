@@ -1,34 +1,34 @@
 <?php
 
-define("_TODONOTALLFIELDS","Es wurden nicht alle mit einem * gekennzeichneten Felder ausgefüllt!");
-define("_TODODBUPERROR","Datenbankfehler! Die Aufgabe konnte nicht geändert werden!");
-define("_TODODBUPDATED","Die Aufgabe wurde geändert!");
-define("_TODODBSAVEERROR","Datenbankfehler! Die Aufgabe konnte nicht hinzugefügt werden!");
-define("_TODODBCREATED","Die Aufgabe wurde soeben hinzugefügt!");
-define("_TODONEW","Aufgabe eintragen");
-define("_TODODELETESEL","markierte Aufgaben löschen");
-define("_TODONOENTRY","<b>Keine Aufgaben vorhanden!</b>");
-define("_TODOSTATUS","Der Aufgabenstatus wird nun neu gesetzt!");
-define("_TODOOK","Die Aufgabe wurde als erledigt makiert!");
-define("_TODODBDELERROR","Datenbankfehler! Die Aufgabe konnte nicht gelöscht werden!");
-define("_TODODBDELETED","Die Aufgabe wurde soeben aus dem Webinterface gelöscht!");
-define("_TODODATE","Startdatum*:");
-define("_TODODURATION","Dauer in Tagen*:");
-define("_TODOTITLE","Titel*:");
+define("_TODONOTALLFIELDS","All required fields marked with an * weren't filled in!");
+define("_TODODBUPERROR","Database error! The task couldn't be changed!");
+define("_TODODBUPDATED","The task was changed!");
+define("_TODODBSAVEERROR","Database error! The task couldn't be added!");
+define("_TODODBCREATED","The task was successfully added!");
+define("_TODONEW","Add a task");
+define("_TODODELETESEL","delete selected tasks");
+define("_TODONOENTRY","<b>No tasks available!</b>");
+define("_TODOSTATUS","The selected task will be changed!");
+define("_TODOOK","This task has been marked as completed!");
+define("_TODODBDELERROR","Database error! The task couldn't be deleted!");
+define("_TODODBDELETED","The task has been successfully deleted!");
+define("_TODODATE","Start date*:");
+define("_TODODATEEXAMPLE","(DD.MM.YYYY)");
+define("_TODODURATION","Due in (# of days)*:");
 define("_TODOTEXT","Text*:");
-define("_TODOURGENCY","Dringlichkeit*:");
-define("_TODOWARNING","Dringend");
+define("_TODOURGENCY","Priority*:");
+define("_TODOWARNING","High");
 define("_TODONORMAL","Normal");
-define("_TODOOPEN","offen");
-define("_TODOCLOSED","erledigt");
-define("_TODOINFO","mehr Infos siehe Icon");
-define("_TODODAYS","Tag(e)");
-define("_TODOEND","endet am");
+define("_TODOOPEN","Open");
+define("_TODOCLOSED","Finished");
+define("_TODOINFO","more info view icon");
+define("_TODODAYS","Day(s)");
+define("_TODOEND","Due by");
 
-define("_QUESTIONTODOCHANGE","Wollen sie den Status wirklich ändern?");
+define("_QUESTIONTODOCHANGE","Are you sure you wish to make these changes?");
 
-define("_ASSISTENTTODO","In diesem Modul können sie für ihre Admins Aufgaben anlegen und dabei angeben, ob es dringlich ist oder nicht und wieviel Zeit man für diese Aufgabe hat.
-Die Aufgaben werden dann direkt auf der Startseite angezeigt. Sollte ein Admin eine Aufgabe als erldigt anklicken so wird der Name des Admins gepeichert und die Aufgabe verschwindet
-von der Startseite. Nur der Superadmin und der Admin können Aufgaben erstellen.");
+define("_ASSISTENTTODO","With this module you can create tasks for your admins. You can set the priority and due date. The tasks will be displays directly 
+in the admin interface. Your admins can then click task completed and the interface will save the admins name in the todo list and remove the task from 
+the interface window.");
 
 ?>

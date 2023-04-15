@@ -1,34 +1,34 @@
 <?php
 
-define("_CMODULESNEW","Verfügbare Module");
-define("_CMODULESACTIVESEL","markierte Module aktivieren");
-define("_CMODULESDEACTIVESEL","markierte Module deaktivieren");
-define("_CMODULESNOENTRY","<b>Keine Module vorhanden!</b>");
-define("_CMODULESSTATUS","Der Modulstatus wird nun neu gesetzt!");
-define("_CMODULESACTIVATED","Das Modul wurde soeben aktiviert!");
-define("_CMODULESACTERROR","Datenbankfehler! Das Modul konnte nicht ativiert werden!");
-define("_CMODULESDEACTIVATED","Das Modul wurde soeben deaktiviert!");
-define("_CMODULESDEACTERROR","Datenbankfehler! Das Modul konnte nicht deaktiviert werden!");
-define("_CMODULESLOCK","Nicht aktiv");
-define("_CMODULESACTIVE","Aktiv");
-define("_CMODULESINSTALL","Modul installieren");
-define("_CMODULESREINSTALL","Modul neu installieren");
-define("_CMODULESUPDATE","Modul updaten");
+define("_CMODULESNEW","Available Modules");
+define("_CMODULESACTIVESEL","activate selected modules");
+define("_CMODULESDEACTIVESEL","deactivate selected modules");
+define("_CMODULESNOENTRY","<b>No modules available!</b>");
+define("_CMODULESSTATUS","Module status will now be set!");
+define("_CMODULESACTIVATED","The module has been activated!");
+define("_CMODULESACTERROR","Database error! The module could not be activated!");
+define("_CMODULESDEACTIVATED","The module has been deactivated!");
+define("_CMODULESDEACTERROR","Database error! The module could not be deactivated!");
+define("_CMODULESLOCK","Not Active");
+define("_CMODULESACTIVE","Active");
+define("_CMODULESINSTALL","Install module");
+define("_CMODULESREINSTALL","Reinstall module");
+define("_CMODULESUPDATE","Update module");
 define("_CMODULESHOSTNAME","Hostname*:");
-define("_CMODULESUSERNAME","FTP Benutzername*:");
-define("_CMODULESPASSWORD","FTP Passwort*:");
+define("_CMODULESUSERNAME","FTP username*:");
+define("_CMODULESPASSWORD","FTP password*:");
 
-define("_CMODULESNOTALLFIELDS","Es wurden nicht alle mit einem * gekennzeichneten Felder ausgefüllt!");
-define("_CMODULESCANTDOWNLOADED","Das Modul konnte nicht gedownloadet werden!");
-define("_CMODULESCANTEXTRACTED","Das Modul konnte nicht entpackt werden!");
-define("_CMODULESFTPERROR","Die FTP Funktion ist zurzeit nicht verfügbar!");
-define("_CMODULESFTPOFFLINE","Der FTP Server ist nicht verfügbar bzw. offline!");
-define("_CMODULESFTPBADLOGIN","Der FTP Login ist nicht korrekt!");
-define("_CMODULESINSTALLED","Das Modul wurde installiert bzw. geupdatet!");
-define("_CMODULESINSTALLERROR","Datenbankfehler! Das Modul konnte nicht installiert werden!");
+define("_CMODULESNOTALLFIELDS","Not all fields marked with * were filled out!");
+define("_CMODULESCANTDOWNLOADED","The module could not be downloaded!");
+define("_CMODULESCANTEXTRACTED","The module could not be extracted!");
+define("_CMODULESFTPERROR","The FTP function is currently not available!");
+define("_CMODULESFTPOFFLINE","The FTP server is not available or offline!");
+define("_CMODULESFTPBADLOGIN","The FTP login is incorrect!");
+define("_CMODULESINSTALLED","The module has been installed or updated!");
+define("_CMODULESINSTALLERROR","Database error! The module could not be installed!");
 
-define("_QUESTIONCMODULESCHANGE","Wollen sie den Status wirklich ändern?");
+define("_QUESTIONCMODULESCHANGE","Are you sure you want to change the module status?");
 
-define("_ASSISTENTCMODULES","In diesem Modul können sie die CMS Module aktivieren bzw. deaktivieren.");
+define("_ASSISTENTCMODULES","In this module, you can activate or deactivate CMS modules.");
 
 ?>

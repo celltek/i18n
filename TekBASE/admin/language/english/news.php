@@ -1,29 +1,29 @@
 <?php
 
-define("_MEMNEWSNOTALLFIELDS","Es wurden nicht alle mit einem * gekennzeichneten Felder ausgefüllt!");
-define("_MEMNEWSDBUPERROR","Datenbankfehler! Die News konnte nicht geändert werden!");
-define("_MEMNEWSDBUPDATED","Die News wurde geändert!");
-define("_MEMNEWSDBSAVEERROR","Datenbankfehler! Die News konnte nicht hinzugefügt werden!");
-define("_MEMNEWSDBCREATED","Die News wurde soeben hinzugefügt!");
-define("_MEMNEWSNEW","News eintragen");
-define("_MEMNEWSDELETESEL","markierte News löschen");
-define("_MEMNEWSNOENTRY","<b>Keine News vorhanden!</b>");
-define("_MEMNEWSSTATUS","Der Newsstatus wird nun neu gesetzt!");
-define("_MEMNEWSDBDELERROR","Datenbankfehler! Die News konnte nicht gelöscht werden!");
-define("_MEMNEWSDBDELETED","Die News wurde soeben aus dem Webinterface gelöscht!");
-define("_MEMNEWSTITLE","Titel*:");
+define("_MEMNEWSNOTALLFIELDS","All required fields marked with an * weren't filled in!");
+define("_MEMNEWSDBUPERROR","Database error! The news couldn't be changed!");
+define("_MEMNEWSDBUPDATED","The news was changed!");
+define("_MEMNEWSDBSAVEERROR","Database error! The news couldn't be added!");
+define("_MEMNEWSDBCREATED","The news was successfully added!");
+define("_MEMNEWSNEW","Add a news");
+define("_MEMNEWSDELETESEL","delete selected news");
+define("_MEMNEWSNOENTRY","<b>No news available!!</b>");
+define("_MEMNEWSSTATUS","The selected news will be changed!");
+define("_MEMNEWSDBDELERROR","Database error! The news couldn't be deleted!");
+define("_MEMNEWSDBDELETED","The news has been successfully deleted!");
+define("_MEMNEWSTITLE","Title*:");
 define("_MEMNEWSTEXT","Text*:");
-define("_MEMNEWSCATEGORY","Kategorie*:");
-define("_MEMNEWSLOGIN","Auf Loginseite zeigen:");
-define("_MEMNEWSALL","Alle Kunden");
-define("_MEMNEWSGAMES","Gameserver Kunden");
-define("_MEMNEWSSTREAMS","Streamserver Kunden");
-define("_MEMNEWSROOTS","Rootserver Kunden");
-define("_MEMNEWSVSERVER","VServer Kunden");
-define("_MEMNEWSVOICES","Voiceserver Kunden");
+define("_MEMNEWSCATEGORY","Category*:");
+define("_MEMNEWSALL","All customers");
+define("_MEMNEWSGAMES","Game server customers");
+define("_MEMNEWSSTREAMS","Stream server customers");
+define("_MEMNEWSROOTS","Root server customers");
+define("_MEMNEWSVSERVER","VServer customers");
+define("_MEMNEWSVOICES","Voice server customers");
 
-define("_QUESTIONNEWSCHANGE","Wollen sie den Status wirklich ändern?");
+define("_QUESTIONNEWSCHANGE","Are you sure you wish to make these changes?");
 
-define("_ASSISTENTNEWS","In diesem Modul können sie für den Kundenbereich News verfassen, es werden dabei immer die 4 aktuellsten News angezeigt.");
+define("_ASSISTENTNEWS","In this module you can create and manage news articles for your customers. In the customer area, the 4 most recent articles will be displayed. 
+To ease creation of news articles, we have provided a handy WYSIWYG editor if enabled in the Settings Module -> Settings.");
 
 ?>

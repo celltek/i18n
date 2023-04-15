@@ -1,25 +1,26 @@
 <?php
 
-define("_RSSFEEDSNOTALLFIELDS","Es wurden nicht alle mit einem * gekennzeichneten Felder ausgefüllt!");
-define("_RSSFEEDSDBUPERROR","Datenbankfehler! Der RSS Feed konnte nicht geändert werden!");
-define("_RSSFEEDSDBUPDATED","Der RSS Feed wurde geändert!");
-define("_RSSFEEDSDBSAVEERROR","Datenbankfehler! Der RSS Feed konnte nicht hinzugefügt werden!");
-define("_RSSFEEDSDBCREATED","Der RSS Feed wurde soeben hinzugefügt!");
-define("_RSSFEEDSEXIST","Es existiert schon ein RSS Feed mit diesem Namen!");
-define("_RSSFEEDSNEW","RSS Feed eintragen");
-define("_RSSFEEDSNOENTRY","<b>Keine RSS Feeds vorhanden!</b>");
-define("_RSSFEEDSDELETESEL","markierte RSS Feeds löschen");
-define("_RSSFEEDSSTATUS","Die ausgewählten RSS Feeds werden nun gelöscht!");
-define("_RSSFEEDSDBDELERROR","Datenbankfehler! Der RSS Feed konnte nicht gelöscht werden!");
-define("_RSSFEEDSDBDELETED","Der RSS Feeds wurde soeben aus dem Webinterface gelöscht!");
-define("_RSSFEEDSTITLE","Titel*:");
+define("_RSSFEEDSNOTALLFIELDS","All required fields marked with an * weren't filled in!");
+define("_RSSFEEDSDBUPERROR","Database error! The RSS feed couldn't be changed!");
+define("_RSSFEEDSDBUPDATED","The RSS feed was changed!");
+define("_RSSFEEDSDBSAVEERROR","Database error! The RSS feed couldn't be added!");
+define("_RSSFEEDSDBCREATED","The RSS feed was successfully added!");
+define("_RSSFEEDSEXIST","A RSS feed with this name already exists!");
+define("_RSSFEEDSNEW","Add a RSS feed");
+define("_RSSFEEDSNOENTRY","<b>No RSS feeds available!</b>");
+define("_RSSFEEDSDELETESEL","delete selected RSS feeds");
+define("_RSSFEEDSSTATUS","The selected RSS feeds will be deleted!");
+define("_RSSFEEDSDBDELERROR","Database error! The RSS feed couldn't be deleted!");
+define("_RSSFEEDSDBDELETED","The RSS feed has been successfully deleted!");
+define("_RSSFEEDSTITLE","Title*:");
 define("_RSSFEEDSURL","URL*:");
-define("_RSSFEEDSISACTIVE","RSS Feed aktivieren?");
-define("_RSSFEEDSLOCK","Nicht aktiv");
-define("_RSSFEEDSACTIVE","Aktiv");
+define("_RSSFEEDSISACTIVE","Activate RSS feeds?");
+define("_RSSFEEDSLOCK","Not active");
+define("_RSSFEEDSACTIVE","Active");
 
-define("_QUESTIONRSSFEEDSCHANGE","Wollen sie den Status wirklich ändern?");
+define("_QUESTIONRSSFEEDSCHANGE","Are you sure you wish to make these changes?");
 
-define("_ASSISTENTRSSFEEDS","In diesem Modul können sie Rss Feeds anlegen.");
+define("_ASSISTENTRSSFEEDS","Here you can enter RSS Feeds that will be displayed on the customers start page if they have selected RSS feeds in their settings. 
+Please ensure you the URL to the feed is correct. Two examples have been entered for you.");
 
 ?>

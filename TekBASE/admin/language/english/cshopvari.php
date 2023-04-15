@@ -1,27 +1,29 @@
 <?php
 
-define("_CSHOPVARINOTALLFIELDS","Es wurden nicht alle mit einem * gekennzeichneten Felder ausgefüllt!");
-define("_CSHOPVARIDBUPERROR","Datenbankfehler! Die Variation konnte nicht geändert werden!");
-define("_CSHOPVARIDBUPDATED","Die Variation wurde geändert!");
-define("_CSHOPVARIDBSAVEERROR","Datenbankfehler! Die Variation konnte nicht hinzugefügt werden!");
-define("_CSHOPVARIDBCREATED","Die Variation wurde soeben hinzugefügt!");
-define("_CSHOPVARIEXIST","Es existiert schon eine Variation mit diesem Titel!");
-define("_CSHOPVARINEW","Variation eintragen");
-define("_CSHOPVARINOENTRY","<b>Keine Variation vorhanden!</b>");
-define("_CSHOPVARIDELETESEL","markierte Variationen löschen");
-define("_CSHOPVARISTATUS","Die ausgewählten Variationen werden nun gelöscht!");
-define("_CSHOPVARIDBDELERROR","Datenbankfehler! Die Variation konnte nicht gelöscht werden!");
-define("_CSHOPVARIDBDELETED","Die Variation wurde soeben aus dem Webinterface gelöscht!");
-define("_CSHOPVARITITLE","Titel*:");
-define("_CSHOPVARICATEGORY","Variations Kategorie*:");
-define("_CSHOPVARIISACTIVE","Variation aktivieren?");
-define("_CSHOPVARILOCK","Nicht aktiv");
-define("_CSHOPVARIACTIVE","Aktiv");
-define("_CSHOPVARILANGUAGETWO","<b>Einstellungen für die Zweitsprache</b>");
+define("_CSHOPVARINOTALLFIELDS","All required fields marked with an * weren't filled in!");
+define("_CSHOPVARIDBUPERROR","Database error! The variation couldn't be changed!");
+define("_CSHOPVARIDBUPDATED","The variation was changed!");
+define("_CSHOPVARIDBSAVEERROR","Database error! The variation couldn't be added!");
+define("_CSHOPVARIDBCREATED","The program was successfully added!");
+define("_CSHOPVARIEXIST","A variation with this title exists!");
+define("_CSHOPVARINEW","Add a variation");
+define("_CSHOPVARINOENTRY","<b>No variation available!</b>");
+define("_CSHOPVARIDELETESEL","delete selected variables");
+define("_CSHOPVARISTATUS","The selected variations will be deleted!");
+define("_CSHOPVARIDBDELERROR","Database error! The variation couldn't be deleted!");
+define("_CSHOPVARIDBDELETED","The variation has been successfully deleted!");
+define("_CSHOPVARITITLE","Title*:");
+define("_CSHOPVARICATEGORY","Variation category*:");
+define("_CSHOPVARIISACTIVE","Activate variation?");
+define("_CSHOPVARILOCK","Not active");
+define("_CSHOPVARIACTIVE","Active");
+define("_CSHOPVARILANGUAGETWO","<b>Settings for the second language</b>");
 
 
-define("_QUESTIONCSHOPVARICHANGE","Wollen sie den Status wirklich ändern?");
+define("_QUESTIONCSHOPVARICHANGE","Are you sure you wish to make these changes?");
 
-define("_ASSISTENTCSHOPVARI","In diesem Modul können sie Variationen für Artikel anlegen.");
+define("_ASSISTENTCSHOPVARI","Variations is used to enter various options such as slot quantities, months, etc. To do this, you need to you will 
+first need to enter a category under variation categories. When you have entered slot quantity as category, you can enter under varations, 10 Slot, 12 Slot, 14 Slot, etc...
+The customer will then be able to select the desired slot quantity. Under products, you can enter a different price for each variation.");
 
 ?>

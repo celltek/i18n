@@ -1,29 +1,29 @@
 <?php
 
-define("_CONTACTSENDMSG","Email abschicken");
-define("_CONTACTSEND","Die Email wurde soeben versendet!");
-define("_CONTACTSENDERROR","Die Email konnte nicht versendet werden!");
-define("_CONTACTNOTALLFIELDS","Sie haben nicht alle Felder ausgefüllt!");
-define("_CONTACTNOEMAIL","Es wurde noch kein Email Konto für System Mails angelegt!");
-define("_CONTACTMEMBER","Kunde*:");
-define("_CONTACTSUBJECT","Betreff*:");
-define("_CONTACTPLAIN","Text:");
-define("_CONTACTHTML","Html:");
+define("_CONTACTSENDMSG","Send Email");
+define("_CONTACTSEND","The email has been sent successfully!");
+define("_CONTACTSENDERROR","The email could not be sent!");
+define("_CONTACTNOTALLFIELDS","You have not filled in all fields!");
+define("_CONTACTNOEMAIL","No email account has been set up for system emails yet!");
+define("_CONTACTMEMBER","Customer*:");
+define("_CONTACTSUBJECT","Subject*:");
+define("_CONTACTPLAIN","Plain Text:");
+define("_CONTACTHTML","HTML:");
 define("_CONTACTTEMPLATES","Text Templates");
-define("_CONTACTVIEWTEMPLATE","Template Vorschau");
+define("_CONTACTVIEWTEMPLATE","Preview Template");
 
-define("_QUESTIONCONTACTSEND","Wollen sie die Nachricht versenden?");
+define("_QUESTIONCONTACTSEND","Do you want to send the message?");
 
-define("_ASSISTENTCONTACT","Hier können sie eMails an ihre Kunden versenden. Wenn sie zuvor im Modul Kunden auf die eMail eines Kunden
-klicken, dann sollte dieser jetzt hier makiert sein. Weiter unten finden sie die Vordrucke, die sie im Modul Email Templates anlegen können.
-Sie können folgende Variablen verwenden:<br><br>
-{%customerid%} - für die Kundenkennung<br>
-{%email%} - für die Email<br>
-{%surname%} - für den Vornamen<br>
-{%name%} - für den Nachnamen<br>
-{%fullname%} - für den Vornamen und Nachnamen<br>
-{%address%} - für die Anschrift<br><br>
-{%credits%} - für den aktuellen Kontostand<br>
-{%ftppasswd%} - für das FTP Passwort");
+define("_ASSISTENTCONTACT","Here you can send emails to your customers. If you click on a customer's email in the module Customers,
+they should be marked here now. Below you will find the templates that you can create in the Email Templates module.
+You can use the following variables:<br><br>
+{%customerid%} - for the customer ID<br>
+{%email%} - for the email address<br>
+{%surname%} - for the first name<br>
+{%name%} - for the last name<br>
+{%fullname%} - for the first and last name<br>
+{%address%} - for the address<br><br>
+{%credits%} - for the current account balance<br>
+{%ftppasswd%} - for the FTP password");
 
 ?>

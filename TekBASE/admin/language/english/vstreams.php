@@ -1,35 +1,42 @@
 <?php
 
-define("_VSTREAMSNOTALLFIELDS","Es wurden nicht alle mit einem * gekennzeichneten Felder ausgefüllt!");
-define("_VSTREAMSIPPORTEXIST","Es existiert schon ein Streamserver mit der IP und dem Port!");
-define("_VSTREAMSDBUPERROR","Datenbankfehler! Der Streamserver konnte nicht geändert werden!");
-define("_VSTREAMSDBUPDATED","Der Streamserver wurde geändert!");
-define("_VSTREAMSPATHEXIST","Das Verzeichnis existiert schon für diesen Kunden!");
-define("_VSTREAMSDBSAVEERROR","Datenbankfehler! Der Streamserver konnte nicht gespeichert werden!");
-define("_VSTREAMSINSTALLERROR","Der Streamserver konnte nicht installiert werden!");
-define("_VSTREAMSCREATED","Der Streamserver wurde soeben erstellt!");
-define("_VSTREAMSNEW","Streamserver erstellen");
-define("_VSTREAMSDELETESEL","markierte Streamserver löschen");
-define("_VSTREAMSSTARTSEL","markierte Streamserver neustarten");
-define("_VSTREAMSSTOPSEL","markierte Streamserver stoppen");
-define("_VSTREAMSNOENTRY","<b>Keine Streamserver vorhanden!</b>");
-define("_VSTREAMSDBDELERROR","Datenbankfehler! Der Streamserver konnte nicht gelöscht werden!");
-define("_VSTREAMSDBDELETED","Der Streamserver wurde soeben aus dem Webinterface gelöscht!");
-define("_VSTREAMSSTATUS","Der Streamstatus wird nun neu gesetzt!");
-define("_VSTREAMSMEMBER","Kunde*:");
+define("_VSTREAMSNOTALLFIELDS","All required fields marked with an * weren't filled in!");
+define("_VSTREAMSIPPORTEXIST","A stream server with this ip and port already exists!");
+define("_VSTREAMSDBUPERROR","Database error! The stream server couldn't be changed!");
+define("_VSTREAMSDBUPDATED","The stream server was changed!");
+define("_VSTREAMSPATHEXIST","This directory already exists for this customer!");
+define("_VSTREAMSDBSAVEERROR","Database error! The stream server couldn't be added!");
+define("_VSTREAMSCREATED","The stream server was successfully added!");
+define("_VSTREAMSNEW","Add a stream server");
+define("_VSTREAMSDELETESEL","delete selected stream servers");
+define("_VSTREAMSSTARTSEL","restart selected stream servers");
+define("_VSTREAMSSTOPSEL","stop selected stream servers");
+define("_VSTREAMSNOENTRY","<b>No stream servers available!</b>");
+define("_VSTREAMSDBDELERROR","Database error! The stream server couldn't be deleted!");
+define("_VSTREAMSDBDELETED","The stream server has been successfully deleted!");
+define("_VSTREAMSSTATUS","The selected stream server status will be changed!");
+define("_VSTREAMSMEMBER","Customer*:");
+define("_VSTREAMSNAME","Name*:");
 define("_VSTREAMSSERVER","Server IP*:");
 define("_VSTREAMSPORT","Port*:");
-define("_VSTREAMSPATH","Verzeichnis*:");
+define("_VSTREAMSPATH","Directory*:");
 define("_VSTREAMSPATHEXAMPLE","(flash, flash1, ...)");
-define("_VSTREAMSRSERVER","<b>Rootserver:</b>");
+define("_VSTREAMSMEMADDRESS","<b>Address:</b>");
+define("_VSTREAMSMEMPHONE","Phone:");
+define("_VSTREAMSMEMEMAIL","Email:");
+define("_VSTREAMSRSERVER","<b>Root server:</b>");
 define("_VSTREAMSCPUINFO","<b>CPU:</b>");
 define("_VSTREAMSRAM","<b>RAM:</b>");
 define("_VSTREAMSHDDISK","<b>HDD:</b>");
 define("_VSTREAMSTRAFFIC","<b>Traffic:</b>");
-define("_VSTREAMSLINKTOPRODUCT","Produkt zuweisen:");
+define("_VSTREAMSMULTIONE","32Bit");
+define("_VSTREAMSMULTITWO","64Bit");
+define("_VSTREAMSLOAD","Workload:");
+define("_VSTREAMSPERCENT","%");
 
-define("_QUESTIONVSTREAMSCHANGE","Wollen sie den Status wirklich ändern?");
 
-define("_ASSISTENTVSTREAMS","In diesem Modul können sie neue Flash Streamserver anlegen, starten, stoppen und löschen.");
+define("_QUESTIONVSTREAMSCHANGE","Are you sure you wish to make these changes?");
+
+define("_ASSISTENTVSTREAMS","Here you can create new stream servers for you customers.");
 
 ?>

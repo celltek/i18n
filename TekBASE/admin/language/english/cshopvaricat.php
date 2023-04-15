@@ -1,39 +1,37 @@
 <?php
 
-define("_CSHOPVARICATNOTALLFIELDS","Es wurden nicht alle mit einem * gekennzeichneten Felder ausgefüllt!");
-define("_CSHOPVARICATDBUPERROR","Datenbankfehler! Die Kategorie konnte nicht geändert werden!");
-define("_CSHOPVARICATDBUPDATED","Die Kategorie wurde geändert!");
-define("_CSHOPVARICATDBSAVEERROR","Datenbankfehler! Die Kategorie konnte nicht hinzugefügt werden!");
-define("_CSHOPVARICATDBCREATED","Die Kategorie wurde soeben hinzugefügt!");
-define("_CSHOPVARICATEXIST","Es existiert schon eine Kategorie mit diesem Titel!");
-define("_CSHOPVARICATNEW","Kategorie eintragen");
-define("_CSHOPVARICATNOENTRY","<b>Keine Kategorie vorhanden!</b>");
-define("_CSHOPVARICATDELETESEL","markierte Kategorien löschen");
-define("_CSHOPVARICATSTATUS","Die ausgewählten Kategorien werden nun gelöscht!");
-define("_CSHOPVARICATDBDELERROR","Datenbankfehler! Die Kategorie konnte nicht gelöscht werden!");
-define("_CSHOPVARICATDBDELETED","Die Kategorie wurde soeben aus dem Webinterface gelöscht!");
-define("_CSHOPVARICATTITLE","Titel*:");
-define("_CSHOPVARIPRODCATEGORY","Verfügbar für*:");
-define("_CSHOPVARIALLCATEGORIES","Alle Artikel Kategorien");
-define("_CSHOPVARICATTYP","Wertangabe*:");
-define("_CSHOPVARICATISACTIVE","Kategorie aktivieren?");
-define("_CSHOPVARICATLOCK","Nicht aktiv");
-define("_CSHOPVARICATACTIVE","Aktiv");
-define("_CSHOPVARICATPERCENT","in Prozent");
-define("_CSHOPVARICATPAYMONTHS","Vorauszahlungs Kategorie:");
-define("_CSHOPVARICATONETIME","Einmalige Gebühr:");
-define("_CSHOPVARICATMONEYTWO","Berechnung in Euro");
-define("_CSHOPVARICATPERCENTTWO","Berechnung in Prozent");
-define("_CSHOPVARICATMONTHS","Vorauszahlungs Kategorie");
-define("_CSHOPVARICATNOMONTHS","Keine Vorauszahlungs Kategorie");
-define("_CSHOPVARICATLANGUAGETWO","<b>Einstellungen für die Zweitsprache</b>");
+define("_CSHOPVARICATNOTALLFIELDS","All required fields marked with an * weren't filled in!");
+define("_CSHOPVARICATDBUPERROR","Database error! The category couldn't be changed!");
+define("_CSHOPVARICATDBUPDATED","The category was changed!");
+define("_CSHOPVARICATDBSAVEERROR","Database error! The category couldn't be added!");
+define("_CSHOPVARICATDBCREATED","The category was successfully added!");
+define("_CSHOPVARICATEXIST","A category with this title already exists!");
+define("_CSHOPVARICATNEW","Add a category");
+define("_CSHOPVARICATNOENTRY","<b>No categories available!</b>");
+define("_CSHOPVARICATDELETESEL","delete selected categories");
+define("_CSHOPVARICATSTATUS","The selected categories will be changed!");
+define("_CSHOPVARICATDBDELERROR","Database error! The category couldn't be deleted!");
+define("_CSHOPVARICATDBDELETED","The category has been successfully deleted!");
+define("_CSHOPVARICATTITLE","Title*:");
+define("_CSHOPVARICATTYP","Declaration of value*:");
+define("_CSHOPVARICATISACTIVE","Activate category?");
+define("_CSHOPVARICATLOCK","Not active");
+define("_CSHOPVARICATACTIVE","Active");
+define("_CSHOPVARICATPERCENT","in Percent");
+define("_CSHOPVARICATPAYMONTHS","Prepayment category:");
+define("_CSHOPVARICATMONEYTWO","Calculation in money");
+define("_CSHOPVARICATPERCENTTWO","Calculation in percent");
+define("_CSHOPVARICATMONTHS","Prepayment category");
+define("_CSHOPVARICATNOMONTHS","No prepayment category");
+define("_CSHOPVARICATLANGUAGETWO","<b>Settings for the second language</b>");
 
 
-define("_QUESTIONCSHOPVARICATCHANGE","Wollen sie den Status wirklich ändern?");
+define("_QUESTIONCSHOPVARICATCHANGE","Are you sure you wish to make these changes?");
 
-define("_ASSISTENTCSHOPVARICAT","In diesem Modul können sie Variations Kategorien anlegen. Die Vorrauszahlungs Kategorie wird vom
-CMS Shopmodul dazu verwendet, den richtigen Preis auszurechnen. Wenn zum Beispiel ein Kunde Vorrauszahlung 4Monate wählt und der 
-Artikel monatlich 10,- Euro kostet, so soll auf seiner Rechnung und Bestellbestätigung auch 40,- Euro als Betrag stehen.<br><br>
-Eine einmalige Gebühr oder Einrichtungsgebühr darf KEINE Vorrauszahlungs Kategorie sein.");
+define("_ASSISTENTCSHOPVARICAT","Here you can enter different categories for your product variations. For example, a game server could have slot quantity, 
+prepayment or contract duration as possible variation categories. Please only use the prepayment menu option for the prepayment category. 
+If you have selected 1, 3, 6 or 12 months as variations, the price will be multiplied by the number of months if you selected the prepayment menu option. 
+The computation of a category can be indicated in % or as price. With discounts for example: banner advertisement it is usually best to offer discounts in % 
+and the price will be automatically calculated.");
 
 ?>

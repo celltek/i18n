@@ -1,29 +1,31 @@
 <?php
 
-define("_GAMEADDONSNEW","Addons eintragen");
-define("_GAMEADDONSNOTALLFIELDS","Es wurden nicht alle mit einem * gekennzeichneten Felder ausgefüllt!");
-define("_GAMEADDONSEXIST","Dieses Addon existiert schon für das Spiel!");
-define("_GAMEADDONSDBUPERROR","Datenbankfehler! Dieses Addon konnte nicht geändert werden!");
-define("_GAMEADDONSDBUPDATED","Dieses Addon wurde geändert!");
-define("_GAMEADDONSNOENTRY","<b>Keine Addons vorhanden!</b>");
-define("_GAMEADDONSDELETESEL","markierte Addons löschen");
-define("_GAMEADDONSDBDELERROR","Datenbankfehler! Dieses Addon konnte nicht gelöscht werden!");
-define("_GAMEADDONSDBDELETED","Dieses Addon wurde soeben aus dem Webinterface gelöscht!");
-define("_GAMEADDONSDBSAVEERROR","Datenbankfehler! Dieses Addon konnte nicht hinzugefügt werden!");
-define("_GAMEADDONSCREATED","Dieses Addon wurde soeben hinzugefügt!");
-define("_GAMEADDONSSTATUS","Die ausgewählten Addons werden nun gelöscht!");
-define("_GAMEADDONSGAME","Spiel*:");
-define("_GAMEADDONSNAME","Addon Name*:");
-define("_GAMEADDONSSNAME","Addon Kürzel*:");
-define("_GAMEADDONSINSTALL","Addon als Image vorhanden:");
-define("_GAMEADDONSMULTI","Multi Images:");
-define("_GAMEADDONSSUBADDON","Abhängig von:");
+define("_GAMEADDONSNEW","Add a addon");
+define("_GAMEADDONSNOTALLFIELDS","All required fields marked with an * weren't filled in!");
+define("_GAMEADDONSEXIST","This addon already exists for this game!");
+define("_GAMEADDONSDBUPERROR","Database error! The addon couldn't be changed!");
+define("_GAMEADDONSDBUPDATED","The addon was changed!");
+define("_GAMEADDONSNOENTRY","<b>No addons available!</b>");
+define("_GAMEADDONSDELETESEL","delete selected addons");
+define("_GAMEADDONSDBDELERROR","Database error! The addon couldn't be deleted!");
+define("_GAMEADDONSDBDELETED","The addon has been successfully deleted!");
+define("_GAMEADDONSDBSAVEERROR","Database error! The addon couldn't be added!");
+define("_GAMEADDONSCREATED","The addon was successfully added!");
+define("_GAMEADDONSSTATUS","The selected addons will be deleted!");
+define("_GAMEADDONSGAME","Game*:");
+define("_GAMEADDONSNAME","Addon name*:");
+define("_GAMEADDONSSNAME","Addon shortcut*:");
+define("_GAMEADDONSINSTALL","Mod exists as an image:");
+define("_GAMEADDONSMULTI","Multi images:");
+define("_GAMEADDONSMULTIONE","32Bit");
+define("_GAMEADDONSMULTITWO","64Bit");
+define("_GAMEADDONSMULTITHREE","32/64Bit");
+define("_GAMEADDONSSUBADDON","Requires addon:");
 define("_GAMEADDONSTEXT","Infos:");
 
 
-define("_QUESTIONGAMEADDONSCHANGE","Wollen sie den Status wirklich ändern?");
+define("_QUESTIONGAMEADDONSCHANGE","Are you sure you wish to make these changes?");
 
-define("_ASSISTENTGAMEADDONS","In diesem Modul können sie jedem Spiel eigene Addons hinzufügen, die der Kunde dann im Webinterface installieren kann. Tragen sie hier keine Addons
-ein dann kann der Kunde im Webinterface auch keine Addons installieren. Damit der Kunde im Webinterface die Addons installieren kann muss ein Image verfügbar sein.");
+define("_ASSISTENTGAMEADDONS","If you wish to allow your customers to automatically install addons, you can enter them here.");
 
 ?>

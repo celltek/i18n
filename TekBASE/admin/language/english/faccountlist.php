@@ -1,25 +1,25 @@
 <?php
 
-define("_FACCOUNTLISTNEW","Konto eintragen");
-define("_FACCOUNTLISTDBSAVEERROR","Datenbankfehler! Das Konten konnte nicht hinzugefügt werden!");
-define("_FACCOUNTLISTCREATED","Das Konten wurde soeben hinzugefügt!");
-define("_FACCOUNTLISTDBUPERROR","Datenbankfehler! Das Konten konnte nicht geändert werden!");
-define("_FACCOUNTLISTDBUPDATED","Das Konten wurde geändert!");
-define("_FACCOUNTLISTDBDELERROR","Datenbankfehler! Das Konto konnte nicht gelöscht werden!");
-define("_FACCOUNTLISTCANTDEL","Das Konten konnte nicht gelöscht werden da es noch benutzt wird!");
-define("_FACCOUNTLISTDBDELETED","Das Konto wurde soeben aus dem Webinterface gelöscht!");
-define("_FACCOUNTLISTSTATUS","Die ausgewählten Konten werden nun gelöscht!");
-define("_FACCOUNTLISTNOTALLFIELDS","Es wurden nicht alle mit einem * gekennzeichneten Felder ausgefüllt!");
-define("_FACCOUNTLISTEXIST","Diese Konto existiert schon!");
-define("_FACCOUNTLISTNOENTRY","<b>Keine Konten vorhanden!</b>");
-define("_FACCOUNTLISTDELETESEL","markierte Konten löschen");
-define("_FACCOUNTLISTSIGN","Bezeichnung*:");
-define("_FACCOUNTLISTTAXKEY","Steuerschlüssel*:");
-define("_FACCOUNTLISTTEXT","Beschreibung:");
+define("_FACCOUNTLISTDBSAVEERROR","Database error! The account couldn't be added!");
+define("_FACCOUNTLISTCREATED","The account was successfully added!");
+define("_FACCOUNTLISTDBUPERROR","Database error! The account couldn't be changed!");
+define("_FACCOUNTLISTDBUPDATED","The account was changed!");
+define("_FACCOUNTLISTDBDELERROR","Database error! The account couldn't be deleted!");
+define("_FACCOUNTLISTCANTDEL","The account couldn't be deleted it will still used!");
+define("_FACCOUNTLISTDBDELETED","The account has been successfully deleted!");
+define("_FACCOUNTLISTSTATUS","The selected accounts will be deleted!");
+define("_FACCOUNTLISTNOTALLFIELDS","All required fields marked with an * weren't filled in!");
+define("_FACCOUNTLISTEXIST","This account already exists!");
+define("_FACCOUNTLISTNOENTRY","<b>No accounts available!</b>");
+define("_FACCOUNTLISTDELETESEL","delete selected accounts");
+define("_FACCOUNTLISTID","Account ID*:");
+define("_FACCOUNTLISTSIGN","Sign*:");
+define("_FACCOUNTLISTTAXKEY","Tax key*:");
+define("_FACCOUNTLISTTEXT","Description:");
+define("_FACCOUNTLISTFASTINSERT","<b>Accounts code insert</b>");
 
-define("_QUESTIONFACCOUNTLISTCHANGE","Wollen sie den Status wirklich ändern?");
+define("_QUESTIONFACCOUNTLISTCHANGE","Are you sure you wish to make these changes?");
 
-define("_ASSISTENTFACCOUNTLIST","Hier können Sie Konten für Einnahmen und Ausgaben angeben, um diese
-für einen besseren Überblick nach Kategorien zu unterteilen.");
+define("_ASSISTENTFACCOUNTLIST","All accounts for Datev SKR03 E�R have been added to this module. These can be freely deleted or new accounts can be added for your country.");
 
 ?>

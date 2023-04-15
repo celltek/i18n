@@ -1,44 +1,41 @@
 <?php
 
-define("_FPRODUCTSNOTALLFIELDS","Es wurden nicht alle mit einem * gekennzeichneten Felder ausgefüllt!");
-define("_FPRODUCTSTITLEEXIST","Es existiert schon ein Artikel mit dem Titel!");
-define("_FPRODUCTSNUMBEREXIST","Es existiert schon ein Artikel mit der Artikelnummer!");
-define("_FPRODUCTSDBUPERROR","Datenbankfehler! Der Artikel konnte nicht geändert werden!");
-define("_FPRODUCTSDBUPDATED","Der Artikel wurde geändert!");
-define("_FPRODUCTSDBSAVEERROR","Datenbankfehler! Der Artikel konnte nicht hinzugefügt werden!");
-define("_FPRODUCTSCREATED","Der Artikel wurde soeben hinzugefügt!");
-define("_FPRODUCTSNEW","Artikel eintragen");
-define("_FPRODUCTSNOENTRY","<b>Keine Artikel vorhanden!</b>");
-define("_FPRODUCTSDELETESEL","markierte Artikel löschen");
-define("_FPRODUCTSSTATUS","Der Artikelstatus wird nun neu gesetzt!");
-define("_FPRODUCTSDBDELERROR","Datenbankfehler! Der Artikel konnte nicht gelöscht werden!");
-define("_FPRODUCTSDBDELETED","Der Artikel wurde soeben aus dem Webinterface gelöscht!");
-define("_FPRODUCTSMEMPRODUCTSEXIST","Der Artikel kann nicht gelöscht werden, da er noch in Kundenpaketen verwendet wird!");
-define("_FPRODUCTSNUM","Artikelnummer*:");
-define("_FPRODUCTSTITLE","Titel*:");
-define("_FPRODUCTSTEXT","Beschreibung*:");
-define("_FPRODUCTSPRICE","Preis*:");
-define("_FPRODUCTSTAX","Steuerschlüssel*:");
-define("_FPRODUCTSCONTRACT","Vertrag:");
-define("_FPRODUCTSNOCONTRACT","kein Vertrag");
-define("_FPRODUCTSACCOUNT","Konto*:");
-define("_FPRODUCTSTYP","Verwenden für:");
-define("_FPRODUCTSMEMBERS","Kundenpakete");
-define("_FPRODUCTSREMINDERS","Mahnungen");
-define("_FPRODUCTSCREDITS","Guthaben");
-define("_FPRODUCTSORDERS","Shopbestellungen");
+define("_FPRODUCTSNOTALLFIELDS","All required fields marked with an * weren't filled in!");
+define("_FPRODUCTSTITLEEXIST","A product with this title already exists!");
+define("_FPRODUCTSNUMBEREXIST","A product with this product number already exists!");
+define("_FPRODUCTSDBUPERROR","Database error! The product couldn't be changed!");
+define("_FPRODUCTSDBUPDATED","The product was changed!");
+define("_FPRODUCTSDBSAVEERROR","Database error! The product couldn't be added!");
+define("_FPRODUCTSCREATED","The product was successfully added!");
+define("_FPRODUCTSNEW","Add a product");
+define("_FPRODUCTSNOENTRY","<b>No product available!</b>");
+define("_FPRODUCTSDELETESEL","delete selected products");
+define("_FPRODUCTSSTATUS","The selected products will be deleted!");
+define("_FPRODUCTSDBDELERROR","Database error! The product couldn't be deleted!");
+define("_FPRODUCTSDBDELETED","The product has been successfully deleted!");
+define("_FPRODUCTSMEMPRODUCTSEXIST","The product couldn't be deleted. The product is used by customer packages!");
+define("_FPRODUCTSNUM","Product ID*:");
+define("_FPRODUCTSTITLE","Title*:");
+define("_FPRODUCTSTEXT","Description*:");
+define("_FPRODUCTSPRICE","Price*:");
+define("_FPRODUCTSTAX","Tax key*:");
+define("_FPRODUCTSCONTRACT","Contract:");
+define("_FPRODUCTSNOCONTRACT","No contract");
+define("_FPRODUCTSCONACCOUNT","Conaccount*:");
+define("_FPRODUCTSCONACCOUNTTWO","E�R account*:");
 
-define("_QUESTIONFPRODUCTSCHANGE","Wollen sie den Status wirklich ändern?");
+define("_QUESTIONFPRODUCTSCHANGE","Are you sure you wish to make these changes?");
 
-define("_ASSISTENTFPRODUCTS","In diesem Modul können sie Artikel anlegen. Wichtig ist dabei, dass sie in der Beschreibungsbox nicht hintereinander wegschreiben sondern jede Zeile
-mit der Entertaste beenden. Ansonsten sieht es nachher auf der Rechnung fürchterlich aus, da alles hintereinander aufgreiht wird anstatt untereinander geschrieben wird.<br><br>
-Zum Beispiel sieht es auf der Rechnung so aus, wenn sie immer jede Zeile mit der Entertaste beenden:
+define("_ASSISTENTFPRODUCTS","Here you will create your products that you can later assign to your customer and use to create invoices. 
+It is not necessary to add every game and total slots. It is fine just to enter a single product for instance game servers or to be more 
+detailed Counter-Strike server. What's important is that you use a return at the end of each line in the product description. 
+If not, the description will be rolled together in 1 line on the invoice and not be listed one after the other:
 <br><br>
 10 Slot Clan CS1.6<br>
 +14 Slot Teamspeak<br><br>
-Und so wenn sie in der Box alles hintereinander schreiben:
+If you enter every thing in the box without a return, it will look like this: 
 <br><br>
 10 Slot Clan CS1.6 +14 Slot Teamspeak<br><br>
-Bei zwei Zeilen ist dies noch nicht so schlimm aber bei drei oder vier sieht es da schon anders aus.");
+With two lines, it's not that bad, but when your description contains multiple lines the invoice can become an incomprehensible mess.");
 
 ?>

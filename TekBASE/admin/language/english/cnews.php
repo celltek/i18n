@@ -1,23 +1,23 @@
 <?php
 
-define("_CNEWSNOTALLFIELDS","Es wurden nicht alle mit einem * gekennzeichneten Felder ausgefüllt!");
-define("_CNEWSDBUPERROR","Datenbankfehler! Die News konnte nicht geändert werden!");
-define("_CNEWSDBUPDATED","Die News wurde geändert!");
-define("_CNEWSDBSAVEERROR","Datenbankfehler! Die News konnte nicht hinzugefügt werden!");
-define("_CNEWSCREATED","Die News wurde soeben hinzugefügt!");
-define("_CNEWSNEW","News eintragen");
-define("_CNEWSNOENTRY","<b>Keine News vorhanden!</b>");
-define("_CNEWSDELETESEL","markierte News löschen");
-define("_CNEWSSTATUS","Die ausgewählten News werden nun gelöscht!");
-define("_CNEWSDBDELERROR","Datenbankfehler! Die News konnte nicht gelöscht werden!");
-define("_CNEWSDBDELETED","Die News wurde soeben aus dem Webinterface gelöscht!");
-define("_CNEWSTITLE","Titel*:");
-define("_CNEWSCATEGORY","Kategorie*:");
+define("_CNEWSNOTALLFIELDS","Not all fields marked with * have been filled in!");
+define("_CNEWSDBUPERROR","Database error! The news could not be changed!");
+define("_CNEWSDBUPDATED","The news has been changed!");
+define("_CNEWSDBSAVEERROR","Database error! The news could not be added!");
+define("_CNEWSCREATED","The news has just been added!");
+define("_CNEWSNEW","Enter News");
+define("_CNEWSNOENTRY","<b>No news available!</b>");
+define("_CNEWSDELETESEL","delete marked news");
+define("_CNEWSSTATUS","The selected news will now be deleted!");
+define("_CNEWSDBDELERROR","Database error! The news could not be deleted!");
+define("_CNEWSDBDELETED","The news has just been deleted from the web interface!");
+define("_CNEWSTITLE","Title*:");
+define("_CNEWSCATEGORY","Category*:");
 define("_CNEWSTEXT","Text*:");
-define("_CNEWSLANGUAGETWO","<b>Einstellungen für die Zweitsprache</b>");
+define("_CNEWSLANGUAGETWO","<b>Settings for the second language</b>");
 
-define("_QUESTIONCNEWSCHANGE","Wollen sie den Status wirklich ändern?");
+define("_QUESTIONCNEWSCHANGE","Do you really want to change the status?");
 
-define("_ASSISTENTCNEWS","In diesem Modul können sie die News ihrer Seite verwalten und neue erstellen.");
+define("_ASSISTENTCNEWS","In this module you can manage and create news for your website.");
 
 ?>

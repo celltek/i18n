@@ -1,32 +1,32 @@
 <?php
 
-define("_CBOXESNOTALLFIELDS","Es wurden nicht alle mit einem * gekennzeichneten Felder ausgefüllt!");
-define("_CBOXESDBUPERROR","Datenbankfehler! Der Menüblock konnte nicht geändert werden!");
-define("_CBOXESDBUPDATED","Der Menüblock wurde geändert!");
-define("_CBOXESDBSAVEERROR","Datenbankfehler! Der Menüblock konnte nicht hinzugefügt werden!");
-define("_CBOXESDBCREATED","Der Menüblock wurde soeben hinzugefügt!");
-define("_CBOXESEXIST","Es existiert schon ein Menüblock mit diesem Titel!");
-define("_CBOXESNEW","Menüblock eintragen");
-define("_CBOXESNOENTRY","<b>Keine Menüblöcke vorhanden!</b>");
-define("_CBOXESDELETESEL","markierte Menüblöcke löschen");
-define("_CBOXESSTATUS","Die ausgewählten Menüblöcke werden nun gelöscht!");
-define("_CBOXESDBDELERROR","Datenbankfehler! Der Menüblock konnte nicht gelöscht werden!");
-define("_CBOXESDBDELETED","Der Menüblock wurde soeben aus dem Webinterface gelöscht!");
-define("_CBOXESSIDE","Anzeigebereich:");
-define("_CBOXESSIDELEFT","links");
-define("_CBOXESSIDERIGHT","rechts");
-define("_CBOXESSORTRESET","Sortierung zurücksetzen");
-define("_CBOXESTITLE","Titel*:");
+define("_CBOXESNOTALLFIELDS","Not all fields marked with an * have been filled out!");
+define("_CBOXESDBUPERROR","Database error! The menu block could not be updated!");
+define("_CBOXESDBUPDATED","The menu block has been updated!");
+define("_CBOXESDBSAVEERROR","Database error! The menu block could not be added!");
+define("_CBOXESDBCREATED","The menu block has just been added!");
+define("_CBOXESEXIST","A menu block with this title already exists!");
+define("_CBOXESNEW","Enter menu block");
+define("_CBOXESNOENTRY","<b>No menu blocks available!</b>");
+define("_CBOXESDELETESEL","delete selected menu blocks");
+define("_CBOXESSTATUS","The selected menu blocks will now be deleted!");
+define("_CBOXESDBDELERROR","Database error! The menu block could not be deleted!");
+define("_CBOXESDBDELETED","The menu block has just been deleted from the web interface!");
+define("_CBOXESSIDE","Display area:");
+define("_CBOXESSIDELEFT","left");
+define("_CBOXESSIDERIGHT","right");
+define("_CBOXESSORTRESET","Reset sorting");
+define("_CBOXESTITLE","Title*:");
 define("_CBOXESTEXT","Text*:");
-define("_CBOXESTPL","oder Template:");
-define("_CBOXESISACTIVE","Menüblock aktivieren?");
-define("_CBOXESLOCK","Nicht aktiv");
-define("_CBOXESACTIVE","Aktiv");
-define("_CBOXESLANGUAGETWO","<b>Einstellungen für die Zweitsprache</b>");
+define("_CBOXESTPL","or Template:");
+define("_CBOXESISACTIVE","Activate menu block?");
+define("_CBOXESLOCK","Inactive");
+define("_CBOXESACTIVE","Active");
+define("_CBOXESLANGUAGETWO","<b>Settings for the second language</b>");
 
-define("_QUESTIONCBOXESCHANGE","Wollen sie den Status wirklich ändern?");
+define("_QUESTIONCBOXESCHANGE","Do you really want to change the status?");
 
-define("_ASSISTENTCBOXES","In diesem Modul können sie Menüblöcke für die linke und rechte Seite ihres CMS Designs erstellen.
-Dies wird nur benötigt, wenn sie die box_left.tpl und box_right.tpl in ihrem Design verwenden.");
+define("_ASSISTENTCBOXES","In this module you can create menu blocks for the left and right side of your CMS design.
+This is only necessary if you use the box_left.tpl and box_right.tpl in your design.");
 
 ?>

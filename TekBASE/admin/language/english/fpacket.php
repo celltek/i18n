@@ -1,38 +1,31 @@
 <?php
 
-define("_FPACKETNOTALLFIELDS","Es wurden nicht alle mit einem * gekennzeichneten Felder ausgefüllt!");
-define("_FPACKETDBUPERROR","Datenbankfehler! Der Artikel konnte nicht geändert werden!");
-define("_FPACKETDBUPDATED","Der Artikel wurde geändert!");
-define("_FPACKETDBSAVEERROR","Datenbankfehler! Der Artikel konnte nicht hinzugefügt werden!");
-define("_FPACKETCREATED","Der Artikel wurde soeben dem Kundenpaket hinzugefügt!");
-define("_FPACKETNEW","Artikel eintragen");
-define("_FPACKETNOENTRY","<b>Keine Artikel vorhanden!</b>");
-define("_FPACKETDELETESEL","markierte Artikel löschen");
-define("_FPACKETSTATUS","Der Artikelstatus wird nun neu gesetzt!");
-define("_FPACKETDBDELERROR","Datenbankfehler! Der Artikel konnte nicht gelöscht werden!");
-define("_FPACKETDBDELETED","Der Artikel wurde soeben aus dem Kundenpaket gelöscht!");
-define("_FPACKETMEMBER","Kunde*:");
-define("_FPACKETPRODUCT","Artikel*:");
-define("_FPACKETORDERDATE","Bestelldatum*:");
-define("_FPACKETNEXTBILLDATE","Neue Rechnung ab dem*:");
-define("_FPACKETBILLDAYS","Rechnungsvorlauf in Tagen:");
-define("_FPACKETPRICEEXAMPLE","in Euro");
-define("_FPACKETPRICE","Preis*:");
-define("_FPACKETCYCLE","Vorauszahlung*:");
-define("_FPACKETCONTRACT","Vertragslaufzeit*:");
-define("_FPACKETCHANCELDAYS","Kündigungsfrist in Tagen:");
-define("_FPACKETCHANCELDATE","Kündigungsdatum:");
-define("_FPACKETTEXT","Eigene Beschreibung:");
-define("_FPACKETONEMONTH","1 Monat");
-define("_FPACKETTHREEMONTHS","3 Monate");
-define("_FPACKETSIXMONTHS","6 Monate");
-define("_FPACKETTWELVEMONTHS","12 Monate");
-define("_FPACKETTWENTYFOURMONTHS","24 Monate");
-define("_FPACKETDELETE","Produkt aus dem Paket löschen?");
-define("_FPACKETTAXKEY","Steuerschlüssel*:");
+define("_FPACKETMEMBER","Customer*:");
+define("_FPACKETPRODUCT","Product*:");
+define("_FPACKETORDERDATE","Ordered on*:");
+define("_FPACKETDATEEXAMPLE","(31.08.2006)");
+define("_FPACKETPRICEEXAMPLE","in USD");
+define("_FPACKETPRICE","Price*:");
+define("_FPACKETORDER","Ordered on:");
+define("_FPACKETMONTHLY","<b>Monthly price:</b>"); 
+define("_FPACKETDBDELERROR","Database error! The product couldn't be deleted!");
+define("_FPACKETDBDELETED","The product has been successfully deleted!");
+define("_FPACKETNOTALLFIELDS","All required fields marked with an * weren't filled in!");
+define("_FPACKETDBUPERROR","Database error! The program couldn't be changed!");
+define("_FPACKETDBUPDATED","The product was changed!");
+define("_FPACKETDBSAVEERROR","Database error! The product couldn't be added!");
+define("_FPACKETCREATED","The product was successfully added!");
+define("_FPACKETCYCLE","Prepayment*:");
+define("_FPACKETCONTRACT","Contract duration*:");
+define("_FPACKETTEXT","Own description:");
+define("_FPACKETONEMONTH","1 month");
+define("_FPACKETTHREEMONTHS","3 months");
+define("_FPACKETSIXMONTHS","6 months");
+define("_FPACKETTWELVEMONTHS","12 months");
+define("_FPACKETTWENTYFOURMONTHS","24 months");
+define("_FPACKETDELETE","Delete product from the package?");
 
-define("_QUESTIONFPACKETCHANGE","Wollen sie den Status wirklich ändern?");
-
-define("_ASSISTENTFPACKET","In diesem Modul können sie einem Kunden verschiedene Artikel hinzufügen. Nachdem sie dem Kunden einen Artikel gegeben haben können sie ihn erneut anklicken und den Preis verändern.");
+define("_ASSISTENTFPACKET","In this module, you can assign various products to your customers. It is however easier if you simply click on the package icon next to
+the customer name in the customer overview. After you have added a product to the customer package, you can edit the package and modify the price.");
 
 ?>

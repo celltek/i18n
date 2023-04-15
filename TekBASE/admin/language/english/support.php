@@ -1,77 +1,46 @@
 <?php
 
-define("_SUPPORTNOTALLFIELDS","Es wurden nicht alle mit einem * gekennzeichneten Felder ausgefüllt!");
-define("_SUPPORTDBSAVEERROR","Datenbankfehler! Die Nachricht konnte nicht gespeichert werden!");
-define("_SUPPORTCREATED","Die Nachricht wurde soeben hinzugefügt!");
-define("_SUPPORTSTATUS","Der Ticketstatus wird nun neu gesetzt!");
-define("_SUPPORTDBDELERROR","Datenbankfehler! Das Ticket konnte nicht gelöscht werden!");
-define("_SUPPORTDBDELETED","Das Ticket wurde soeben aus dem Webinterface gelöscht!");
-define("_SUPPORTMSGDELETED","Die Nachricht wurde soeben gelöscht!");
-define("_SUPPORTARCHIVEDERROR","Datenbankfehler! Das Ticket konnte nicht archiviert werden!");
-define("_SUPPORTARCHIVED","Das Ticket wurde soeben archviert!");
-define("_SUPPORTNOEMAIL","Es wurde noch kein Email Konto für System Mails angelegt!"); 
-define("_SUPPORTLOW","niedrig");
-define("_SUPPORTNORMAL","normal");
-define("_SUPPORTHIGH","hoch");
-define("_SUPPORTHIGHEST","sehr hoch");
-define("_SUPPORTLOCK","Geschlossen");
-define("_SUPPORTUNLOCK","Offen");
-define("_SUPPORTANSWERED","Beantwortet");
-define("_SUPPORTNEWPOST","Noch nicht beantwortet");
-define("_SUPPORTANSWER","Nachricht senden");
-define("_SUPPORTNOENTRY","<b>Keine Tickets vorhanden!</b>");
-define("_SUPPORTDELETESEL","markierte Tickets löschen");
-define("_SUPPORTARCHIVESEL","markierte Tickets archivieren");
-define("_SUPPORTARCH","Archiv");
-define("_SUPPORTSUBJECT","Betreff:");
-define("_SUPPORTTOPIC","Thema:");
+define("_SUPPORTNOTALLFIELDS","All required fields marked with an * weren't filled in!");
+define("_SUPPORTDBSAVEERROR","Database error! The ticket couldn't be sent!");
+define("_SUPPORTCREATED","The answer was successfully sent!");
+define("_SUPPORTSTATUS","The selected ticket status will be changed!");
+define("_SUPPORTDBDELERROR","Database error! The ticket couldn't be deleted!");
+define("_SUPPORTDBDELETED","The ticket has been successfully deleted!");
+define("_SUPPORTARCHIVEDERROR","Database error! The ticket couldn't be archived!");
+define("_SUPPORTARCHIVED","The ticket was archived!!");
+define("_SUPPORTLOW","Low");
+define("_SUPPORTNORMAL","Normal");
+define("_SUPPORTHIGH","High");
+define("_SUPPORTHIGHEST","Very high");
+define("_SUPPORTLOCK","Closed");
+define("_SUPPORTUNLOCK","Open");
+define("_SUPPORTANSWERED","Answered");
+define("_SUPPORTNEWPOST","Unanswered");
+define("_SUPPORTANSWER","Send message");
+define("_SUPPORTNOENTRY","<b>No tickets available!</b>");
+define("_SUPPORTDELETESEL","delete selected tickets");
+define("_SUPPORTARCHIVESEL","archived selected tickets");
+define("_SUPPORTARCH","Archive");
+define("_SUPPORTSUBJECT","Subject:");
+define("_SUPPORTTOPIC","Topic:");
 define("_SUPPORTTICKETID","Ticket ID:");
-define("_SUPPORTINSERTDATE","Ticket erstellt am:");
-define("_SUPPORTCREATOR","Ticket erstellt von:");
+define("_SUPPORTINSERTDATE","Ticket created on:");
+define("_SUPPORTCREATOR","Ticket created by:");
 define("_SUPPORTLINKNEW","Link zum Bild/Programm:");
-define("_SUPPORTLINK","Links bitte mit http:// bzw. https:// angeben.");
+define("_SUPPORTLINK","Link:");
 define("_SUPPORTSEARCHID","Ticket ID");
-define("_SUPPORTSEARCHMEMID","Kundenkennung");
-define("_SUPPORTCHANGE","Editieren");
-define("_SUPPORTDBUPDATEERROR","Datenbankfehler! Die Nachricht konnte nicht geändert werden!");
-define("_SUPPORTUPDATED","Die Nachricht wurde soeben geändert!");
-define("_SUPPORTNEWANSWER","Die Nachricht kann nicht geändert werden, da eine Antwort vorliegt!");
-define("_SUPPORTLOCKTICKET","Ticket zum bearbeiten sperren");
-define("_SUPPORTUNLOCKTICKET","Ticket entsperren");
-define("_SUPPORTTICKETLOCKED","Ticket gesperrt (wird bearbeitet)");
-define("_SUPPORTTICKETUNLOCKED","Ticket offen");
-define("_SUPPORTOLDERCOMMENTS","Weitere Kommentare laden");
-define("_SUPPORTSERVER","Server:");
-define("_SUPPORTTEMPLATES","Text Templates");
-define("_SUPPORTVIEWRESOURCE","Resourcen Vorschau");
-define("_SUPPORTVIEWTEMPLATE","Template Vorschau");
-define("_SUPPORTDOWNLOAD","Anhang:");
-define("_SUPPORTRESOURCES","Resourcen");
-define("_SUPPORTHELLOMR","Sehr geehrter Herr {%surname%},
+define("_SUPPORTSEARCHMEMID","Customer ID");
+define("_SUPPORTCHANGE","Editing");
+define("_SUPPORTDBUPDATEERROR","Database error! The message couldn't be changed!");
+define("_SUPPORTUPDATED","The message was changed!");
+define("_SUPPORTNEWANSWER","The message couldn't be changed! You have a new answer!");
 
 
+define("_QUESTIONSUPPORTCHANGE","Are you sure you wish to make these changes?");
 
-Mit freundlichen Grüßen
-{%admin%}");
-define("_SUPPORTHELLOMS","Sehr geehrte Frau {%surname%},
+define("_ASSISTENTSUPPORT","Here they see all new support inquiries and their last actions. Using the link archive you can view all archive support inquiries. 
+Each admin can answer support inquiries however only the admin that last answered the inquiry will receive an email if the customer writes a response. 
+This should help so that single inquiries aren't being answered by multiple admins, which can cause confusion for your customers.");
 
-
-
-Mit freundlichen Grüßen
-{%admin%}");
-
-define("_QUESTIONSUPPORTCHANGE","Wollen sie den Status wirklich ändern?");
-
-define("_ASSISTENTSUPPORT","Dieses Module beinhaltet ein komplettes Ticketsystem, welches ihnen nicht nur ermöglicht Supportanfragen von
-ihren Kunden zu beantworten, sondern auch den gesamten Verlauf einzusehen. Sie können folgende Variablen verwenden:<br><br>
-{%customerid%} - für die Kundenkennung<br>
-{%email%} - für die Email<br>
-{%surname%} - für den Vornamen<br>
-{%name%} - für den Nachnamen<br>
-{%fullname%} - für den Vornamen und Nachnamen<br>
-{%address%} - für die Anschrift<br><br>
-{%credits%} - für den aktuellen Kontostand<br>
-{%ftppasswd%} - für das FTP Passwort");
-
-define("_ASSISTENTSUPPORTARCHIVE","Hier befinden sich alle archivierten Tickets.");
+define("_ASSISTENTSUPPORTARCHIVE","Here you will find all archived support tickets.");
 ?>

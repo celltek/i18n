@@ -1,15 +1,15 @@
 <?php
 
-define("_DBOPTIMIZEYES","optimiert");
-define("_DBOPTIMIZENO","bereits optimiert");
-define("_DBOPTIMIZERESULT","<b>Ergebnis</b>");
-define("_DBOPTIMIZETXTAPARTA","Insgesamt konnten");
-define("_DBOPTIMIZETXTAPARTB","Kb eingespart werden.");
-define("_DBOPTIMIZETXTBPARTA","Die Datenbank wurde schon");
-define("_DBOPTIMIZETXTBPARTB","mal aufgerufen.");
+define("_DBOPTIMIZEYES","optimized");
+define("_DBOPTIMIZENO","already optimized");
+define("_DBOPTIMIZERESULT","<b>Result</b>");
+define("_DBOPTIMIZETXTAPARTA","A total of");
+define("_DBOPTIMIZETXTAPARTB","Kb have been saved.");
+define("_DBOPTIMIZETXTBPARTA","The database has already been accessed");
+define("_DBOPTIMIZETXTBPARTB","times.");
 define("_DBOPTIMIZETXTCPARTA","");
-define("_DBOPTIMIZETXTCPARTB","KB wurden durch die letzte Optimierung eingespart.");
+define("_DBOPTIMIZETXTCPARTB","KB was save through the last optimization.");
 
-define("_ASSISTENTDBOPTIMIZE","In diesem Modul wird ihre Datenbank automatisch optimiert und bereinigt.");
+define("_ASSISTENTDBOPTIMIZE","Only the Superadmin and admin have rights to optimize the database!");
 
 ?>

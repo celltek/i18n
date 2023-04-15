@@ -1,32 +1,32 @@
 <?php
 
-define("_CSHOPCATNOTALLFIELDS","Es wurden nicht alle mit einem * gekennzeichneten Felder ausgefüllt!");
-define("_CSHOPCATDBUPERROR","Datenbankfehler! Die Kategorie konnte nicht geändert werden!");
-define("_CSHOPCATDBUPDATED","Die Kategorie wurde geändert!");
-define("_CSHOPCATDBSAVEERROR","Datenbankfehler! Die Kategorie konnte nicht hinzugefügt werden!");
-define("_CSHOPCATDBCREATED","Die Kategorie wurde soeben hinzugefügt!");
-define("_CSHOPCATEXIST","Es existiert schon eine Kategorie mit diesem Titel!");
-define("_CSHOPCATNEW","Kategorie eintragen");
-define("_CSHOPCATNOENTRY","<b>Keine Kategorie vorhanden!</b>");
-define("_CSHOPCATDELETESEL","markierte Kategorien löschen");
-define("_CSHOPCATRESETALL","Sortierung zurücksetzen");
-define("_CSHOPCATSTATUS","Die ausgewählten Kategorien werden nun gelöscht!");
-define("_CSHOPCATDBDELERROR","Datenbankfehler! Die Kategorie konnte nicht gelöscht werden!");
-define("_CSHOPCATDBDELETED","Die Kategorie wurde soeben aus dem Webinterface gelöscht!");
-define("_CSHOPCATTITLE","Titel*:");
+define("_CSHOPCATNOTALLFIELDS","Not all fields marked with an * have been filled in!");
+define("_CSHOPCATDBUPERROR","Database error! The category could not be updated!");
+define("_CSHOPCATDBUPDATED","The category has been updated!");
+define("_CSHOPCATDBSAVEERROR","Database error! The category could not be added!");
+define("_CSHOPCATDBCREATED","The category has just been added!");
+define("_CSHOPCATEXIST","A category with this title already exists!");
+define("_CSHOPCATNEW","Add category");
+define("_CSHOPCATNOENTRY","<b>No categories available!</b>");
+define("_CSHOPCATDELETESEL","Delete selected categories");
+define("_CSHOPCATRESETALL","Reset sorting");
+define("_CSHOPCATSTATUS","The selected categories are now being deleted!");
+define("_CSHOPCATDBDELERROR","Database error! The category could not be deleted!");
+define("_CSHOPCATDBDELETED","The category has just been deleted from the web interface!");
+define("_CSHOPCATTITLE","Title*:");
 define("_CSHOPCATTEXT","Text:");
-define("_CSHOPCATTPL","Kategorie Template:");
-define("_CSHOPCATCATEGORY","Hauptkategorie:");
-define("_CSHOPCATNOCAT","keine Hauptkategorie");
-define("_CSHOPCATISACTIVE","Kategorie aktivieren?");
-define("_CSHOPCATLOCK","Nicht aktiv");
-define("_CSHOPCATACTIVE","Aktiv");
-define("_CSHOPCATLANGUAGETWO","<b>Einstellungen für die Zweitsprache</b>");
-define("_CSHOPSORTBY","Sortieren nach Name:");
-define("_CSHOPSORTTYP","Reihenfolge:");
+define("_CSHOPCATTPL","Category template:");
+define("_CSHOPCATCATEGORY","Main category:");
+define("_CSHOPCATNOCAT","no main category");
+define("_CSHOPCATISACTIVE","Activate category?");
+define("_CSHOPCATLOCK","Inactive");
+define("_CSHOPCATACTIVE","Active");
+define("_CSHOPCATLANGUAGETWO","<b>Settings for the second language</b>");
+define("_CSHOPSORTBY","Sort by name:");
+define("_CSHOPSORTTYP","Order:");
 
-define("_QUESTIONCSHOPCATCHANGE","Wollen sie den Status wirklich ändern?");
+define("_QUESTIONCSHOPCATCHANGE","Do you really want to change the status?");
 
-define("_ASSISTENTCSHOPCAT","In diesem Modul können sie Kategorien und Unterkategorien anlegen.");
+define("_ASSISTENTCSHOPCAT","In this module, you can create categories and subcategories.");
 
 ?>

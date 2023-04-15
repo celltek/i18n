@@ -1,16 +1,15 @@
 <?php
 
-define("_DBUPLOADDELERROR","Die alten Datenbank Datei /cache/dbupload.sql konnte nicht gelöscht werden! Bitte löschen sie diese!");
-define("_DBUPLOADUPOK","Die Datenbank wurde erfolgreich hochgeladen und wird nun verarbeitet!");
-define("_DBUPLOADUPERROR","Die Datenbank konnte nicht hochgeladen werden! Bitte versuchen sie es noch einmal!");
-define("_DBUPLOADBACKUPOK","Ein Backup der Datenbank wurde erfolgreich unter /cache erstellt!");
-define("_DBUPLOADDBFILEERROR","Die neue Datenkbank Datei /cache/dbupload.sql konnte nicht gefunden werden!");
-define("_DBUPLOADBACKUPERROR","Die alte Datenbank konnte nicht gesichert werden, der Vorgang wurde abgebrochen!");
-define("_DBUPLOADFILE","Datenbank Datei:*");
+define("_DBUPLOADDELERROR","The old database /cache/dbupload.sql couldn't be deleted! Please delete this file!");
+define("_DBUPLOADUPOK","The database was successfully uploaded!");
+define("_DBUPLOADUPERROR","The database couldn't be uploaded! Please try again!");
+define("_DBUPLOADBACKUPOK","A database backup was successfully create in /cache!");
+define("_DBUPLOADDBFILEERROR","The new database /cache/dbupload.sql couldn't be founded!");
+define("_DBUPLOADBACKUPERROR","The old database couldn't be saved!");
+define("_DBUPLOADFILE","Database file:*");
 
-define("_QUESTIONDBUPLOADCHANGE","Wollen sie die neue Datenbank wirklich einspielen?");
+define("_QUESTIONDBUPLOADCHANGE","Are you sure you wish to upload the new database?");
 
-define("_ASSISTENTDBUPLOAD","In diesem Modul haben sie die Möglichkeit ein Backup ihrer Datenbank neu einzuspielen.
-Bevor die neue Datenbank eingespielt wird, wird automatisch ein Backup der aktuellen Datenbank unter /cache gesichert.");
+define("_ASSISTENTDBUPLOAD","Here you can replace your existing database with a backup. Your current database will be saved in /cache.");
 
 ?>

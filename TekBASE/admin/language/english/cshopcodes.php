@@ -1,30 +1,30 @@
 <?php
 
-define("_CSHOPCODESNOTALLFIELDS","Es wurden nicht alle mit einem * gekennzeichneten Felder ausgefüllt!");
-define("_CSHOPCODESDBUPERROR","Datenbankfehler! Der Rabattcode konnte nicht geändert werden!");
-define("_CSHOPCODESDBUPDATED","Der Rabattcode wurde geändert!");
-define("_CSHOPCODESDBSAVEERROR","Datenbankfehler! Der Rabattcode konnte nicht hinzugefügt werden!");
-define("_CSHOPCODESDBCREATED","Der Rabatt wurde soeben hinzugefügt!");
-define("_CSHOPCODESNEW","Rabattcode eintragen");
-define("_CSHOPCODESDELETESEL","markierte Rabattcodes löschen");
-define("_CSHOPCODESNOENTRY","<b>Keine Rabatcodes vorhanden!</b>");
-define("_CSHOPCODESSTATUS","Die ausgewählten Rabattcodes werden nun gelöscht!");
-define("_CSHOPCODESDBDELERROR","Datenbankfehler! Der Rabattcode konnte nicht gelöscht werden!");
-define("_CSHOPCODESDBDELETED","Der Rabattcode wurde soeben aus dem Webinterface gelöscht!");
-define("_CSHOPCODESEXIST","Ein Rabattcode mit diesem Code existiert schon!");
-define("_CSHOPCODESCODE","Rabattcode*:");
-define("_CSHOPCODESSTART","Startdatum*:");
-define("_CSHOPCODESEND","Enddatum*:");
-define("_CSHOPCODESDISCOUNT","Rabatt*:");
-define("_CSHOPCODESDISCOUNTIN","Wertangabe*:");
-define("_CSHOPCODESSPERCENT","in Prozent");
-define("_CSHOPCODESTAXKEY","Steuerschlüssel*:");
-define("_CSHOPCODESLIMIT","Anzahl:");
-define("_CSHOPCODESPRODUCT","Produkt:");
-define("_CSHOPCODESALLPRODUCTS","für alle Produkte");
+define("_CSHOPCODESNOTALLFIELDS","Not all fields marked with * have been filled out!");
+define("_CSHOPCODESDBUPERROR","Database error! The discount code could not be updated!");
+define("_CSHOPCODESDBUPDATED","The discount code has been updated!");
+define("_CSHOPCODESDBSAVEERROR","Database error! The discount code could not be added!");
+define("_CSHOPCODESDBCREATED","The discount has just been added!");
+define("_CSHOPCODESNEW","Enter discount code");
+define("_CSHOPCODESDELETESEL","delete selected discount codes");
+define("_CSHOPCODESNOENTRY","<b>No discount codes available!</b>");
+define("_CSHOPCODESSTATUS","The selected discount codes will now be deleted!");
+define("_CSHOPCODESDBDELERROR","Database error! The discount code could not be deleted!");
+define("_CSHOPCODESDBDELETED","The discount code has just been deleted from the web interface!");
+define("_CSHOPCODESEXIST","A discount code with this code already exists!");
+define("_CSHOPCODESCODE","Discount code*:");
+define("_CSHOPCODESSTART","Start date*:");
+define("_CSHOPCODESEND","End date*:");
+define("_CSHOPCODESDISCOUNT","Discount*:");
+define("_CSHOPCODESDISCOUNTIN","Value*:");
+define("_CSHOPCODESSPERCENT","in percent");
+define("_CSHOPCODESTAXKEY","Tax key*:");
+define("_CSHOPCODESLIMIT","Amount:");
+define("_CSHOPCODESPRODUCT","Product:");
+define("_CSHOPCODESALLPRODUCTS","for all products");
 
-define("_QUESTIONCSHOPCODESCHANGE","Wollen sie den Status wirklich ändern?");
+define("_QUESTIONCSHOPCODESCHANGE","Do you really want to change the status?");
 
-define("_ASSISTENTCSHOPCODES","In diesem Modul können sie verschiedene Rabattcodes hinzufügen, die dann im Shop verfügbar sind.");
+define("_ASSISTENTCSHOPCODES","In this module you can add various discount codes that will be available in the shop.");
 
 ?>

@@ -1,17 +1,16 @@
 <?php
 
-define("_CSHOPORDERSVIEW","Bestellung ansehen");
-define("_CSHOPORDERSDELETESEL","markierte Bestellungen löschen");
-define("_CSHOPORDERSNOENTRY","<b>Keine Bestellungen vorhanden!</b>");
-define("_CSHOPORDERSSTATUS","Die ausgewählten Bestellungen werden nun gelöscht!");
-define("_CSHOPORDERSDBDELERROR","Datenbankfehler! Die Bestellung konnte nicht gelöscht werden!");
-define("_CSHOPORDERSDBDELETED","Die Bestellung wurde soeben aus dem Webinterface gelöscht!");
-define("_CSHOPORDERSPAYED","Bezahlt");
-define("_CSHOPORDERSOPEN","Noch nicht bezahlt");
+define("_CSHOPORDERSVIEW","View order");
+define("_CSHOPORDERSDELETESEL","Delete selected orders");
+define("_CSHOPORDERSNOENTRY","<b>No orders available!</b>");
+define("_CSHOPORDERSSTATUS","The selected orders will now be deleted!");
+define("_CSHOPORDERSDBDELERROR","Database error! The order could not be deleted!");
+define("_CSHOPORDERSDBDELETED","The order has just been deleted from the web interface!");
+define("_CSHOPORDERSPAYED","Paid");
+define("_CSHOPORDERSOPEN","Not yet paid");
 
-define("_QUESTIONCSHOPORDERSCHANGE","Wollen sie den Status wirklich ändern?");
+define("_QUESTIONCSHOPORDERSCHANGE","Do you really want to change the status?");
 
-define("_ASSISTENTCSHOPORDERS","In diesem Modul sehe sie alle Bestellungen die im Shop getätigt wurden. Sie erhalten diese Bestellbestätigungen
-auch separat per Email. Der Status der Bestellung gibt nur an, ob sie direkt beim Bestellvorgang bereits bezahlt wurde zum Beispiel mit Paypal.");
+define("_ASSISTENTCSHOPORDERS","In this module, you can view all orders that have been placed in the shop. You will also receive these order confirmations separately by email. The order status only indicates whether it has already been paid for directly during the ordering process, for example with PayPal.");
 
 ?>

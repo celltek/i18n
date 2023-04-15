@@ -1,46 +1,44 @@
 <?php
 
-define("_BROWSERBACK","Vorheriges Verzeichnis");
-define("_BROWSERFTPERROR","Die FTP Funktion ist zurzeit nicht verfügbar!");
-define("_BROWSERFTPOFFLINE","Der Server ist nicht verfügbar bzw. offline!");
-define("_BROWSERFTPBADLOGIN","Der FTP Login ist nicht korrekt!");
-define("_BROWSERRENAME","Umbenennen");
-define("_BROWSERDOWNLOAD","Downloaden");
-define("_BROWSERDELETESEL","markierte Ordner und Dateien löschen");
-define("_BROWSERFILEUPLOAD","<b>Dateiupload</b>");
-define("_BROWSERFILE","Datei:");
-define("_BROWSERUPLOAD","Hochladen");
-define("_BROWSERNEWFOLDER","Neuer Ordner");
-define("_BROWSERBACKUPALL","Komplettsicherung");
-define("_BROWSERBACKUPPDF","PDF Verzeichnis sichern");
-define("_BROWSERBACKUPDB","Datenbank sichern");
-define("_BROWSERFILENAME","Dateiname:");
-define("_BROWSERFILECONTENT","Inhalt*:");
-define("_BROWSERFILECODE","Kodierung*:");
+define("_BROWSERBACK","Previous directory");
+define("_BROWSERFTPERROR","The FTP function is currently not available!");
+define("_BROWSERFTPOFFLINE","The server is not available or offline!");
+define("_BROWSERFTPBADLOGIN","The FTP login is not correct!");
+define("_BROWSERRENAME","Rename");
+define("_BROWSERDOWNLOAD","Download");
+define("_BROWSERDELETESEL","delete selected folders and files");
+define("_BROWSERFILEUPLOAD","<b>File upload</b>");
+define("_BROWSERFILE","File:");
+define("_BROWSERUPLOAD","Upload");
+define("_BROWSERNEWFOLDER","New folder");
+define("_BROWSERBACKUPALL","Full backup");
+define("_BROWSERBACKUPPDF","Secure PDF directory");
+define("_BROWSERBACKUPDB","Secure database");
+define("_BROWSERFILENAME","Filename:");
+define("_BROWSERFILECONTENT","Content*:");
+define("_BROWSERFILECODE","Encoding*:");
 
-define("_BROWSERDELETED","Die ausgewählten Ordner und/oder Dateien wurden soeben gelöscht!");
-define("_BROWSERNOTDELETED","Die ausgewählten Ordner und/oder Dateien konnten nicht gelöscht werden!");
-define("_BROWSERFCREATED","Ein neuer Ordner wurde soeben erstellt!");
-define("_BROWSERNOTFCREATED","Es konnte kein neuer Ordner erstellt werden!");
-define("_BROWSERRENAMED","Der Ordner oder die Datei wurde soeben umbenannt!");
-define("_BROWSERNOTRENAMED","Der Ordner oder die Datei konnte nicht umbenannt werden!");
-define("_BROWSERUPLOADED","Die Datei wurde soeben hochgeladen!");
-define("_BROWSERNOTUPLOADED","Die Datei konnte nicht hochgeladen werden!");
-define("_BROWSEREDITED","Die Datei wurde soeben gespeichert!");
-define("_BROWSERNOTEDITED","Die Datei konnte nicht gespeichert werden!");
+define("_BROWSERDELETED","The selected folders and/or files have been deleted!");
+define("_BROWSERNOTDELETED","The selected folders and/or files could not be deleted!");
+define("_BROWSERFCREATED","A new folder has been created!");
+define("_BROWSERNOTFCREATED","A new folder could not be created!");
+define("_BROWSERRENAMED","The folder or file has been renamed!");
+define("_BROWSERNOTRENAMED","The folder or file could not be renamed!");
+define("_BROWSERUPLOADED","The file has been uploaded!");
+define("_BROWSERNOTUPLOADED","The file could not be uploaded!");
+define("_BROWSEREDITED","The file has been saved!");
+define("_BROWSERNOTEDITED","The file could not be saved!");
 
-define("_BACKUPDRIVEBACKUPSTART","Das Backup wird erstellt bitte warten Sie bis der Vorgang abgeschlossen ist! Falls Sie die Seite verlassen wird der Vorgang abgebrochen!");
-define("_BACKUPDRIVEBACKUPFINISH","Das Backup wurde erfolgreich erstellt und auf Ihrem Backupserver hinterlegt!");
-define("_BACKUPDRIVEBACKUPERROR","Die Backup Datei konnte nicht erstellt werden! Bitte prüfen Sie, ob das cache Verzeichnis beschreibbar ist!");
-define("_BACKUPDRIVEBACKUPCHECKIT","Das Backup konnte nicht verifiziert werden! Bitte prüfen Sie, ob das Backup auf Ihr Backupserver kopiert wurde!");
-define("_BACKUPDRIVENOACCOUNT","Die Backupserver Funktionen können Sie nur nutzen, wenn Sie in der config.php die FTP Daten hinzufügen!");
+define("_BACKUPDRIVEBACKUPSTART","The backup is being created. Please wait until the process is completed! If you leave the page, the process will be canceled!");
+define("_BACKUPDRIVEBACKUPFINISH","The backup has been successfully created and deposited on your backup server!");
+define("_BACKUPDRIVEBACKUPERROR","The backup file could not be created! Please check if the cache directory is writable!");
+define("_BACKUPDRIVEBACKUPCHECKIT","The backup could not be verified! Please check if the backup has been copied to your backup server!");
+define("_BACKUPDRIVENOACCOUNT","You can only use the backup server functions if you add FTP data to the config.php!");
 
+define("_QUESTIONBROWSERCHANGE","Do you really want to change the status?");
 
-define("_QUESTIONBROWSERCHANGE","Wollen Sie den Status wirklich ändern?");
+define("_ASSISTENTBROWSER","In this module, you can edit your TekBASE files without using an FTP program. You can add FTP data under Settings in the Setting Module area.");
 
-define("_ASSISTENTBROWSER","In diesem Modul können Sie Ihre TekBASE Dateien ganz ohne FTP Programm bearbeiten. Die FTP Daten können Sie bei Einstellungen unter dem Bereich Setting Module vornehmen.");
-
-define("_ASSISTENTBACKUPDRIVE","In diesem Modul können Sie Ihren Backupserver einsehen und somit direkt aus dem Webinterface auf Ihre im Backupserver hinterlegten Daten
-zugreifen. Egal ob sie im Büro, Daheim oder Unterwegs sind. Bitte legen Sie auf dem Backupserver einen Ordner Namens TekBASE an, erst dann funktioniert der Backupserver für TekBASE.");
+define("_ASSISTENTBACKUPDRIVE","In this module, you can view your backup server and access your data deposited on the backup server directly from the web interface, whether you're in the office, at home or on the go. Please create a folder named TekBASE on the backup server before using the backup server for TekBASE.");
 
 ?>

@@ -1,23 +1,22 @@
 <?php
 
-define("_FCONTRACTSNOTALLFIELDS","Es wurden nicht alle mit einem * gekennzeichneten Felder ausgefüllt!");
-define("_FCONTRACTSTITLEEXIST","Ein Vertrag mit diesem Titel existiert schon!");
-define("_FCONTRACTSDBUPERROR","Datenbankfehler! Der Vertrag konnte nicht geändert werden!");
-define("_FCONTRACTSDBUPDATED","Der Vertrag wurde geändert!");
-define("_FCONTRACTSDBSAVEERROR","Datenbankfehler! Der Vertrag konnte nicht hinzugefügt werden!");
-define("_FCONTRACTSCREATED","Der Vertrag wurde soeben hinzugefügt!");
-define("_FCONTRACTSNEW","Vertrag eintragen");
-define("_FCONTRACTSNOENTRY","<b>Keine Verträge vorhanden!</b>");
-define("_FCONTRACTSDELETESEL","markierte Verträge löschen");
-define("_FCONTRACTSSTATUS","Der Vertragsstatus wird nun neu gesetzt!");
-define("_FCONTRACTSDBDELERROR","Datenbankfehler! Der Vertrag konnte nicht gelöscht werden!");
-define("_FCONTRACTSDBDELETED","Der Vertrag wurde soeben aus dem Webinterface gelöscht!");
-define("_FCONTRACTSTITLE","Titel*:");
+define("_FCONTRACTSNOTALLFIELDS","All required fields marked with an * weren't filled in!");
+define("_FCONTRACTSTITLEEXIST","A contract with this title already exists!");
+define("_FCONTRACTSDBUPERROR","Database error! The contract couldn't be changed!");
+define("_FCONTRACTSDBUPDATED","The contract was changed!");
+define("_FCONTRACTSDBSAVEERROR","Database error! The contract couldn't be added!");
+define("_FCONTRACTSCREATED","The contract was successfully added!");
+define("_FCONTRACTSNEW","Add a contract");
+define("_FCONTRACTSNOENTRY","<b>No contracts available!</b>");
+define("_FCONTRACTSDELETESEL","delete selected contract");
+define("_FCONTRACTSSTATUS","The selected contracts will be changed!");
+define("_FCONTRACTSDBDELERROR","Database error! The contract couldn't be deleted!");
+define("_FCONTRACTSDBDELETED","The contract has been successfully deleted!");
+define("_FCONTRACTSTITLE","Title*:");
 define("_FCONTRACTSTEXT","Text*:");
 
-define("_QUESTIONFCONTRACTSCHANGE","Wollen sie den Status wirklich ändern?");
+define("_QUESTIONFCONTRACTSCHANGE","Are you sure you wish to make these changes?");
 
-define("_ASSISTENTFCONTRACTS","In diesem Modul können sie verschiedene Verträge anlegen und diese später unter
-Rechnungs Artikel zuweisen können.");
+define("_ASSISTENTFCONTRACTS","Here you can create different contracts for your products.");
 
 ?>

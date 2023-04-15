@@ -1,18 +1,17 @@
 <?php
 
-define("_CSTATISTICSDBDELERROR","Datenbankfehler! Der Verlauf konnte nicht gelöscht werden!");
-define("_CSTATISTICSDBDELETED","Der Verlauf wurde soeben aus dem Webinterface gelöscht!");
-define("_CSTATISTICSREFERER","<b>Herkunft</b>");
-define("_CSTATISTICSCYEAR","<b>Im Jahr</b>");
-define("_CSTATISTICSAYEARS","<b>Alle Jahre</b>");
-define("_CSTATISTICSIMPRESSIONS","<b>Seitenaufrufe</b>");
-define("_CSTATISTICSORDERSANDIMPS","<b>Bestellungen und Seitenaufrufe</b>");
+define("_CSTATISTICSDBDELERROR","Database error! The history couldn't be deleted!");
+define("_CSTATISTICSDBDELETED","The history has been successfully deleted!");
+define("_CSTATISTICSREFERER","<b>The visitors came from</b>");
+define("_CSTATISTICSCYEAR","<b>Year</b>");
+define("_CSTATISTICSAYEARS","<b>All years</b>");
+define("_CSTATISTICSIMPRESSIONS","<b>Impressions</b>");
 define("_CSTATISTICSBROWSER","<b>Browser</b>");
-define("_CSTATISTICSOS","<b>Betriebssystem</b>");
-define("_CSTATISTICSDEL","Verlauf löschen");
+define("_CSTATISTICSOS","<b>Operation system</b>");
+define("_CSTATISTICSDEL","Delete history");
 
-define("_QUESTIONCSTATISTICSCHANGE","Wollen sie die Statistiken wirklich löschen?");
+define("_QUESTIONCSTATISTICSCHANGE","Are you sure you wish to make these changes?");
 
-define("_ASSISTENTCSTATISTICS","Hier erfahren sie woher ihre Besucher kommen und wann wieviele Besucher auf ihren Seiten waren.");
+define("_ASSISTENTCSTATISTICS","Here you will see graphical website statistics. Displayed will be referring websites, visitors browser / OS and how many page hits you have received.");
 
 ?>

@@ -1,127 +1,112 @@
 <?php
 
-define("_MRSERVERNOTALLFIELDS","Es wurden nicht alle mit einem * gekennzeichneten Felder ausgefüllt!");
-define("_MRSERVEREXIST","Es existiert schon ein Rootserver mit diesen IPs!");
-define("_MRSERVERDBUPERROR","Datenbankfehler! Der Rootserver konnte nicht geändert werden!");
-define("_MRSERVERDBUPDATED","Der Rootserver wurde geändert!");
-define("_MRSERVERDBDELERROR","Datenbankfehler! Der Rootserver konnte nicht gelöscht werden!");
-define("_MRSERVERDBDELETED","Der Rootserver wurde soeben aus dem Webinterface gelöscht!");
-define("_MRSERVERDBSAVEERROR","Datenbankfehler! Der Rootserver konnte nicht hinzugefügt werden!");
-define("_MRSERVERCREATED","Der Rootserver wurde soeben hinzugefügt!");
-define("_MRSERVERNEW","Rootserver eintragen");
-define("_MRSERVERDELETESEL","markierte Rootserver löschen");
-define("_MRSERVERINSTSEL","markierte Rootserver updaten");
-define("_MRSERVERSERVICEONSEL","Wartungsmodus aktivieren");
-define("_MRSERVERSERVICEOFFSEL","Wartungsmodus deaktivieren");
-define("_MRSERVERTRAFFICSEL","markierte Rootserver Trafficabfrage");
-define("_MRSERVERNOENTRY","<b>Keine Rootserver vorhanden!</b>");
-define("_MRSERVERSTATUS","Der Rootserverstatus wird nun neu gesetzt!");
-define("_MRSERVERUPDATED","Die Skripte werden nun geupdated!");
-define("_MRSERVERSERVICEON","Der Wartungsmodus wurde aktiviert!");
-define("_MRSERVERSERVICEONDBERROR","Datenbankefehler! Der Wartungsmodus konnte nicht aktiviert werden!");
-define("_MRSERVERSERVICEOFF","Der Wartungsmodus wurde deaktiviert!");
-define("_MRSERVERSERVICEOFFDBERROR","Datenbankefehler! Der Wartungsmodus konnte nicht deaktiviert werden!");
-define("_MRSERVERUPDATEERROR","Die Skripte konnten nicht geupdated werden!");
-define("_MRSERVERTRAFFICERROR","Es konnten keine Traffic Informationen abgefragt werden!");
-define("_MRSERVERMEMBER","Kunde*:");
+define("_MRSERVERNOTALLFIELDS","All required fields marked with an * weren't filled in!");
+define("_MRSERVEREXIST","A root server with this ip already exists!");
+define("_MRSERVERDBUPERROR","Database error! The root server couldn't be changed!");
+define("_MRSERVERDBUPDATED","The root server was changed!");
+define("_MRSERVERDBDELERROR","Database error! The root server couldn't be deleted!");
+define("_MRSERVERDBDELETED","The root server has been successfully deleted!");
+define("_MRSERVERDBSAVEERROR","Database error! The root server couldn't be added!");
+define("_MRSERVERCREATED","The root server was successfully added!");
+define("_MRSERVERNEW","Add a root server");
+define("_MRSERVERDELETESEL","delete selected root servers");
+define("_MRSERVERINSTSEL","update selected root servers");
+define("_MRSERVERTRAFFICSEL","traffic for selected root servers");
+define("_MRSERVERNOENTRY","<b>No root servers available!</b>");
+define("_MRSERVERSTATUS","The selected root server status will be changed!");
+define("_MRSERVERUPDATED","The scripts will be updated!");
+define("_MRSERVERUPDATEERROR","The scripts couldn't be updated!");
+define("_MRSERVERTRAFFICERROR","The traffic couldn't be showed!");
+define("_MRSERVERMEMBER","Customer*:");
 define("_MRSERVERNAME","Name*:");
-define("_MRSERVERIP","Serverip*:");
+define("_MRSERVERIP","Server IP*:");
 define("_MRSERVERTEMP","Template:");
-define("_MRSERVERAPPSALLOWED","Programme erlauben:");
-define("_MRSERVERGAMESALLOWED","Gameserver erlauben:");
-define("_MRSERVERHLSTATSALLOWED","HlStatsX CE erlauben:");
-define("_MRSERVERSTREAMSALLOWED","Streamserver erlauben:");
-define("_MRSERVERVOICESALLOWED","Voiceserver erlauben:");
-define("_MRSERVERMINERALLOWED","Miner erlauben:");
-define("_MRSERVERSERVICESALLOWED","Dienste erlauben:");
-define("_MRSERVERRESTARTALLOWED","Restart erlauben:");
-define("_MRSERVERSHUTDOWNALLOWED","Shutdown erlauben:");
-define("_MRSERVERREINSTALLALLOWED","Neuinstallation erlauben:");
-define("_MRSERVERINVISIBLE","Rootserver ausblenden:");
-define("_MRSERVEROPSYSTEMINFO","Betriebssystem Info:");
+define("_MRSERVERAPPSALLOWED","Allow programs");
+define("_MRSERVERGAMESALLOWED","Allow game servers:");
+define("_MRSERVERSTREAMSALLOWED","Allow stream servers:");
+define("_MRSERVERVOICESALLOWED","Allow voice servers:");
+define("_MRSERVERSERVICESALLOWED","Allow services:");
+define("_MRSERVERRESTARTALLOWED","Allow restarts:");
+define("_MRSERVERSHUTDOWNALLOWED","Allow shutdowns:");
+define("_MRSERVERREINSTALLALLOWED","Allow reinstalls:");
+define("_MRSERVERTSADMIN","TS2 superadmin:");
+define("_MRSERVERTSPASSWD","TS2 password:");
+define("_MRSERVERTSQUERY","TS2 queryport:");
+define("_MRSERVEROPSYSTEMINFO","Operation system info:");
 define("_MRSERVERCPUINFO","CPU:");
-define("_MRSERVERRAM","Arbeitsspeicher:");
-define("_MRSERVERHDD","Festplatte(n):");
+define("_MRSERVERRAM","RAM:");
+define("_MRSERVERHDD","HDD:");
 define("_MRSERVERTRAFFIC","Traffic:");
-define("_MRSERVERSYSTEM","Imageauswahl:");
-define("_MRSERVEROPPOOL","Betriebssystem Auswahl*:<br>(Neuinstallation Kunden)");
-define("_MRSERVERSYSTEMONE","32Bit (Standard Images)");
-define("_MRSERVERSYSTEMTWO","64Bit (Nur für spezielle 64Bit Images)");
-define("_MRSERVERSSHDAEMON","Verbindungsart:");
-define("_MRSERVERSSHKEYS","SSH Keys");
+define("_MRSERVERSYSTEM","Operation system:");
+define("_MRSERVEROPPOOL","Operation system choice*:<br>(Customer reinstall)");
+define("_MRSERVERSYSTEMONE","32Bit");
+define("_MRSERVERSYSTEMTWO","64Bit");
+define("_MRSERVERSSHDAEMON","Connection type:");
+define("_MRSERVERSSHKEYS","SSH keys");
 define("_MRSERVERLINUXDAEMON","Linux Daemon");
 define("_MRSERVERWINDAEMON","Windows Daemon");
-define("_MRSERVERDAEMONPASSWD","Daemon Passwort:");
-define("_MRSERVERROOTPW","Root Passwort*:");
-define("_MRSERVERIPINFO","<b>Alle IP Adressen:</b>");
-define("_MRSERVERDAY","24 Stunden Ansicht");
-define("_MRSERVERWEEK","Wochenansicht");
-define("_MRSERVERMONTH","Monatsansicht");
-define("_MRSERVERYEAR","Jahresansicht");
-define("_MRSERVERNEWSCRIPT","Neue Skripte verfügbar");
-define("_MRSERVERSCRIPTOK","Skripte sind aktuell");
-define("_MRSERVERERROR","Rootserver nicht erreichbar");
-define("_MRSERVERJAVASSH","SSH Terminal");
-define("_MRSERVERTRAFFICCURRENT","Verbrauchter Traffic:");
-define("_MRSERVERTRAFFICFREE","Inklusiv Traffic: ");
-define("_MRSERVERTRAFFICLAST","Vormonat: ");
-define("_MRSERVERROOT","<b>Rootserver:</b>");
+define("_MRSERVERDAEMONPASSWD","Daemon password:");
+define("_MRSERVERROOTPW","Root password*:");
+define("_MRSERVERIPINFO","<b>All IP addresses</b>");
+define("_MRSERVERSTATCPU","<b>CPU usage rate</b>");
+define("_MRSERVERSTATLOAD","<b>Load</b>");
+define("_MRSERVERSTATMEMORY","<b>RAM usage rate</b>");
+define("_MRSERVERSTATSWAP","<b>Swap usage rate</b>");
+define("_MRSERVERSTATUSERS","<b>Users</b>");
+define("_MRSERVERSTATTRAFFIC","<b>Traffic</b>");
+define("_MRSERVERDAY","24h view");
+define("_MRSERVERWEEK","Weakly view");
+define("_MRSERVERMONTH","Monthly view");
+define("_MRSERVERYEAR","Yearly view");
+define("_MRSERVERSTATEMPTY","No statistics available");
+define("_MRSERVERNEWSCRIPT","New scripts available!");
+define("_MRSERVERSCRIPTOK","The scripts are up to date!");
+define("_MRSERVERERROR","Root server not reachable!");
+define("_MRSERVERJAVASSH","SSH terminal");
+define("_MRSERVERTRAFFICCURRENT","Consumed traffic:");
+define("_MRSERVERTRAFFICFREE","Inclusive traffic: ");
+define("_MRSERVERTRAFFICLAST","Previous month:");
+define("_MRSERVERMEMADDRESS","<b>Address:</b>");
+define("_MRSERVERMEMPHONE","Phone:");
+define("_MRSERVERMEMEMAIL","Email:");
+define("_MRSERVERROOT","<b>Root server:</b>");
 define("_MRSERVERCPUINFOTWO","<b>CPU:</b>");
 define("_MRSERVERRAMTWO","<b>RAM:</b>");
 define("_MRSERVERHDDTWO","<b>HDD:</b>");
 define("_MRSERVERTRAFFICTWO","<b>Traffic:</b>");
-define("_MRSERVERROOTPWTWO","<b>Default Rootpasswort:</b>");
+define("_MRSERVERROOTPWTWO","<b>Default root password:</b>");
 define("_MRSERVERALLOWED","<b>Features:</b>");
-define("_MRSERVERMINEROK","Miner erlaubt");
-define("_MRSERVERSERVICESOK","Dienste erlaubt");
-define("_MRSERVERRESTARTOK","Restart erlaubt");
-define("_MRSERVERSHUTDOWNOK","Shutdown erlaubt");
-define("_MRSERVERREINSTALLOK","Neuinstallation erlaubt");
-define("_MRSERVERMINERNO","Miner nicht erlaubt");
-define("_MRSERVERSERVICESNO","Dienste nicht erlaubt");
-define("_MRSERVERRESTARTNO","Restart nicht erlaubt");
-define("_MRSERVERSHUTDOWNNO","Shutdown nicht erlaubt");
-define("_MRSERVERREINSTALLNO","Neuinstallation nicht erlaubt");
-define("_MRSERVERAPPSYES","Programme");
-define("_MRSERVERGAMESYES","Gameserver");
-define("_MRSERVERSTREAMSYES","Streamserver");
-define("_MRSERVERVOICESYES","Voiceserver");
-define("_MRSERVERCPUCORES","CPU Kerne:");
-define("_MRSERVERSSHUSER","SSH User:");
-define("_MRSERVERPORT","SSH oder Daemon Port:");
-define("_MRSERVERSSHUSERTWO","<b>SSH User:</b>");
-define("_MRSERVERSSHPORT","<b>SSH Port:</b>");
-define("_MRSERVERDAEMONPORT","<b>Daemon Port:</b>");
-define("_MRSERVERSCRIPTPATH","Skript Verzeichnis:");
-define("_MRSERVERCONNECTION","<b>Verbindungsart:</b>");
-define("_MRSERVERINFO","<b>Server Infos</b>");
-define("_MRSERVERFUNCTIONS","<b>Server Funktionen</b>");
-define("_MRSERVERSETTINGS","<b>Server Einstellungen</b>");
-define("_MRSERVERMOREOPTIONS","<b>Erweiterte Einstellungen</b>");
-define("_MRSERVERINFOS","Infofeld (text/html):");
-define("_MRSERVERSTATSLIST","Grafiken für Statistiken:");
-define("_MRSERVERFTPPORT","FTP-Server Port:");
-define("_MRSERVERFTPTYP","FTP-Server Typ:");
-define("_MRSERVERFTPPASSIVON","Passiv Mode an");
-define("_MRSERVERFTPPASSIVOFF","Passiv Mode aus");
-define("_MRSERVERLINKTOPRODUCT","Produkt zuweisen:");
-define("_MRSERVERMANAGED","(Nein = Managed VServer)");
-define("_MRSERVERMINERINFO","<b>Was sind Miner?</b>");
-define("_MRSERVERMINERTXT","Wenn sie die Miner Funktion erlauben, können ihre Kunden auf dem Rootserver ein Programm starten,<br>
-                            welches Nabucoins generiert. Nabucoins sind eine virtuelle Zahlungseinheit ähnlich den Bitcoins<br>
-                            oder Litecoins. Das Zahlungssystem ist dezentral, weitgehend anonym und erlaubt Transaktionen mit<br>
-                            sehr geringer Transaktionsgebühr (nicht einmal 1 Cent). Nabucoins können ähnlich wie Paysafecard<br>
-                            gehändelt werden.<br><br>
-                            Sie können Nabucoins als eine Art Rabattsystem ansehen. Ihre Kunden generieren Nabucoins und sie<br>
-                            tauschen pro Kunden die Nabucoins in einen Rabatt auf die nächste Rechnung um. Dabei bestimmen sie,<br>
-                            wie der Kurs ist und wieviel Rabatt pro Monat sie akzeptieren. Das System bietet sich auch an,<br>
-                            um die erste Rechnung komplett mit Nabucoins zu finanzieren um so Neukunden zu gewinnen.<br><br>
-                            Nabucoins können exklusiv nur TekBASE Hoster nutzen. Mehr Informationen erhalten sie unter:<br><br>
-                            Link: <a href=\"https://nabucoin.com\" target=\"_blank\">Nabucoin.com</a>");
+define("_MRSERVERSERVICESOK","Services allowed");
+define("_MRSERVERRESTARTOK","Restart allowed");
+define("_MRSERVERSHUTDOWNOK","Shutdown allowed");
+define("_MRSERVERREINSTALLOK","Reinstallation allowed");
+define("_MRSERVERSERVICESNO","Services not allowed");
+define("_MRSERVERRESTARTNO","Restart not allowed");
+define("_MRSERVERSHUTDOWNNO","Shutdown not allowed");
+define("_MRSERVERREINSTALLNO","Reinstallation not allowed");
+define("_MRSERVERAPPSYES","Programs");
+define("_MRSERVERGAMESYES","Game servers");
+define("_MRSERVERSTREAMSYES","Stream servers");
+define("_MRSERVERVOICESYES","Voice servers");
+define("_MRSERVERAPPSNO","");
+define("_MRSERVERGAMESNO","");
+define("_MRSERVERSTREAMSNO","");
+define("_MRSERVERVOICESNO","");
+define("_MRSERVERSSHUSER","SSH user:");
+define("_MRSERVERPORT","SSH or Daemon port:");
+define("_MRSERVERSSHUSERTWO","<b>SSH user:</b>");
+define("_MRSERVERSSHPORT","<b>SSH port:</b>");
+define("_MRSERVERDAEMONPORT","<b>Daemon port:</b>");
+define("_MRSERVERSCRIPTPATH","Script folder:");
+define("_MRSERVERCONNECTION","<b>Connection via:</b>");
 
-define("_QUESTIONMRSERVERCHANGE","Wollen sie den Status wirklich ändern?");
 
-define("_ASSISTENTMRSERVER","In diesem Modul können sie Kunden Rootserver hinzufügen, jeder Rootserver kann beliebig viele IP Adressen besitzen. In der Übersicht können sie die Maus auf das IP Icon
-ziehen und erhalten eine Anzeige alle IPs. Bewegen sie den Mauszeiger auf das Icon neben dem Servernamen und sie erhalten eine Beschreibung des Servers.");
+
+define("_QUESTIONMRSERVERCHANGE","Are you sure you wish to make these changes?");
+
+define("_ASSISTENTMRSERVER","To enable your customer webinterface control over their root servers it will have to be entered here first. 
+If you have created a server template, you only need to select the template, and then add a name and IP address of the server. 
+You can select if the server should be control via the SSH keys or by using a Daemon. If you have a TekGWI or TekSWI license you enable the 
+function that will allow your customer to use the game Servers, stream servers, voice servers and or programs features.");
 
 ?>

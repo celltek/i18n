@@ -1,81 +1,80 @@
 <?php
 
-define("_TABLEKEYWORDS","<b>Schlagwörter</b>");
-define("_TABLECREATEDATE","<b>Datum</b>");
-define("_TABLECOMMENT","<b>Kommentar</b>");
-define("_TABLEARTICLE","<b>Als Antwort auf den Beitrag</b>");
+define("_TABLEKEYWORDS","<b>Keywords</b>"); // Keywords
+define("_TABLECREATEDATE","<b>Date</b>"); // Date
+define("_TABLECOMMENT","<b>Comment</b>"); // Comment
+define("_TABLEARTICLE","<b>In response to the post</b>"); // In response to the post
 
-define("_CBLOG","Blog Modul");
-define("_CBLOGNOTALLFIELDS","Es wurden nicht alle mit einem * gekennzeichneten Felder ausgefüllt!");
-define("_CBLOGARTICLESTATUS","Die ausgewählten Beiträge werden nun gelöscht!");
-define("_CBLOGARTICLEDBUPERROR","Datenbankfehler! Der Beitrag konnte nicht geändert werden!");
-define("_CBLOGARTICLEDBUPDATED","Der Beitrag wurde geändert!");
-define("_CBLOGARTICLEDBSAVEERROR","Datenbankfehler! Der Beitrag konnte nicht hinzugefügt werden!");
-define("_CBLOGARTICLEDBCREATED","Der Beitrag wurde soeben hinzugefügt!");
-define("_CBLOGARTICLEDBDELETED","Der Beitrag wurde soeben aus dem Webinterface gelöscht!Datenbankfehler! Der Beitrag konnte nicht gelöscht werden!");
-define("_CBLOGARTICLEDBDELERROR","Datenbankfehler! Der Beitrag konnte nicht gelöscht werden!");
-define("_CBLOGCOMMENTSTATUS","Die ausgewählten Kommentare werden nun gelöscht!");
-define("_CBLOGCOMMENTDBUPERROR","Datenbankfehler! Der Kommentar konnten nicht geändert werden!");
-define("_CBLOGCOMMENTDBUPDATED","Der Kommentar wurden geändert!");
-define("_CBLOGCOMMENTDBSAVEERROR","Datenbankfehler! Der Kommentar konnte nicht hinzugefügt werden!");
-define("_CBLOGCOMMENTDBCREATED","Der Kommentar wurde soeben hinzugefügt!");
-define("_CBLOGCOMMENTDBDELETED","Der Kommentar wurde soeben aus dem Webinterface gelöscht!");
-define("_CBLOGCOMMENTDBDELERROR","Datenbankfehler! Der Kommentar konnte nicht gelöscht werden!");
-define("_CBLOGCATEGORYSTATUS","Die ausgewählten Kategorien werden nun gelöscht!");
-define("_CBLOGCATEGORYDBUPERROR","Datenbankfehler! Die Kategorie konnten nicht geändert werden!");
-define("_CBLOGCATEGORYDBUPDATED","Die Kategorie wurden geändert!");
-define("_CBLOGCATEGORYDBSAVEERROR","Datenbankfehler! Der Kategorie konnte nicht hinzugefügt werden!");
-define("_CBLOGCATEGORYDBCREATED","Der Kategorie wurde soeben hinzugefügt!");
-define("_CBLOGCATEGORYDBDELETED","Die Kategorie wurde soeben aus dem Webinterface gelöscht!");
-define("_CBLOGCATEGORYDBDELERROR","Datenbankfehler! Die Kategorie konnte nicht gelöscht werden!");
-define("_CBLOGOPTIONSDBUPERROR","Datenbankfehler! Die Einstellungen konnten nicht geändert werden!");
-define("_CBLOGOPTIONSDBUPDATED","Die Einstellungen wurden geändert!");
-define("_CBLOGARTICLENOENTRY","<b>Keine Beiträge vorhanden!</b>");
-define("_CBLOGARTICLEDELETESEL","markierte Beiträge löschen");
-define("_CBLOGCOMMENTNOENTRY","<b>Keine Kommentare vorhanden!</b>");
-define("_CBLOGCOMMENTDELETESEL","markierte Kommentare löschen");
-define("_CBLOGCOMMENTACTIVATESEL","markierte Kommentare genehmigen");
-define("_CBLOGCATEGORYNOENTRY","<b>Keine Kategorie vorhanden!</b>");
-define("_CBLOGCATEGORYDELETESEL","markierte Kategorie löschen");
-define("_CBLOGARTICLE","Beitrag*:");
-define("_CBLOGARTICLELIST","Beiträge");
-define("_CBLOGARTICLENEW","Beitrag erstellen");
-define("_CBLOGCOMMENT","Kommentar*:");
-define("_CBLOGCOMMENTLIST","Kommentare");
-define("_CBLOGCOMMENTNEW","Kommentar erstellen");
-define("_CBLOGCATEGORYLIST","Kategorien");
-define("_CBLOGCATEGORYNEW","Kategorie erstellen");
-define("_CBLOGOPTIONS","Einstellungen");
-define("_CBLOGARTICLEACTIVE","veröffentlicht");
-define("_CBLOGARTICLENOTACTIVE","gesperrt");
-define("_CBLOGCOMMENTACTIVE","veröffentlicht");
-define("_CBLOGCOMMENTNOTACTIVE","ausstehend");
+define("_CBLOG","Blog Module"); // Blog Module
+define("_CBLOGNOTALLFIELDS","Not all fields marked with * were filled in!"); // Not all fields marked with * were filled in!
+define("_CBLOGARTICLESTATUS","The selected posts will now be deleted!"); // The selected posts will now be deleted!
+define("_CBLOGARTICLEDBUPERROR","Database error! The post could not be changed!"); // Database error! The post could not be changed!
+define("_CBLOGARTICLEDBUPDATED","The post has been changed!"); // The post has been changed!
+define("_CBLOGARTICLEDBSAVEERROR","Database error! The post could not be added!"); // Database error! The post could not be added!
+define("_CBLOGARTICLEDBCREATED","The post has just been added!"); // The post has just been added!
+define("_CBLOGARTICLEDBDELETED","The post has just been deleted from the web interface!"); // The post has just been deleted from the web interface!
+define("_CBLOGARTICLEDBDELERROR","Database error! The post could not be deleted!"); // Database error! The post could not be deleted!
+define("_CBLOGCOMMENTSTATUS","The selected comments will now be deleted!"); // The selected comments will now be deleted!
+define("_CBLOGCOMMENTDBUPERROR","Database error! The comment could not be changed!"); // Database error! The comment could not be changed!
+define("_CBLOGCOMMENTDBUPDATED","The comment has been changed!"); // The comment has been changed!
+define("_CBLOGCOMMENTDBSAVEERROR","Database error! The comment could not be added!"); // Database error! The comment could not be added!
+define("_CBLOGCOMMENTDBCREATED","The comment has just been added!"); // The comment has just been added!
+define("_CBLOGCOMMENTDBDELETED","The comment has just been deleted from the web interface!"); // The comment has just been deleted from the web interface!
+define("_CBLOGCOMMENTDBDELERROR","Database error! The comment could not be deleted!"); // Database error! The comment could not be deleted!
+define("_CBLOGCATEGORYSTATUS","The selected categories will now be deleted!"); // The selected categories will now be deleted!
+define("_CBLOGCATEGORYDBUPERROR","Database error! The category could not be changed!"); // Database error! The category could not be changed!
+define("_CBLOGCATEGORYDBUPDATED","The categories have been changed!"); // The categories have been changed!
+define("_CBLOGCATEGORYDBSAVEERROR","Database error! The category could not be added!"); // Database error! The category could not be added!
+define("_CBLOGCATEGORYDBCREATED","The category has just been added!"); // The category has just been added!
+define("_CBLOGCATEGORYDBDELETED","The category has just been deleted from the web interface!"); // The category has just been deleted from the web interface!
+define("_CBLOGCATEGORYDBDELERROR","Database error! The category could not be deleted!"); // Database error! The category could not be deleted!
+define("_CBLOGOPTIONSDBUPERROR","Database error! The settings could not be changed!"); // Database error! The settings could not be changed!
+define("_CBLOGOPTIONSDBUPDATED","The settings have been changed!");
+define("_CBLOGARTICLENOENTRY","<b>No entries available!</b>");
+define("_CBLOGARTICLEDELETESEL","delete selected entries");
+define("_CBLOGCOMMENTNOENTRY","<b>No comments available!</b>");
+define("_CBLOGCOMMENTDELETESEL","delete selected comments");
+define("_CBLOGCOMMENTACTIVATESEL","approve selected comments");
+define("_CBLOGCATEGORYNOENTRY","<b>No categories available!</b>");
+define("_CBLOGCATEGORYDELETESEL","delete selected category");
+define("_CBLOGARTICLE","Article*:");
+define("_CBLOGARTICLELIST","Articles");
+define("_CBLOGARTICLENEW","Create article");
+define("_CBLOGCOMMENT","Comment*:");
+define("_CBLOGCOMMENTLIST","Comments");
+define("_CBLOGCOMMENTNEW","Create comment");
+define("_CBLOGCATEGORYLIST","Categories");
+define("_CBLOGCATEGORYNEW","Create category");
+define("_CBLOGOPTIONS","Settings");
+define("_CBLOGARTICLEACTIVE","published");
+define("_CBLOGARTICLENOTACTIVE","locked");
+define("_CBLOGCOMMENTACTIVE","published");
+define("_CBLOGCOMMENTNOTACTIVE","pending");
 define("_CBLOGADMIN","Admin*:");
 define("_CBLOGMEMBER","User*:");
 define("_CBLOGUSERNAME","Name*:");
 define("_CBLOGUSEREMAIL","Email*:");
-define("_CBLOGCATEGORY","Kategorie*:");
-define("_CBLOGTITLE","Titel*:");
+define("_CBLOGCATEGORY","Category*:");
+define("_CBLOGTITLE","Title*:");
 define("_CBLOGSEOURL","SEO URL:");
-define("_CBLOGTEXT","Beitrag*:");
-define("_CBLOGKEYWORDS","Schlagwörter:");
-define("_CBLOGCOMMENTS","Kommentare erlauben:");
-define("_CBLOGRELEASEDATE","Veröffentlichen am:");
-define("_CBLOGWRITEDATE","Geschrieben am:");
-define("_CBLOGARTICLEISACTIVE","Beitrag anzeigen?");
-define("_CBLOGCOMMTENTSISACTIVE","Kommentar anzeigen?");
-define("_CBLOGARTICLEROW","Beiträge pro Seite*:");
-define("_CBLOGEMOTEICON","Emoteicons verwenden:");
-define("_CBLOGUSERICON","Profilicons verwenden:");
-define("_CBLOGUSESEOLINKS","Suchmaschinenfreundliche Links:");
-define("_CBLOGSHOWCOMMENTS","Kommentare sofort freischalten:");
-define("_CBLOGSORTCOMMENTS","Kommentare sortieren:");
-define("_CBLOGSORTNEWFIRST","Die neusten zuerst");
-define("_CBLOGSORTOLDFIRST","Die ältesten zuerst");
+define("_CBLOGTEXT","Article*:");
+define("_CBLOGKEYWORDS","Keywords:");
+define("_CBLOGCOMMENTS","Allow comments:");
+define("_CBLOGRELEASEDATE","Publish date:");
+define("_CBLOGWRITEDATE","Written on:");
+define("_CBLOGARTICLEISACTIVE","Show article?");
+define("_CBLOGCOMMTENTSISACTIVE","Show comment?");
+define("_CBLOGARTICLEROW","Articles per page*:");
+define("_CBLOGEMOTEICON","Use emoteicons:");
+define("_CBLOGUSERICON","Use profile icons:");
+define("_CBLOGUSESEOLINKS","Search engine friendly links:");
+define("_CBLOGSHOWCOMMENTS","Approve comments immediately:");
+define("_CBLOGSORTCOMMENTS","Sort comments:");
+define("_CBLOGSORTNEWFIRST","Newest first");
+define("_CBLOGSORTOLDFIRST","Oldest first");
 
-define("_QUESTIONCBLOGCHANGE","Wollen sie den Status wirklich ändern?");
+define("_QUESTIONCBLOGCHANGE","Do you really want to change the status?");
 
-define("_ASSISTENTCBLOG","In diesem Bereich können Sie Ihren Blog verwalten. Nehmen Sie bitte als erstes die Einstellungen vor. Danach können Sie dann eine Kategorie
-erstellen und anschließend einen Beitrag.");
+define("_ASSISTENTCBLOG","In this area you can manage your blog. Please start by configuring the settings. After that, you can create a category and then a blog post.");
 
 ?>

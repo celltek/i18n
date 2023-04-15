@@ -1,35 +1,32 @@
 <?php
 
-define("_GAMEFILESNEW","Datei eintragen");
-define("_GAMEFILESEXIST","Diese Datei existiert schon für das Programm!");
-define("_GAMEFILESDBDELERROR","Datenbankfehler! Die Datei konnte nicht gelöscht werden!");
-define("_GAMEFILESDBDELETED","Die Datei wurde soeben aus dem Webinterface gelöscht!");
-define("_GAMEFILESDBUPERROR","Datenbankfehler! Die Datei konnte nicht geändert werden!");
-define("_GAMEFILESDBUPDATED","Die Datei wurde geändert!");
-define("_GAMEFILESDBSAVEERROR","Datenbankfehler! Die Datei konnte nicht hinzugefügt werden!");
-define("_GAMEFILESNOTALLFIELDS","Es wurden nicht alle mit einem * gekennzeichneten Felder ausgefüllt!");
-define("_GAMEFILESSTATUS","Die ausgewählten Dateien werden nun gelöscht!");
-define("_GAMEFILESCREATED","Die Datei wurde soeben hinzugefügt!");
-define("_GAMEFILESNOENTRY","<b>Keine Dateien vorhanden!</b>");
-define("_GAMEFILESDELETESEL","markierte Dateien löschen");
-define("_GAMEFILESNOADDON","kein Addon");
-define("_GAMEFILESNOMOD","kein Mod");
-define("_GAMEFILESFILE","Dateiname*:");
+define("_GAMEFILESNEW","Add a file");
+define("_GAMEFILESEXIST","his filename already exists for this game!");
+define("_GAMEFILESDBDELERROR","Database error! The file couldn't be deleted!");
+define("_GAMEFILESDBDELETED","The file has been successfully deleted!");
+define("_GAMEFILESDBUPERROR","Database error! The file couldn't be changed!");
+define("_GAMEFILESDBUPDATED","The file was changed!");
+define("_GAMEFILESDBSAVEERROR","Database error! The file couldn't be added!");
+define("_GAMEFILESNOTALLFIELDS","All required fields marked with an * weren't filled in!");
+define("_GAMEFILESSTATUS","The selected files will be deleted!");
+define("_GAMEFILESCREATED","The file was successfully added!");
+define("_GAMEFILESNOENTRY","<b>No files available!</b>");
+define("_GAMEFILESDELETESEL","delete selected files");
+define("_GAMEFILESNOADDON","No Addon");
+define("_GAMEFILESNOMOD","No Mod");
+define("_GAMEFILESFILE","Filename*:");
 define("_GAMEFILESADDON","Addon:");
 define("_GAMEFILESMOD","Mod:");
-define("_GAMEFILESGAME","Spiel*:");
-define("_GAMEFILESPATH","Pfad:");
-define("_GAMEFILESUNICODE","Unicode:");
+define("_GAMEFILESGAME","Game*:");
+define("_GAMEFILESPATH","Path:");
+define("_GAMEFILESEASYCONF","Easy editor:");
 
-define("_GAMEFILESLANGUAGE","Sprache:");
-define("_GAMEFILESALLLANGUAGES","Für alle Sprachen");
-define("_GAMEFILESEASYCONF","Easyconfig:");
+define("_QUESTIONGAMEFILESCHANGE","Are you sure you wish to make these changes?");
 
-define("_QUESTIONGAMEFILESCHANGE","Wollen sie den Status wirklich ändern?");
-
-define("_ASSISTENTGAMEFILES","In diesem Modul können sie jedem Spiel eigene Dateien hinzufügen, die der Kunde dann im Webinterface bearbeiten kann. Tragen sie hier keine Dateien wie zum
-Beispiel der server.cfg ein dann kann der Kunde im Webinterface auch keine Dateien verändern. Wichtig ist, dass die Pfadangaben ohne / am Anfang und am Ende sind. Bei der plugins.ini von Metamod
-müsste der Pfad wie folgt aussehen:<br><br>
+define("_ASSISTENTGAMEFILES","Enter here the configuratio files the customer should be allowed to modify via the webinterface. 
+Ensure you use the correct path. Please ensure the you don't enter a / at the start or end of the path. With plugins.ini for 
+Metamod on Counter-Strike the path should look like this:
+<br><br>
 cstrike/addons/metamod");
 
 ?>

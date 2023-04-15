@@ -1,28 +1,32 @@
 <?php
 
-define("_FTEMPNEW","Template eintragen");
-define("_FTEMPNOENTRY","<b>Keine Templates vorhanden!</b>");
-define("_FTEMPDELETESEL","markierte Templates löschen");
-define("_FTEMPDBDELERROR","Datenbankfehler! Das Template konnte nicht gelöscht werden!");
-define("_FTEMPDBDELETED","Das Template wurde soeben aus dem Webinterface gelöscht!");
-define("_FTEMPSTATUS","Die ausgewählten Templates werden nun gelöscht!");
-define("_FTEMPNOTALLFIELDS","Es wurden nicht alle mit einem * gekennzeichneten Felder ausgefüllt!");
-define("_FTEMPMONEY","Betrag:");
-define("_FTEMPIN","Soll (+)");
-define("_FTEMPOUT","Haben (-)");
-define("_FTEMPACCOUNT","Konto*:");
-define("_FTEMPTAXKEY","Steuerschlüssel:");
-define("_FTEMPSIGN","Verwendungszweck:");
-define("_FTEMPTITLE","Titel*:");
-define("_FTEMPEXIST","Es existiert schon ein Template mit dem Titel!");
-define("_FTEMPDBUPERROR","Datenbankfehler! Das Template konnte nicht geändert werden!");
-define("_FTEMPDBUPDATED","Das Template wurde geändert!");
-define("_FTEMPDBSAVEERROR","Datenbankfehler! Das Template konnte nicht hinzugefügt werden!");
-define("_FTEMPDBCREATED","Das Template wurde soeben hinzugefügt!");
-define("_FTEMPACCOUNTTWO","<b>Konto:</b>");
+define("_FTEMPNEW","Add a template");
+define("_FTEMPNOENTRY","<b>No templates available!</b>");
+define("_FTEMPDELETESEL","delete selected templates");
+define("_FTEMPDBDELERROR","Database error! The template couldn't be deleted!");
+define("_FTEMPDBDELETED","The template has been successfully deleted!");
+define("_FTEMPSTATUS","The selected template status will be deleted!");
+define("_FTEMPNOTALLFIELDS","All required fields marked with an * weren't filled in!");
+define("_FTEMPMONEY","Amount (in USD):");
+define("_FTEMPIN","Debit (+)");
+define("_FTEMPOUT","Credit (-)");
+define("_FTEMPCONACCOUNT","Counter account*:");
+define("_FTEMPCONACCOUNTTWO","E�R account*:");
+define("_FTEMPACCOUNT","Account*:");
+define("_FTEMPTAXKEY","Tax key:");
+define("_FTEMPSIGN","Remarks:");
+define("_FTEMPTITLE","Title*:");
+define("_FTEMPEXIST","A template with this title already exists!");
+define("_FTEMPDBUPERROR","Database error! The template couldn't be changed!");
+define("_FTEMPDBUPDATED","The template was changed!");
+define("_FTEMPDBSAVEERROR","Database error! The template couldn't be added!");
+define("_FTEMPDBCREATED","The template was successfully added!");
+define("_FTEMPCONACCOUNTTHREE","<b>Conaccount or E�R account:</b>");
+define("_FTEMPACCOUNTTWO","<b>Account:</b>");
 
-define("_QUESTIONFTEMPCHANGE","Wollen sie den Status wirklich ändern?");
+define("_QUESTIONFTEMPCHANGE","Are you sure you wish to make these changes?");
 
-define("_ASSISTENTFTEMP","In diesem Modul können sie für das Modul Geschäftsvorfälle einige Templates anlegen. Als Gegenkonto oder EÜR Konto wird für 15% Steuer das Konto 8200, für 7% das Konto 8300 und für 19% das Konto 8410 verwendet.");
+define("_ASSISTENTFTEMP","You can create templates for your financial transactions with this module. For 15% sales tax use 
+account 8200, for 7% account 8300 and for 16% account 8400 with regards to the DATEV or EUR accounts.");
 
 ?>
