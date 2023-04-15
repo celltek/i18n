@@ -4,408 +4,405 @@
 // Login/Logout
 ////////////////////////////////////////////
 define("_LOGIN","Admin Login");
-define("_LOGINOR","oder");
-define("_LOGINERROR","Admin Login fehlerhaft");
+define("_LOGINOR","or");
+define("_LOGINERROR","Admin Login incorrect");
 define("_LOGINNAME","Admin");
-define("_LOGINPW","Passwort");
-define("_LOGINCODE","Security-Code");
+define("_LOGINPW","Password");
+define("_LOGINCODE","Security code");
 define("_LOGINEMAIL","Email");
-define("_LOGINBUTTON","Anmelden");
-define("_LOGINBUTTONTWO","Senden");
+define("_LOGINBUTTON","Sign in");
+define("_LOGINBUTTONTWO","Send");
 define("_LOGOUT","Admin Logout");
-define("_LOGOUTOK","<b>Sie haben sich soeben erfolgreich ausgelogt.</b>");
-define("_LOGINLICENSE","Nutzungsbedingungen");
-define("_LOGINLICENSEOK","Ich habe die Nutzungsbedingungen gelesen und akzeptiere sie.");
-define("_LOGINLPWQUESTION","Passwort vergessen?");
-define("_LOGINLOSTPW","Passwort vergessen");
-define("_LOGINLPWTEXT","Geben sie bitte ihren Loginnamen und Email Adresse an. Ihnen wird dann ein neues Passwort zugeschickt.");
-define("_LOGINLPWSEND","Soeben wurde ihnen eine Email mit einem neuen Passwort und einem Bestätigungscode gesendet.");
-define("_LOGINLPWERROR","Die Email mit den Zugangsdaten konnte leider nicht versendet werden!");
-define("_LOGINLPWFIELDS","Sie müssen ihren Loginnamen und ihre Email Adresse angeben damit ein Bestätigungscode erstellt werden kann!");
-define("_LOGINLPWNOENTRY","Zu diesem Loginnamen und Email Adresse konnte kein Administrator gefunden werden!");
-define("_LOGINCHECKOK","Ihr neues Passwort wurde freigeschaltet. Sie können sich nun mit ihrem neuen Passwort einlogen.");
-define("_LOGINCHECKERROR","Der Bestätigungscode ist leider falsch oder nicht mehr gültig.");
-define("_LOGINDELINST","Bitte löschen sie das Verzeichnis install!");
-define("_LOGINUNLIMITED","angemeldet bleiben");
+define("_LOGOUTOK","<b>You have successfully logged out.</b>");
+define("_LOGINLICENSE","Terms of use");
+define("_LOGINLICENSEOK","I have read and accept the terms of use.");
+define("_LOGINLPWQUESTION","Forgot password?");
+define("_LOGINLOSTPW","Forgot password");
+define("_LOGINLPWTEXT","Please provide your login name and email address. A new password will be sent to you.");
+define("_LOGINLPWSEND","An email has been sent to you with a new password and confirmation code.");
+define("_LOGINLPWERROR","Unfortunately, the email with the access data could not be sent!");
+define("_LOGINLPWFIELDS","You must provide your login name and email address to create a confirmation code!");
+define("_LOGINLPWNOENTRY","No administrator could be found for this login name and email address!");
+define("_LOGINCHECKOK","Your new password has been activated. You can now log in with your new password.");
+define("_LOGINCHECKERROR","The confirmation code is incorrect or no longer valid.");
+define("_LOGINDELINST","Please delete the install directory!");
+define("_LOGINUNLIMITED","stay logged in");
 
 
 ////////////////////////////////////////////
 // General
 ////////////////////////////////////////////
-define("_TEKBASEHELP","<b>Hinweis</b><br>Eine detailierte Beschreibung aller Module finden sie unter folgendem Link: <a href=\"http://teklab.de/wiki\" target=\"_blank\">Anleitungen</a>");
-define("_STATUSHIGH","Dringend bearbeiten");
+define("_TEKBASEHELP","<b>Note</b><br>A detailed description of all modules can be found at the following link: <a href=\"http://teklab.de/wiki\" target=\"_blank\">Manuals</a>");
+define("_STATUSHIGH","Urgent");
 define("_STARTDATE","Start:");
-define("_ENDDATE","Ende:");
-define("_ASSISTENT","TekLab´s Assistent");
-define("_MEMBERSONLINE","<b>Kunden online:</b>");
-define("_GENERAL","Allgemein");
-define("_BACK","Zurück");
-define("_CURRENCY","&euro;");
+define("_ENDDATE","End:");
+define("_ASSISTENT","TekLab's Assistant");
+define("_MEMBERSONLINE","<b>Customers online:</b>");
+define("_GENERAL","General");
+define("_BACK","Back");
+define("_CURRENCY","€");
 define("_CURRENCYLONG","EUR");
-define("_CHANGE","Änderung durchführen");
-define("_WELCOME","Willkommen im Admin Bereich!");
-define("_OPENCALC","Rechner aufrufen");
-define("_SITEREFRESH","Seite aktualisieren");
-define("_SUPPORTMESSAGES","Supportanfragen");
-define("_CONTACTMESSAGES","Nachrichten");
-define("_LICENSLIMITATION","Lizenz Begrenzungen");
+define("_CHANGE","Perform changes");
+define("_WELCOME","Welcome to the admin area!");
+define("_OPENCALC","Open calculator");
+define("_SITEREFRESH","Refresh page");
+define("_SUPPORTMESSAGES","Support requests");
+define("_CONTACTMESSAGES","Messages");
+define("_LICENSLIMITATION","License limitations");
 define("_TEKBASEVERSION","TekBase Version");
-define("_AVAILABLEVERSION","verfügbare Version:"); 
-define("_EMPTY","leer");
-define("_NOTHING","k.A.");
-define("_PLEASESELECT","Bitte auswählen");
+define("_AVAILABLEVERSION","available version:");
+define("_EMPTY","empty");
+define("_NOTHING","n/a");
+define("_PLEASESELECT","Please select");
 define("_TODOWARNINGCOLOR","#EBCBD1");
 define("_TODONORMALCOLOR","#F5E6E9");
-define("_ALL","Alle");
-define("_LIMITERROR","Die maximale Anzahl der Lizenz wurde überschritten! Keine Aktion möglich!");
-define("_ANSWERED","Beantwortet!");
-define("_UNANSWERED","Noch nicht beantwortet!");
-define("_NEWPOST","Neue Nachricht");
-define("_SITE","Seite");
-define("_SITENUM","Ergebnisse pro Seite");
-define("_START","Starten");
+define("_ALL","All");
+define("_LIMITERROR","The maximum number of licenses has been exceeded! No action possible!");
+define("_ANSWERED","Answered!");
+define("_UNANSWERED","Not yet answered!");
+define("_NEWPOST","New message");
+define("_SITE","Page");
+define("_SITENUM","Results per page");
+define("_START","Start");
 define("_SLOT","Slot");
-define("_SWITCHSERVER","Gameswitch Server");
-define("_SCREENLOG","Screenlog anzeigen");
-define("_SLOTLIMITOK","Slotbegrenzung im Limit");
-define("_SLOTLIMITERROR","Slotbegrenzung überschritten");
-define("_BITRATELIMITOK","Bitrate im Limit");
-define("_BITRATELIMITERROR","Bitrate überschritten");
-define("_CLANSERVERERROR","Clanserver ohne Passwort");
-define("_GAMESERVER","Gameserver");
-define("_VOICESERVER","Voiceserver");
-define("_STREAMSERVER","Streamserver");
-define("_VSTREAMSERVER","Video Streamserver");
-define("_ROOTSERVER","Rootserver");
+define("_SWITCHSERVER","Game switch server");
+define("_SCREENLOG","Show screenlog");
+define("_SLOTLIMITOK","Slot limit within limit");
+define("_SLOTLIMITERROR","Slot limit exceeded");
+define("_BITRATELIMITOK","Bitrate within limit");
+define("_BITRATELIMITERROR","Bitrate exceeded");
+define("_CLANSERVERERROR","Clan server without password");
+define("_GAMESERVER","Game server");
+define("_VOICESERVER","Voice server");
+define("_STREAMSERVER","Stream server");
+define("_VSTREAMSERVER","Video stream server");
+define("_ROOTSERVER","Root server");
 define("_VIRTUALSERVER","VServer");
-define("_STOP","Stoppen");
-define("_IMAGENAME","Der Dateiname lautet:");
-define("_INFORSERVER","<b>Rootserver:</b>");
+define("_STOP","Stop");
+define("_IMAGENAME","The filename is:");
+define("_INFORSERVER","<b>Root server:</b>");
 define("_INFOCPU","<b>CPU:</b>");
 define("_INFORAM","<b>RAM:</b>");
 define("_INFOHDDISK","<b>HDD:</b>");
 define("_INFOTRAFFIC","<b>Traffic:</b>");
-define("_MEMBERLOGIN","Als Kunde einloggen");
-define("_MEMBERPACKAGE","Kundenpaket");
-define("_MEMBERPROFIL","Kundendaten");
-define("_MEMBERRSERVER","Kunden Rootserver");
-define("_CREATEBILL","Rechnung erstellen");
-define("_SENDEMAIL","Email schreiben");
-define("_SENDMSG","Nachricht schreiben");
-define("_STATISTICS","Statistiken");
-define("_OPENMEMBERPROFIL","Kundendaten aufrufen");
-define("_CALL","Anrufen");
-define("_VIEWORDER","Bestellung ansehen");
-define("_ORDERPAYED","Bestellung bezahlt");
-define("_ORDEROPEN","Bezahlungsstatus nicht verfügbar");
-define("_VIEWBILLHTML","Rechnung als HTML anzeigen");
-define("_VIEWBILLPDF","Rechnung als PDF anzeigen");
-define("_INCOMING","Zahlungseingang angeben");
-define("_STATUSINSTALLATION","Installation läuft");
-define("_STATUSBACKUP","Backup läuft");
-define("_STATUSUPDATE","Update läuft");
-define("_STATUSSERVICEMODE","Wartungsmodus aktiv");
-define("_SERVICEMODE","Wartungsmodus");
+define("_MEMBERLOGIN","Log in as customer");
+define("_MEMBERPACKAGE","Customer package");
+define("_MEMBERPROFIL","Customer data");
+define("_MEMBERRSERVER","Customer root server");
+define("_CREATEBILL","Create invoice");
+define("_SENDEMAIL","Write email");
+define("_SENDMSG","Write message");
+define("_STATISTICS","Statistics");
+define("_OPENMEMBERPROFIL","Open customer data");
+define("_CALL","Call");
+define("_VIEWORDER","View order");
+define("_ORDERPAYED","Order paid");
+define("_ORDEROPEN","Payment status not available");
+define("_VIEWBILLHTML","Show invoice as HTML");
+define("_VIEWBILLPDF","Show invoice as PDF");
+define("_INCOMING","Enter incoming payment");
+define("_STATUSINSTALLATION","Installation running");
+define("_STATUSBACKUP","Backup running");
+define("_STATUSUPDATE","Update running");
+define("_STATUSSERVICEMODE","Maintenance mode active");
+define("_SERVICEMODE","Maintenance mode");
 define("_OFFLINE","Offline");
 define("_ONLINE","Online");
 define("_INDEX","Index");
-define("_DELETE","Löschen");
-define("_DELETEALL","Alle Einträge löschen");
-define("_NOENTRY","<b>Keine Einträge vorhanden!</b>");
-define("_EDIT","Editieren");
-define("_SAVE","Speichern");
-define("_EXECUTE","Ausführen");
-define("_SEND","Senden");
-define("_SEARCH","Suchen");
-define("_UPLOAD","Hochladen");
-define("_INFO","Infos");
-define("_NO","Nein");
-define("_YES","Ja");
-define("_SEARCHBY","Suchen nach:");
-define("_SEARCHSTRING","Suchbegriff:");
+define("_DELETE","Delete");
+define("_DELETEALL","Delete all entries");
+define("_NOENTRY","<b>No entries available!</b>");
+define("_EDIT","Edit");
+define("_SAVE","Save");
+define("_EXECUTE","Execute");
+define("_SEND","Send");
+define("_SEARCH","Search");
+define("_UPLOAD","Upload");
+define("_INFO","Info");
+define("_NO","No");
+define("_YES","Yes");
+define("_SEARCHBY","Search by:");
+define("_SEARCHSTRING","Search term:");
 define("_SERVERSEARCHIP","Server IP");
-define("_SERVERSEARCHID","Kundenkennung");
-define("_SERVERSEARCHBILL","Rechnung");
-define("_SERVERSEARCHRECEIPTID","Belegnummer");
-define("_SERVERSEARCHPORT","Server Port");
-define("_IMAGEYES","Image vorhanden");
-define("_IMAGENO","Image nicht vorhanden");
-define("_ACCESSDENIED","Zugriff verweigert!");
-define("_UNAUTHORIZEDACCESS","Unberechtigter Zugriff verweigert!");
-define("_BOXBACK","- Zurück");
-define("_PRESETS","<b>Vordrucke:</b>");
-define("_MR","Herr");
-define("_MS","Frau");
-define("_FIRM","Firma");
-define("_FILEERROR","Error: Einige Dateien wurden mit älteren Versionen ausgetauscht!");
+define("_SERVERSEARCHID","Customer ID");
+define("_SERVERSEARCHBILL","Invoice");
+define("_SERVERSEARCHRECEIPTID","Receipt number");
+define("_SERVERSEARCHPORT","Server port");
+define("_IMAGEYES","Image available");
+define("_IMAGENO","Image not available");
+define("_ACCESSDENIED","Access denied!");
+define("_UNAUTHORIZEDACCESS","Unauthorized access denied!");
+define("_BOXBACK","- Back");
+define("_PRESETS","<b>Presets:</b>");
+define("_MR","Mr.");
+define("_MS","Ms.");
+define("_FIRM","Company");
+define("_FILEERROR","Error: Some files have been replaced with older versions!");
 define("_IN","in");
-define("_MINMAX","Minimieren/Wiederherstellen");
-define("_STEPUP","hoch");
-define("_STEPDOWN","runter");
-define("_EASYCONFOPEN","Easyconfig Editor öffnen");
-define("_FREESLOTS","Freie Slots:");
-define("_SERVERLOAD","Auslastung:");
-define("_SERVERSYSTEMONE","32Bit");
-define("_SERVERSYSTEMTWO","64Bit");
-define("_SERVERSYSTEMTHREE","32/64Bit");
+define("_MINMAX","Minimize/Restore");
+define("_STEPUP","up");
+define("_STEPDOWN","down");
+define("_EASYCONFOPEN","Open Easyconfig editor");
+define("_FREESLOTS","Free slots:");
+define("_SERVERLOAD","Load:");
+define("_SERVERSYSTEMONE","32-bit");
+define("_SERVERSYSTEMTWO","64-bit");
+define("_SERVERSYSTEMTHREE","32/64-bit");
 define("_WYSIWYGONOFF","WYSIWYG on/off");
-define("_OWNMODULES","<b>Weitere Module</b>");
-define("_LOADING","Bitte warten");
-define("_PLEASEWAIT","Bitte warten Sie! Die von Ihnen gewählte Aktion wird gerade ausgeführt!");
-define("_ASC","aufsteigend");
-define("_DESC","absteigend");
-define("_ABUSE","Achtung manipuliert!");
-define("_DAYS","Tage");
-define("_HOURS","Stunden");
-define("_MINUTES","Minuten");
-define("_ONLINESINCE","online");
-define("_LASTSEEN","zuletzt online vor");
-define("_ONLINEFOR","für");
-define("_BILLNOPAYMENT","Keine Zahlung gebucht");
-define("_BILLBALANCED","Bezahlt am");
-define("_DEPOSITE","Einzahlungen Guthaben/Spenden");
+define("_OWNMODULES","<b>Other modules</b>");
+define("_LOADING","Please wait");
+define("_PLEASEWAIT","Please wait! The action you have chosen is being executed!");
+define("_ASC","ascending");
+define("_DESC","descending");
+define("_ABUSE","Attention manipulated!");
+define("_DAYS","Days");
+define("_HOURS","Hours");
+define("_MINUTES","Minutes");
+define("_ONLINESINCE","online since");
+define("_LASTSEEN","last seen online");
+define("_ONLINEFOR","for");
+define("_BILLNOPAYMENT","No payment booked");
+define("_BILLBALANCED","Paid on");
+define("_DEPOSITE","Deposits credit/donations");
 
-define("_NOFILES","Keine Dateien vorhanden");
-define("_NOTALLFIELDS","Es wurden nicht alle mit einem * gekennzeichneten Felder ausgefüllt!");
-define("_DELETESELECTED","markierte Einträge löschen");
-define("_ACTIVE","Aktiv");
-define("_NONACTIVE","Nicht aktiv");
+define("_NOFILES","No files available");
+define("_NOTALLFIELDS","Not all fields marked with a * have been filled in!");
+define("_DELETESELECTED","delete selected entries");
+define("_ACTIVE","Active");
+define("_NONACTIVE","Not active");
 
 
 ////////////////////////////////////////////
 // WIDGETS
 ////////////////////////////////////////////
-define("_WEATHERINFOTEXT","Bitte geben Sie hier den Code Ihrer Stadt ein. Eine Liste aller Codes finden Sie hier
-<a href=\"http://www.woeidlookup.com/\" target=\"_blank\"><b>Code Liste</b></a>.");
-define("_WIDGETSETTINGSSAVED","Angaben gespeichert. Bitte Seite neuladen.");
-define("_WIDGETSETTINGSSAVEERROR","Angaben konnten nicht gespeichert werden.");
-define("_WIDGETRESETSETTING","Einstellung zurücksetzen");
-define("_WIDGETPACKAGEDELETE","Wollen Sie das Kundenpaket wirklich löschen? Alle installierten und zugewiesenen Server werden entfernt!");
-define("_WIDGETNOENTRY","Kein Eintrag vorhanden!");
-define("_WIDGETBOOKEDNOTICES","Vorgemerkte Kündigungen");
-define("_WIDGETSQUOTADEL","Softlimit Eintrag löschen");
-define("_WIDGETSTARTTEXTONE","1. Tragen Sie unter <a href=\"admin.php?op=adminOptions\"><b>Einstellungen</b></a> ihren Lizenzkey ein.<br>2. Fügen Sie unter <a href=\"admin.php?op=adminEmailacc\"><b>Email Konto</b></a> ihre Email Adresse hinzu.<br>3. Nun können Sie Kunden und Server verwalten.");
-define("_WIDGETSTARTTEXTTWO","<h3>Gewerbliche Kunden</h3>Als eine der wichtigsten Zahlungsarten neben Paypal sollten Sie unbeding Sofortüberweisung anbieten. Sollten Sie bei der Einrichtung Probleme haben kontaktieren Sie uns.<br><br>
-Link: <a href=\"https://www.sofortueberweisung.de/payment/users/register/152\" target=\"_blank\"><b>Anmeldung Sofortüberweisung</b></a>");
-define("_WIDGETSTARTTEXTTHREE","Wir bieten Ihnen ein komplett kostenloses Bewertungssystem an. Wollen Sie jedoch einen Drittanbieter nutzen, so empfehlen wir Ihnen ProvenExpert. Neben einer zeitlich unbegrenzten kostenlosen Mitgliedschaft im Free-Tarif erhalten Sie zudem einen 30 tägigen Testzugang zum Premium-Tarif.<br><br>
-Link: <a href=\"https://www.provenexpert.com/de-de/pa286/\" target=\"_blank\"><b>Anmeldung ProvenExpert</b></a>");
-define("_WIDGETSTARTTEXTFOUR","Seit April 2016 können Sie ihren Kunden auch die dezentrale Zahlungsart Nabucoin anbieten. Diese ist ähnlich wie Paysafecard weitgehend anonym, jedoch ohne hohe Gebühren zu veranschlagen. Im Schnitt liegt die Gebühr pro Transaktion bei unter einem Cent.
-Nabucoins bieten Ihnen und Ihren Kunden viele weitere Vorteile und wird von TekBASE als Rabattsystem genutzt um die Treue der Kunden zuvergüten. Mehr Informationen erhalten Sie unter <a href=\"https://nabucoin.com\" target=\"_blank\"><b>nabucoin.com</b></a>, <a href=\"https://teklab.de/images/infos/nabucoin_info1.jpg\" target=\"_blank\"><b>Nabucoin Infografik</b></a>, <a href=\"https://teklab.de/images/infos/nabucoin_info2.jpg\" target=\"_blank\"><b>Anmeldung Infografik</b></a>,
-<a href=\"https://teklab.de/images/infos/nabucoin_info3.jpg\" target=\"_blank\"><b>Anbieter Infografik</b></a> oder direkt bei uns.");
-
+define("_WEATHERINFOTEXT","Please enter the code of your city here. You can find a list of all codes here: <a href=\"http://www.woeidlookup.com/\" target=\"_blank\"><b>Code List</b></a>.");
+define("_WIDGETSETTINGSSAVED","Information saved. Please reload the page.");
+define("_WIDGETSETTINGSSAVEERROR","Information could not be saved.");
+define("_WIDGETRESETSETTING","Reset setting");
+define("_WIDGETPACKAGEDELETE","Do you really want to delete the customer package? All installed and assigned servers will be removed!");
+define("_WIDGETNOENTRY","No entry available!");
+define("_WIDGETBOOKEDNOTICES","Pending cancellations");
+define("_WIDGETSQUOTADEL","Delete soft limit entry");
+define("_WIDGETSTARTTEXTONE","1. Enter your license key under <a href=\"admin.php?op=adminOptions\"><b>Settings</b></a>.<br>2. Add your email address under <a href=\"admin.php?op=adminEmailacc\"><b>Email Account</b></a>.<br>3. Now you can manage customers and servers.");
+define("_WIDGETSTARTTEXTTWO","<h3>Commercial customers</h3>As one of the most important payment methods besides PayPal, you should definitely offer instant bank transfer. If you have any problems setting it up, please contact us.<br><br>
+Link: <a href=\"https://www.sofortueberweisung.de/payment/users/register/152\" target=\"_blank\"><b>Registration instant bank transfer</b></a>");
+define("_WIDGETSTARTTEXTTHREE","We offer you a completely free rating system. However, if you want to use a third-party provider, we recommend ProvenExpert. In addition to a time-unlimited free membership in the Free tariff, you also get a 30-day test access to the Premium tariff.<br><br>
+Link: <a href=\"https://www.provenexpert.com/de-de/pa286/\" target=\"_blank\"><b>Registration ProvenExpert</b></a>");
+define("_WIDGETSTARTTEXTFOUR","Since April 2016, you can also offer your customers the decentralized payment method Nabucoin. This is similar to Paysafecard, largely anonymous, but without charging high fees. On average, the fee per transaction is less than one cent.
+Nabucoins offer you and your customers many other advantages and are used by TekBASE as a discount system to reward customer loyalty. More information can be found at <a href=\"https://nabucoin.com\" target=\"_blank\"><b>nabucoin.com</b></a>, <a href=\"https://teklab.de/images/infos/nabucoin_info1.jpg\" target=\"_blank\"><b>Nabucoin Infographic</b></a>, <a href=\"https://teklab.de/images/infos/nabucoin_info2.jpg\" target=\"_blank\"><b>Registration Infographic</b></a>,
+<a href=\"https://teklab.de/images/infos/nabucoin_info3.jpg\" target=\"_blank\"><b>Provider Infographic</b></a>, or directly with us.");
 
 ////////////////////////////////////////////
 // MEMBERBOX
 ////////////////////////////////////////////
-define("_BOXPROFILID","Profil ID");
-define("_BOXFIRM","Firma:");
+define("_BOXPROFILID","Profile ID");
+define("_BOXFIRM","Company:");
 define("_BOXNAME","Name:");
-define("_BOXSTREET","Strasse:");
-define("_BOXCITY","Ort:");
-define("_BOXCOUNTRY","Land:");
-define("_BOXPHONE","Telefon:");
+define("_BOXSTREET","Street:");
+define("_BOXCITY","City:");
+define("_BOXCOUNTRY","Country:");
+define("_BOXPHONE","Phone:");
 define("_BOXFAX","Fax:");
 define("_BOXEMAIL","Email:");
-define("_BOXREGDATE","Registrierung:");
+define("_BOXREGDATE","Registration date:");
 
 define("_BOXMEMSTATUS","Status:");
-define("_BOXMEMBERSACTIVE","aktiv");
-define("_BOXMEMBERCLOSED","gesperrt");
-define("_BOXMEMBERCANCELED","gekündigt");
-define("_BOXPAYMETHODE","Zahlungsart:");
-define("_BOXCUSTOMER","Kontoinhaber:");
+define("_BOXMEMBERSACTIVE","active");
+define("_BOXMEMBERCLOSED","locked");
+define("_BOXMEMBERCANCELED","canceled");
+define("_BOXPAYMETHODE","Payment method:");
+define("_BOXCUSTOMER","Account holder:");
 define("_BOXBANK","Bank:");
-define("_BOXACCOUNT","Kontonummer:");
-define("_BOXBANKCODE","Bankleitzahl:");
+define("_BOXACCOUNT","Account number:");
+define("_BOXBANKCODE","Bank code:");
 define("_BOXIBAN","IBAN:");
 define("_BOXBIC","BIC:");
-define("_BOXMONEY","Kontostand:");
-define("_BOXBILLSEND","Rechnungsversand:");
+define("_BOXMONEY","Account balance:");
+define("_BOXBILLSEND","Invoice delivery:");
 define("_BOXBILLEMAIL","Email");
-define("_BOXBILLLETTER","Post");
-define("_BOXDEBIT","Lastschrift");
-define("_BOXDEBITLOOP","Lastschrift Dauerauftrag");
-define("_BOXWIRE","Vorkasse");
+define("_BOXBILLLETTER","Mail");
+define("_BOXDEBIT","Direct debit");
+define("_BOXDEBITLOOP","Direct debit recurring");
+define("_BOXWIRE","Advance payment");
 define("_BOXINFO","<b>Info:</b>");
-define("_BOXSUBJECT","Betreff:");
+define("_BOXSUBJECT","Subject:");
 define("_BOXTEXT","Text:");
-define("_BOXBILL","Rechnung:");
-define("_BOXPRICE","Betrag:");
-define("_BOXDATE","Datum:");
-define("_BOXADDCREDITS","Guthaben buchen:");
-define("_BOXPAYMENT","Zahlungsart:");
-define("_BOXCREDITSADDED","Das Guthaben wurde soeben hinzugebucht!");
-define("_BOXNOCREDITS","Es wurde kein Guthabenbetrag angegeben!");
-define("_BOXNOCREDITPRODUCT","Es wurde noch kein Artikel für Guthaben angelegt!");
-define("_BOXCREDITDBERROR","Datenbankfehler! Das Guthaben konnte nicht gespeichert werden!");
-define("_BOXPHONESUPPORTCODE","Der heutige Code für den Telefonsupport lautet:");
-define("_BOXMEMBERCLOSE", "Der Kunde wurde gesperrt.");
-define("_BOXMEMBERACTIVATE", "Der Kunde wurde wieder aktiviert.");
-define("_BOXMEMBERNOTEXIST", "Der Kunde existiert nicht.");
-define("_BOXMEMBERDBERROR", "Datenbankfehler! Der Kunde wurde nicht gesperrt oder entsperrt.");
+define("_BOXBILL","Invoice:");
+define("_BOXPRICE","Amount:");
+define("_BOXDATE","Date:");
+define("_BOXADDCREDITS","Add credits:");
+define("_BOXPAYMENT","Payment method:");
+define("_BOXCREDITSADDED","The credits have just been added!");
+define("_BOXNOCREDITS","No credit amount specified!");
+define("_BOXNOCREDITPRODUCT","No item created for credits yet!");
+define("_BOXCREDITDBERROR","Database error! Credits could not be saved!");
+define("_BOXPHONESUPPORTCODE","Today's code for phone support is:");
+define("_BOXMEMBERCLOSE", "The customer has been locked.");
+define("_BOXMEMBERACTIVATE", "The customer has been reactivated.");
+define("_BOXMEMBERNOTEXIST", "The customer does not exist.");
+define("_BOXMEMBERDBERROR", "Database error! The customer was not locked or unlocked.");
 
-define("_BOXONEMONTH","1 Monat");
-define("_BOXTHREEMONTHS","3 Monate");
-define("_BOXSIXMONTHS","6 Monate");
-define("_BOXTWELVEMONTHS","12 Monate");
-define("_BOXTWENTYFOURMONTHS","24 Monate");
+define("_BOXONEMONTH","1 month");
+define("_BOXTHREEMONTHS","3 months");
+define("_BOXSIXMONTHS","6 months");
+define("_BOXTWELVEMONTHS","12 months");
+define("_BOXTWENTYFOURMONTHS","24 months");
 
-define("_BOXFOPENBALANCED","Die Rechnung wurde soeben ausgeglichen!");
-define("_BOXFOPENBALANCEDNOINOUT","Die Rechnung wurde ausgeglichen aber es konnte kein Eintrag in Geschäftsvorfälle erfolgen!");
-define("_BOXFOPENADDED","Ein Teilbetrag der Rechnung wurde soeben ausgeglichen!");
-define("_BOXFOPENADDEDNOINOUT","Ein Teilbetrag wurde ausgeglichen aber es konnte kein Eintrag in Geschäftsvorfälle erfolgen!");
-define("_BOXFOPENOVERPAY","Der Betrag ist höher als der eigentliche Rechnungsbetrag! Tip: Teilen Sie dem vom Kunden bezahlten Betrag auf mehrere Rechnungen auf.");
-define("_BOXFOPENALREADYBALANCED","Die Rechnung wurde bereits vollständig ausgeglichen!");
-define("_BOXFOPENDBUPERROR","Datenbankfehler! Der offene Posten konnte nicht geändert werden!");
-define("_BOXCONTACTSENDED","Die Email wurde soeben versendet!");
-define("_BOXCONTACTNOSUBJECT","Sie haben keinen Betreff angegeben!");
-define("_BOXCONTACTNOTEXT","Sie haben keinen Text angegeben!");
-define("_BOXCONTACTERROR","Die Email konnte nicht versendet werden!");
-define("_BOXCONTACTNOEMAIL","Es wurde noch kein Email Konto für System Mails angelegt!");
-define("_BOXFPACKETDELETE","Das Kundenpaket wurde soeben entfernt");
+define("_BOXFOPENBALANCED","The invoice has just been balanced!");
+define("_BOXFOPENBALANCEDNOINOUT","The invoice has been balanced but no entry could be made in business transactions!");
+define("_BOXFOPENADDED","A partial amount of the invoice has just been balanced!");
+define("_BOXFOPENADDEDNOINOUT","A partial amount has been balanced but no entry could be made in business transactions!");
+define("_BOXFOPENOVERPAY","The amount is higher than the actual invoice amount! Tip: Divide the amount paid by the customer into multiple invoices.");
+define("_BOXFOPENALREADYBALANCED","The invoice has already been fully balanced!");
+define("_BOXFOPENDBUPERROR","Database error! The open item could not be changed!");
+define("_BOXCONTACTSENDED","The email has just been sent!");
+define("_BOXCONTACTNOSUBJECT","You have not specified a subject!");
+define("_BOXCONTACTNOTEXT","You have not specified any text!");
+define("_BOXCONTACTERROR","The email could not be sent!");
+define("_BOXCONTACTNOEMAIL","No email account has been created for system emails yet!");
+define("_BOXFPACKETDELETE","The customer package has just been removed");
 
-define("_BOXAPPSNEW","Programm erstellen");
-define("_BOXGSERVERNEW","Gameserver erstellen");
-define("_BOXSTREAMSNEW","Streamserver erstellen");
-define("_BOXVSTREAMSNEW","Flash Streamserver erstellen");
-define("_BOXVSERVERNEW","Voiceserver erstellen");
-define("_BOXMUSICBOTNEW","TS3Musicbot erstellen");
-define("_BOXMRSERVERNEW","Kunden Rootserver erstellen");
-define("_BOXMVSERVERNEW","Kunden VServer erstellen");
-define("_BOXMINERNEW","Kunden Miner erstellen");
+define("_BOXAPPSNEW","Create program");
+define("_BOXGSERVERNEW","Create game server");
+define("_BOXSTREAMSNEW","Create stream server");
+define("_BOXVSTREAMSNEW","Create flash stream server");
+define("_BOXVSERVERNEW","Create voice server");
+define("_BOXMUSICBOTNEW","Create TS3Musicbot");
+define("_BOXMRSERVERNEW","Create customer root server");
+define("_BOXMVSERVERNEW","Create customer VServer");
+define("_BOXMINERNEW","Create customer miner");
 
 
 ////////////////////////////////////////////
 // DB
 ////////////////////////////////////////////
-define("_DBDELETED","Der Eintrag wurde soeben gelöscht!");
-define("_DBDELERROR","Datenbankfehler! Der Eintrag konnte nicht gelöscht werden!");
-define("_DBUPDATED","Der Eintrag wurde soeben geändert!");
-define("_DBUPERROR","Datenbankfehler! Der Eintrag konnte nicht geändert werden!");
-define("_DBCREATED","Der Eintrag wurde soeben hinzugefügt!");
-define("_DBSAVEERROR","Datenbankfehler! Der Eintrag konnte nicht hinzugefügt werden!");
-
+define("_DBDELETED","The entry has just been deleted!");
+define("_DBDELERROR","Database error! The entry could not be deleted!");
+define("_DBUPDATED","The entry has just been updated!");
+define("_DBUPERROR","Database error! The entry could not be updated!");
+define("_DBCREATED","The entry has just been added!");
+define("_DBSAVEERROR","Database error! The entry could not be added!");
 
 ////////////////////////////////////////////
 // TABLE
 ////////////////////////////////////////////
-define("_TABLEEMAIL","<b>Email</b>");
-define("_TABLEMEMBER","<b>Kunde</b>");
-define("_TABLENEWMEMBER","<b>Neuer Kunde</b>");
-define("_TABLESTATUS","<b>Status</b>");
-define("_TABLEACTION","<b>Aktion</b>");
-define("_TABLEDATE","<b>Empfangen am</b>");
-define("_TABLETOPIC","<b>Thema</b>");
-define("_TABLERECEIPT","<b>Belegnr.</b>");
-define("_TABLEBANKTEXT","<b>Verwendungszweck</b>");
-define("_TABLEMONEY","<b>Betrag</b>");
-define("_TABLEACCOUNTID","<b>Konto</b>");
-define("_TABLEFINANCEDATE","<b>Datum</b>");
-define("_TABLESIGN","<b>Bezeichnung</b>");
-define("_TABLETAXKEY","<b>Steuerschlüssel</b>");
-define("_TABLEOUT","<b>Haben</b>");
-define("_TABLECURRENCY","<b>Währ.</b>");
-define("_TABLEIN","<b>Soll</b>");
-define("_TABLEREMINDER","<b>Mahnstufe</b>");
-define("_TABLEFINES","<b>Mahngebühr</b>");
-define("_TABLEDAYS","<b>Ab Tage</b>");
-define("_TABLEINTEREST","<b>Zinssatz (in %)</b>");
-define("_TABLEREMINDERPRICE","<b>Mahngebühr</b>");
-define("_TABLESUBJECT","<b>Betreff</b>");
-define("_TABLETITLE","<b>Titel</b>");
-define("_TABLEACCOUNT","<b>Konto</b>");
-define("_TABLEBILLDATE","<b>Zeitraum</b>");
-define("_TABLECYCLE","<b>Vorauszahlung</b>");
-define("_TABLECONTRACT","<b>Vertragslaufzeit</b>");
-define("_TABLEWRITE","<b>Von</b>");
-define("_TABLEINFO","<b>Info</b>");
-define("_TABLEPRIORITY","<b>Priorität</b>");
-define("_TABLESTARTDATE","<b>Startdatum</b>");
-define("_TABLEENDDATE","<b>Enddatum</b>");
-define("_TABLECODE","<b>Code</b>");
-define("_TABLEDISCOUNT","<b>Rabatt</b>");
-define("_TABLEDURATION","<b>Dauer</b>");
-define("_TABLETOTAL","<b>Gesamt</b>");
-define("_TABLEIPPORT","<b>IP und Port</b>");
-define("_TABLEICON","<b>Icon</b>");
-define("_TABLESHORT","<b>Kürzel</b>");
-define("_TABLEAPP","<b>Kürzel</b>");
-define("_TABLESTREAM","<b>Kürzel</b>");
+define("_TABLEEMAIL","<b>Email</b>"); // Email
+define("_TABLEMEMBER","<b>Customer</b>"); // Customer
+define("_TABLENEWMEMBER","<b>New customer</b>"); // New customer
+define("_TABLESTATUS","<b>Status</b>"); // Status
+define("_TABLEACTION","<b>Action</b>"); // Action
+define("_TABLEDATE","<b>Received on</b>"); // Received on
+define("_TABLETOPIC","<b>Subject</b>"); // Subject
+define("_TABLERECEIPT","<b>Receipt no.</b>"); // Receipt no.
+define("_TABLEBANKTEXT","<b>Usage</b>"); // Usage
+define("_TABLEMONEY","<b>Amount</b>"); // Amount
+define("_TABLEACCOUNTID","<b>Account</b>"); // Account
+define("_TABLEFINANCEDATE","<b>Date</b>"); // Date
+define("_TABLESIGN","<b>Description</b>"); // Description
+define("_TABLETAXKEY","<b>Tax key</b>"); // Tax key
+define("_TABLEOUT","<b>Credit</b>"); // Credit
+define("_TABLECURRENCY","<b>Curr.</b>"); // Currency
+define("_TABLEIN","<b>Debit</b>"); // Debit
+define("_TABLEREMINDER","<b>Reminder level</b>"); // Reminder level
+define("_TABLEFINES","<b>Reminder fee</b>"); // Reminder fee
+define("_TABLEDAYS","<b>From days</b>"); // From days
+define("_TABLEINTEREST","<b>Interest rate (in %)</b>"); // Interest rate (in %)
+define("_TABLEREMINDERPRICE","<b>Reminder fee</b>"); // Reminder fee
+define("_TABLESUBJECT","<b>Subject</b>"); // Subject
+define("_TABLETITLE","<b>Title</b>"); // Title
+define("_TABLEACCOUNT","<b>Account</b>"); // Account
+define("_TABLEBILLDATE","<b>Period</b>"); // Period
+define("_TABLECYCLE","<b>Advance payment</b>"); // Advance payment
+define("_TABLECONTRACT","<b>Contract duration</b>"); // Contract duration
+define("_TABLEWRITE","<b>From</b>"); // From
+define("_TABLEINFO","<b>Info</b>"); // Info
+define("_TABLEPRIORITY","<b>Priority</b>"); // Priority
+define("_TABLESTARTDATE","<b>Start date</b>"); // Start date
+define("_TABLEENDDATE","<b>End date</b>"); // End date
+define("_TABLECODE","<b>Code</b>"); // Code
+define("_TABLEDISCOUNT","<b>Discount</b>"); // Discount
+define("_TABLEDURATION","<b>Duration</b>"); // Duration
+define("_TABLETOTAL","<b>Total</b>"); // Total
+define("_TABLEIPPORT","<b>IP and Port</b>"); // IP and Port
+define("_TABLEICON","<b>Icon</b>"); // Icon
+define("_TABLESHORT","<b>Shortcut</b>");
+define("_TABLEAPP","<b>Shortcut</b>");
+define("_TABLESTREAM","<b>Shortcut</b>");
 define("_TABLEMINER","<b>Miner</b>");
 define("_TABLEWALLET","<b>Wallet</b>");
-define("_TABLEINSERTDATE","<b>Erstellt am</b>");
-define("_TABLELASTMSGDATE","<b>Letzte Nachricht</b>");
-define("_TABLEAPPPATH","<b>Verzeichnis</b>");
-define("_TABLESTREAMPATH","<b>Verzeichnis</b>");
-define("_TABLEMULTI","<b>Imagetyp</b>");
+define("_TABLEINSERTDATE","<b>Created on</b>");
+define("_TABLELASTMSGDATE","<b>Last message</b>");
+define("_TABLEAPPPATH","<b>Directory</b>");
+define("_TABLESTREAMPATH","<b>Directory</b>");
+define("_TABLEMULTI","<b>Image type</b>");
 define("_TABLEPORTRANGE","<b>Portrange</b>");
-define("_TABLEGAME","<b>Kürzel</b>");
-define("_TABLEGAMEPATH","<b>Verzeichnis</b>");
-define("_TABLEVOICE","<b>Kürzel</b>");
-define("_TABLEPRODUCTNUM","<b>Artikel Nr.</b>");
-define("_TABLETAX","<b>MwSt.</b>");
-define("_TABLEPRICE","<b>Preis</b>");
-define("_TABLEPRICESLOT","<b>Preis pro Slot</b>");
-define("_TABLEPRICERAMBITRATE","<b>Preis pro RAM/Bitrate</b>");
-define("_TABLEVOICEPATH","<b>Verzeichnis</b>");
-define("_TABLEAPPNAME","<b>Programmname</b>");
-define("_TABLEGAMENAME","<b>Spielname</b>");
-define("_TABLESTREAMNAME","<b>Streamname</b>");
-define("_TABLESCRIPT","<b>Startscript</b>");
+define("_TABLEGAME","<b>Abbreviation</b>");
+define("_TABLEGAMEPATH","<b>Directory</b>");
+define("_TABLEVOICE","<b>Abbreviation</b>");
+define("_TABLEPRODUCTNUM","<b>Product No.</b>");
+define("_TABLETAX","<b>Tax</b>");
+define("_TABLEPRICE","<b>Price</b>");
+define("_TABLEPRICESLOT","<b>Price per slot</b>");
+define("_TABLEPRICERAMBITRATE","<b>Price per RAM/Bitrate</b>");
+define("_TABLEVOICEPATH","<b>Directory</b>");
+define("_TABLEAPPNAME","<b>Program name</b>");
+define("_TABLEGAMENAME","<b>Game name</b>");
+define("_TABLESTREAMNAME","<b>Stream name</b>");
+define("_TABLESCRIPT","<b>Start script</b>");
 define("_TABLEIP","<b>IP</b>");
-define("_TABLEMODULE","<b>Modul</b>");
-define("_TABLEFILE","<b>Datei</b>");
+define("_TABLEMODULE","<b>Module</b>");
+define("_TABLEFILE","<b>File</b>");
 define("_TABLENAME","<b>Name</b>");
-define("_TABLEVIEWS","<b>Aufrufe</b>");
-define("_TABLEMODS","<b>Mod Name</b>");
-define("_TABLEMODSNAME","<b>Mod Kürzel</b>");
-define("_TABLEADDONS","<b>Addon Name</b>");
-define("_TABLEADDONSNAME","<b>Addon Kürzel</b>");
+define("_TABLEVIEWS","<b>Views</b>");
+define("_TABLEMODS","<b>Mod name</b>");
+define("_TABLEMODSNAME","<b>Mod abbreviation</b>");
+define("_TABLEADDONS","<b>Addon name</b>");
+define("_TABLEADDONSNAME","<b>Addon abbreviation</b>");
 define("_TABLEADDONMOD","<b>Addon / Mod</b>");
 define("_TABLEIMAGE","<b>Image</b>");
-define("_TABLETYP","<b>Typ</b>");
+define("_TABLETYP","<b>Type</b>");
 define("_TABLEREALM", "<b>Realm</b>");
 define("_TABLESLOTS","<b>Slots</b>");
-define("_TABLENUMBERS","<b>Anzahl</b>");
-define("_TABLEMAPTYPE","<b>Map Endung</b>");
-define("_TABLEDBTABLE","<b>Tabellenname</b>");
-define("_TABLESIZE","<b>Größe</b>");
-define("_TABLEOPTIMIZED","<b>Optimiert</b>");
+define("_TABLENUMBERS","<b>Number</b>");
+define("_TABLEMAPTYPE","<b>Map extension</b>");
+define("_TABLEDBTABLE","<b>Table name</b>");
+define("_TABLESIZE","<b>Size</b>");
+define("_TABLEOPTIMIZED","<b>Optimized</b>");
 define("_TABLEADMIN","<b>Administrator</b>");
-define("_TABLEAUTHORIZE","<b>Zugriffsberechtigung</b>");
-define("_TABLECATEGORY","<b>Kategorie</b>");
+define("_TABLEAUTHORIZE","<b>Authorization</b>");
+define("_TABLECATEGORY","<b>Category</b>");
 define("_TABLEID","<b>ID</b>");
-define("_TABLEORDERDATE","<b>Bestelldatum</b>");
-define("_TABLESENDDATE","<b>Übergeben am</b>");
-define("_TABLECOMMISSION","<b>Provision</b>");
-define("_TABLECONFIRMED","<b>Bestätigt</b>");
+define("_TABLEORDERDATE","<b>Order date</b>");
+define("_TABLESENDDATE","<b>Sent date</b>");
+define("_TABLECOMMISSION","<b>Commission</b>");
+define("_TABLECONFIRMED","<b>Confirmed</b>");
 define("_TABLEVERSION","<b>Version</b>");
-define("_TABLENEWVERSION","<b>Verfügbar</b>");
-define("_TABLELANGUAGE","<b>Sprache</b>");
+define("_TABLENEWVERSION","<b>Available</b>");
+define("_TABLELANGUAGE","<b>Language</b>");
 define("_TABLETOOLS","<b>Tools</b>");
-define("_TABLELASTCHANGE","<b>Letzte Änderung</b>");
-define("_TABLECHMODE","<b>Rechte</b>");
-define("_TABLEUSER","<b>Benutzer</b>");
-define("_TABLEGROUP","<b>Gruppe</b>");
-define("_TABLEVOTES","<b>Bewertungen</b>");
-define("_TABLECHANCELDATE","<b>Kündigung zum</b>");
-define("_TABLELIMIT","<b>Softlimit</b>");
+define("_TABLELASTCHANGE","<b>Last change</b>");
+define("_TABLECHMODE","<b>Permissions</b>");
+define("_TABLEUSER","<b>User</b>");
+define("_TABLEGROUP","<b>Group</b>");
+define("_TABLEVOTES","<b>Reviews</b>");
+define("_TABLECHANCELDATE","<b>Cancellation date</b>");
+define("_TABLELIMIT","<b>Soft limit</b>");
 
 ////////////////////////////////////////////
 // Date
 ////////////////////////////////////////////
-define("_JANUARY","Januar");
-define("_FEBRUARY","Februar");
-define("_MARCH","März");
+define("_JANUARY","January");
+define("_FEBRUARY","February");
+define("_MARCH","March");
 define("_APRIL","April");
-define("_MAY","Mai");
-define("_JUNE","Juni");
-define("_JULY","Juli");
+define("_MAY","May");
+define("_JUNE","June");
+define("_JULY","July");
 define("_AUGUST","August");
 define("_SEPTEMBER","September");
-define("_OCTOBER","Oktober");
+define("_OCTOBER","October");
 define("_NOVEMBER","November");
-define("_DECEMBER","Dezember");
+define("_DECEMBER","December");
 define("_JAN","Jan");
 define("_FEB","Feb");
 define("_MAR","Mar");
@@ -414,166 +411,165 @@ define("_JUN","Jun");
 define("_JUL","Jul");
 define("_AUG","Aug");
 define("_SEP","Sep");
-define("_OCT","Okt");
+define("_OCT","Oct");
 define("_NOV","Nov");
-define("_DEC","Dez");
+define("_DEC","Dec");
 define("_SUNDAY","Su");
 define("_MONDAY","Mo");
-define("_TUESDAY","Di");
-define("_WEDNESDAY","Mi");
-define("_THURSDAY","Do");
+define("_TUESDAY","Tu");
+define("_WEDNESDAY","We");
+define("_THURSDAY","Th");
 define("_FRIDAY","Fr");
 define("_SATURDAY","Sa");
-define("_CONVERTDATE","dd.mm.yy");
-define("_DATEEXAMPLE","(z.B. 31.12.2017)");
-
+define("_CONVERTDATE","mm/dd/yy");
+define("_DATEEXAMPLE","(e.g. 12/31/2017)");
 
 ////////////////////////////////////////////
 // Modules
 ////////////////////////////////////////////
-define("_FINANCEMODULES","Rechnungs Module");
-define("_APPMODULES","Programm Module");
-define("_MEMBERMODULES","Kunden Module");
-define("_GAMEMODULES","Spiele Module");
-define("_SERVERMODULES","Server Module");
-define("_VOICEMODULES","Voice Module");
-define("_SETTINGMODULES","Setting Module");
-define("_CMSMODULES","CMS Module");
-define("_SHOPMODULES","Shop Module");
-define("_STREAMMODULES","Stream Module");
-define("_WEBMODULES","Web Module");
+define("_FINANCEMODULES","Finance Modules");
+define("_APPMODULES","Application Modules");
+define("_MEMBERMODULES","Member Modules");
+define("_GAMEMODULES","Game Modules");
+define("_SERVERMODULES","Server Modules");
+define("_VOICEMODULES","Voice Modules");
+define("_SETTINGMODULES","Setting Modules");
+define("_CMSMODULES","CMS Modules");
+define("_SHOPMODULES","Shop Modules");
+define("_STREAMMODULES","Stream Modules");
+define("_WEBMODULES","Web Modules");
 
-define("_ADMIN","Administratoren");
-define("_ADMING","Admin Gruppen");
-define("_AFFILIATE","Affiliate Programm");
-define("_AFFILIATEARCHIVE","Affiliate Programm Archiv");
+define("_ADMIN","Administrators");
+define("_ADMING","Admin Groups");
+define("_AFFILIATE","Affiliate Program");
+define("_AFFILIATEARCHIVE","Affiliate Program Archive");
 define("_ALOGS","Admin Logs");
-define("_AMENU","Admin Menü");
-define("_APPFILES","Programmdateien");
-define("_APPLIST","Programmliste");
-define("_APPS","Programme");
-define("_BACKUPDRIVE","Backupserver");
+define("_AMENU","Admin Menu");
+define("_APPFILES","Application Files");
+define("_APPLIST","Application List");
+define("_APPS","Applications");
+define("_BACKUPDRIVE","Backup Server");
 define("_BROWSER","FTP Browser");
-define("_CALC","Rechner");
-define("_CCONTACT","Anfragen");
+define("_CALC","Calculator");
+define("_CCONTACT","Contact Requests");
 define("_CNEWS","News");
-define("_CNEWSCAT","News Kategorien");
-define("_CONTACT","Kontakt");
-define("_COPTIONS","CMS Einstellungen");
-define("_CMODULES","Module");
-define("_COUNTRY","Länder");
-define("_CBOXES","Menüblock");
-define("_CSECTIONS","Eigene Seiten");
-define("_CSTATISTICS","Statistiken");
-define("_CSHOPCODES","Rabattcodes");
-define("_CSHOPCONNECT","Automatisierung");
-define("_CSHOPCAT","Artikel Kategorien");
-define("_CSHOPORDERS","Bestellungen");
-define("_CSHOPPAYMENT","Zahlungsarten");
-define("_CSHOPPRODUCTS","Artikel");
-define("_CSHOPSHIP","Versandarten");
-define("_CSHOPVARI","Variationen");
-define("_CSHOPVARICAT","Variations Kategorien");
-define("_DATABASE","Datenbanken");
-define("_DBBACKUP","DB backup");
-define("_DBOPTIMIZE","DB optimieren");
-define("_DBUPLOAD","DB upload");
+define("_CNEWSCAT","News Categories");
+define("_CONTACT","Contact");
+define("_COPTIONS","CMS Settings");
+define("_CMODULES","Modules");
+define("_COUNTRY","Countries");
+define("_CBOXES","Menu Blocks");
+define("_CSECTIONS","Custom Pages");
+define("_CSTATISTICS","Statistics");
+define("_CSHOPCODES","Discount Codes");
+define("_CSHOPCONNECT","Automation");
+define("_CSHOPCAT","Item Categories");
+define("_CSHOPORDERS","Orders");
+define("_CSHOPPAYMENT","Payment Methods");
+define("_CSHOPPRODUCTS","Items");
+define("_CSHOPSHIP","Shipping Methods");
+define("_CSHOPVARI","Variations");
+define("_CSHOPVARICAT","Variation Categories");
+define("_DATABASE","Databases");
+define("_DBBACKUP","DB Backup");
+define("_DBOPTIMIZE","DB Optimize");
+define("_DBUPLOAD","DB Upload");
 define("_DESIGNOMAT","Design-O-Mat");
-define("_EMAILACC","Email Konten");
+define("_EMAILACC","Email Accounts");
 define("_FAQ","FAQ");
-define("_FACCOUNT","Konto");
-define("_FACCOUNTLIST","Kontenplan");
-define("_FBILL","Rechnungen");
-define("_FBILLARCHIVE","Rechnungen Archiv");
-define("_FDEBTORS","Schuldner");
+define("_FACCOUNT","Account");
+define("_FACCOUNTLIST","Chart of Accounts");
+define("_FBILL","Invoices");
+define("_FBILLARCHIVE","Invoices Archive");
+define("_FDEBTORS","Debtors");
 define("_FEXPORT","Export");
-define("_FINOUT","Geschäftsvorfälle");
-define("_FINOUTARCHIVE","Geschäftsvorfälle Archiv");
-define("_FOPEN","Offene Posten");
-define("_FOPENARCHIVE","Offene Posten Archiv");
-define("_FOPENCON","Offene Verträge");
-define("_FOPTIONS","Firmen Daten");
-define("_FPACKET","Kundenpaket");
-define("_FPRODUCTS","Rechnungs Artikel");
-define("_FCONTRACTS","Vertrags Texte");
-define("_FREMINDER","Mahnstufen");
-define("_FTAX","Steuerschlüssel");
-define("_FTEMP","Buchführungshelfer");
-define("_GAMEFILES","Spieledateien");
-define("_GAMELIST","Spieleliste");
-define("_GAMEMAPS","Spielemaps");
-define("_GAMEMODS","Spielemods");
-define("_GAMEADDONS","Spieleaddons");
-define("_GAMETEMP","Datei Templates");
-define("_GHOST","Geisterserver");
-define("_GSERVER","Gameserver");
-define("_MEMBERS","Kunden");
-define("_MEMNEWS","Kunden News");
+define("_FINOUT","Business Transactions");
+define("_FINOUTARCHIVE","Business Transactions Archive");
+define("_FOPEN","Open Items");
+define("_FOPENARCHIVE","Open Items Archive");
+define("_FOPENCON","Open Contracts");
+define("_FOPTIONS","Company Data");
+define("_FPACKET","Customer Package");
+define("_FPRODUCTS","Invoice Items");
+define("_FCONTRACTS","Contract Texts");
+define("_FREMINDER","Reminder Levels");
+define("_FTAX","Tax Codes");
+define("_FTEMP","Accounting Assistant");
+define("_GAMEFILES","Game Files");
+define("_GAMELIST","Game List");
+define("_GAMEMAPS","Game Maps");
+define("_GAMEMODS","Game Mods");
+define("_GAMEADDONS","Game Addons");
+define("_GAMETEMP","File Templates");
+define("_GHOST","Ghost Server");
+define("_GSERVER","Game Server");
+define("_MEMBERS","Members");
+define("_MEMNEWS","Member News");
 define("_MINER","Miner");
-define("_MLOGS","Kunden Logs");
-define("_MMENU","Kunden Menü");
-define("_MRSERVER","Kunden Rootserver");
-define("_MVSERVER","Kunden VServer");
-define("_MUSICBOT","TS3Musicbot"); 
+define("_MLOGS","Member Logs");
+define("_MMENU","Member Menu");
+define("_MRSERVER","Member Root Server");
+define("_MVSERVER","Member VServer");
+define("_MUSICBOT","TS3Musicbot");
 define("_NEWSLETTER","Newsletter");
-define("_OPTIONS","Einstellungen");
+define("_OPTIONS","Settings");
 define("_PREPAID","Prepaid");
-define("_RATINGS","Bewertungen");
-define("_RESOURCES","Resourcen");
+define("_RATINGS","Ratings");
+define("_RESOURCES","Resources");
 define("_RSSFEEDS","RSS Feeds");
-define("_RSERVER","Rootserver");
-define("_RSERVERPROXMOX", "Proxmox Rootserver");
+define("_RSERVER","Root Server");
+define("_RSERVERPROXMOX", "Proxmox Root Server");
 define("_RTEMP","Server Templates");
-define("_STREAMFILES","Streamdateien");
-define("_STREAMLIST","Streamliste");
-define("_STREAMS","Streamserver");
-define("_STREAMSOFTLIMIT","Softlimit kontrollieren");
-define("_SUGGESTIONS","Feature Wünsche");
+define("_STREAMFILES","Stream Files");
+define("_STREAMLIST","Stream List");
+define("_STREAMS","Stream Server");
+define("_STREAMSOFTLIMIT","Control Softlimit");
+define("_SUGGESTIONS","Feature Requests");
 define("_SUPPORT","Support");
-define("_SUPPCAT","Support Kategorien");
-define("_SUPPORTARCHIVE","Support Archiv");
+define("_SUPPCAT","Support Categories");
+define("_SUPPORTARCHIVE","Support Archive");
 define("_TEKUPDATES","Updates");
-define("_TEXTPRESETS","Text Bausteine");
-define("_TIMETRACKER","Zeiterfassung");
+define("_TEXTPRESETS","Text Blocks");
+define("_TIMETRACKER","Time Tracking");
 define("_TODO","Todo");
-define("_TSERVER","Teamspeak Grundserver");
-define("_VSERVER","Voiceserver");
-define("_VSTREAMS","Flash Streamserver");
+define("_TSERVER","Teamspeak Basic Server");
+define("_VSERVER","Voice Server");
+define("_VSTREAMS","Flash Stream Server");
 define("_WIDGETS","Widgets");
 
 define("_ALOGIN","Admin Login");
 define("_ALOGOUT","Admin Logout");
-define("_MLOGIN","Kunden Login");
-define("_MLOGOUT","Kunden Logout");
+define("_MLOGIN","Customer Login");
+define("_MLOGOUT","Customer Logout");
 
-define("_MAPPFILES","Programm Templates");
-define("_MAPI","Api");
-define("_MAPPS","Programme");
-define("_MARKETPLACE","Martkplatz");
-define("_MDATABASE","Datenbanken");
-define("_MFAQ","Faq");
-define("_MFTPUSERS","Ftp Benutzer");
-define("_MGAMEFILES","Spiele Templates");
-define("_MGSERVER","Gameserver");
-define("_MPROFIL","Profil");
+define("_MAPPFILES","Program Templates");
+define("_MAPI","API");
+define("_MAPPS","Programs");
+define("_MARKETPLACE","Marketplace");
+define("_MDATABASE","Databases");
+define("_MFAQ","FAQ");
+define("_MFTPUSERS","FTP Users");
+define("_MGAMEFILES","Game Templates");
+define("_MGSERVER","Game Server");
+define("_MPROFIL","Profile");
 define("_MSTREAMFILES","Stream Templates");
-define("_MSTREAMS","Streamserver");
+define("_MSTREAMS","Stream Server");
 define("_MSUPPORT","Support");
-define("_MSETTINGS","Einstellungen");
+define("_MSETTINGS","Settings");
 define("_MTEAMSPEAK","Teamspeak");
 define("_MMUMBLE","Mumble");
 define("_MMUSICBOT","TS3Musicbot");
-define("_MUSERS","Benutzer");
-define("_MSUGGESTIONS","Feature Wünsche");
-define("_MRAPPS","Programme erstellen");
-define("_MRGSERVER","Gameserver erstellen");
-define("_MRSTREAMS","Streamserver erstellen");
-define("_MRVSERVER","Voiceserver erstellen");
-define("_MRTSERVER","Teamspeak Grundserver");
+define("_MUSERS","Users");
+define("_MSUGGESTIONS","Feature Requests");
+define("_MRAPPS","Create Programs");
+define("_MRGSERVER","Create Game Server");
+define("_MRSTREAMS","Create Stream Server");
+define("_MRVSERVER","Create Voice Server");
+define("_MRTSERVER","Create Teamspeak Basic Server");
 define("_MVENTRILO","Ventrilo");
-define("_MRSERVER","Rootserver");
+define("_MRSERVER","Root Server");
 define("_MVSERVER","VServer");
-define("_MWEBFTP","Webftp");
+define("_MWEBFTP","WebFTP");
 define("_MWIDGETS","Widgets");
 define("_MRESOURCES","Downloads");
 
@@ -581,171 +577,163 @@ define("_MRESOURCES","Downloads");
 ////////////////////////////////////////////
 // Statusbar
 ////////////////////////////////////////////
-define("_STATUSBARCONTACTUNREAD","ungelesene Nachrichte(n)");
-define("_STATUSBARCONTACTREAD","gelesene Nachrichte(n)");
-define("_STATUSBARCONTACTANSWER","beantwortete Nachrichte(n)");
-define("_STATUSBARCONTACTNOANSWER","unbeantwortete Nachrichte(n)");
-define("_STATUSBARSUPPORTUNREAD","ungelesene Anfrage(n)");
-define("_STATUSBARSUPPORTREAD","gelesene Anfrage(n)");
-define("_STATUSBARSUPPORTANSWER","beantwortete Anfrage(n)");
-define("_STATUSBARSUPPORTNOANSWER","unbeantwortete Anfrage(n)");
-define("_STATUSBARMEMBERSACTIVE","aktive Kunden");
-define("_STATUSBARMEMBERSCLOSED","gesperrte Kunden");
-define("_STATUSBARMEMBERSALL","Kunden gesamt");
-define("_STATUSBARMEMBERS","Kunden");
-define("_STATUSBARMEMBERSONLINE","Kunden online von");
-define("_STATUSBARFROM","von");
-define("_STATUSBARGSERVER","Gameserver");
-define("_STATUSBARSSERVER","Streamserver");
-define("_STATUSBARVSERVER","Voiceserver");
-define("_STATUSBARRSERVER","Rootserver (Kunden)");
-define("_STATUSBARVMSERVER","Vserver");
-
+define("_STATUSBARCONTACTUNREAD","unread message(s)");
+define("_STATUSBARCONTACTREAD","read message(s)");
+define("_STATUSBARCONTACTANSWER","answered message(s)");
+define("_STATUSBARCONTACTNOANSWER","unanswered message(s)");
+define("_STATUSBARSUPPORTUNREAD","unread request(s)");
+define("_STATUSBARSUPPORTREAD","read request(s)");
+define("_STATUSBARSUPPORTANSWER","answered request(s)");
+define("_STATUSBARSUPPORTNOANSWER","unanswered request(s)");
+define("_STATUSBARMEMBERSACTIVE","active customers");
+define("_STATUSBARMEMBERSCLOSED","locked customers");
+define("_STATUSBARMEMBERSALL","total customers");
+define("_STATUSBARMEMBERS","customers");
+define("_STATUSBARMEMBERSONLINE","customers online from");
+define("_STATUSBARFROM","from");
+define("_STATUSBARGSERVER","game server");
+define("_STATUSBARSSERVER","stream server");
+define("_STATUSBARVSERVER","voice server");
+define("_STATUSBARRSERVER","root server (customers)");
+define("_STATUSBARVMSERVER","VPS server");
 
 ////////////////////////////////////////////
 // Todo
 ////////////////////////////////////////////
-define("_TODOOK","Die Aufgabe wurde als erledigt makiert!");
-define("_TODODBUPERROR","Datenbankfehler! Die Aufgabe konnte nicht geändert werden!");
+define("_TODOOK","The task has been marked as completed!");
+define("_TODODBUPERROR","Database error! The task could not be updated!");
 
 ////////////////////////////////////////////
 // Softlimit
 ////////////////////////////////////////////
-define("_SQUOTADBDELOK","Der Eintrag wurde soeben gelöscht!");
-define("_SQUOTADBDELERROR","Datenbankfehler! Der Eintrag konnte nicht gelöscht werden!");
+define("_SQUOTADBDELOK","The entry has been deleted!");
+define("_SQUOTADBDELERROR","Database error! The entry could not be deleted!");
 
 ////////////////////////////////////////////
 // Questions
 ////////////////////////////////////////////
-define("_QUESTIONLOGOUT","Wollen sie sich wirklich auslogen?");
-define("_QUESTIONTODOOK","Wurde die Aufgabe wirklich erledigt?");
-define("_QUESTIONDELETEALL","Wollen sie wirklich alle Einträge löschen?");
-define("_QUESTIONDELETESERVER","Wollen sie den Server wirklich löschen?");
-define("_QUESTIONDELETEAPP","Wollen sie das Programm wirklich löschen?");
-define("_QUESTIONDELETEPACKET","Wollen sie das Produkt wirklich löschen?");
-define("_QUESTIONDELETESQUOTA","Wollen sie den Eintrag wirklich löschen?");
+define("_QUESTIONLOGOUT","Are you sure you want to log out?");
+define("_QUESTIONTODOOK","Has the task really been completed?");
+define("_QUESTIONDELETEALL","Are you sure you want to delete all entries?");
+define("_QUESTIONDELETESERVER","Are you sure you want to delete the server?");
+define("_QUESTIONDELETEAPP","Are you sure you want to delete the program?");
+define("_QUESTIONDELETEPACKET","Are you sure you want to delete the product?");
+define("_QUESTIONDELETESQUOTA","Are you sure you want to delete the entry?");
 
 ////////////////////////////////////////////
 // SSH Messages
 ////////////////////////////////////////////
-define("_SSHAPPSTART","Das Programm wurde auf dem Server gestartet!");
-define("_SSHAPPSTARTERROR","Das Programm konnte auf dem Server nicht gestartet werden!");
-define("_SSHAPPSTOP","Das Programm wurde auf dem Server beendet!");
-define("_SSHAPPSTOPERROR","Das Programm konnte auf dem Server nicht beendet werden!");
-define("_SSHAPPDEL","Das Programm wird auf dem Server gelöscht!");
-define("_SSHAPPDELERROR","Das Programm konnte auf dem Server nicht gelöscht werden!");
-define("_SSHDATABASEDEL","Die Datenbank wird auf dem Server gelöscht!");
-define("_SSHDATABASEDELERROR","Die Datenbank konnte auf dem Server nicht gelöscht werden!");
-define("_SSHDATABASERENAMEERROR","Die Datenbank konnte auf dem Server nicht geändert werden!");
-define("_SSHSTREAMSTART","Der Stream wurde auf dem Server gestartet!");
-define("_SSHSTREAMSTARTERROR","Der Stream konnte auf dem Server nicht gestartet werden!");
-define("_SSHSTREAMSTOP","Der Stream wurde auf dem Server beendet!");
-define("_SSHSTREAMSTOPERROR","Der Stream konnte auf dem Server nicht beendet werden!");
-define("_SSHSTREAMDEL","Der Stream wird auf dem Server gelöscht!");
-define("_SSHSTREAMDELERROR","Der Stream konnte auf dem Server nicht gelöscht werden!");
-define("_SSHVSTREAMSTART","Der Stream wurde auf dem Server gestartet!");
-define("_SSHVSTREAMSTARTERROR","Der Stream konnte auf dem Server nicht gestartet werden!");
-define("_SSHVSTREAMSTOP","Der Stream wurde auf dem Server beendet!");
-define("_SSHVSTREAMSTOPERROR","Der Stream konnte auf dem Server nicht beendet werden!");
-define("_SSHVSTREAMDEL","Der Stream wird auf dem Server gelöscht!");
-define("_SSHVSTREAMDELERROR","Der Stream konnte auf dem Server nicht gelöscht werden!");
-define("_SSHGAMESTART","Der Gameserver wurde auf dem Server gestartet!");
-define("_SSHGAMESTARTERROR","Der Gameserver konnte auf dem Server nicht gestartet werden!");
-define("_SSHGAMESTOP","Der Gameserver wurde auf dem Server beendet!");
-define("_SSHGAMESTOPERROR","Der Gameserver konnte auf dem Server nicht beendet werden!");
-define("_SSHGAMEDEL","Der Gameserver wird auf dem Server gelöscht!");
-define("_SSHGAMEDELERROR","Der Gameserver konnte auf dem Server nicht gelöscht werden!");
-define("_SSHVOICESTART","Der Voiceserver wurde auf dem Server gestartet!");
-define("_SSHVOICESTARTERROR","Der Voiceserver konnte auf dem Server nicht gestartet werden!");
-define("_SSHVOICESTOP","Der Voiceserver wurde auf dem Server beendet!");
-define("_SSHVOICESTOPERROR","Der Voiceserver konnte auf dem Server nicht beendet werden!");
-define("_SSHVOICEDEL","Der Voiceserver wird auf dem Server gelöscht!");
-define("_SSHVOICEDELERROR","Der Voiceserver konnte auf dem Server nicht gelöscht werden!");
-define("_SSHMVSERVERSTART","Der VServer wird auf dem Server gestartet!");
-define("_SSHMVSERVERSTARTERROR","Der VServer konnte auf dem Server nicht gestartet werden!");
-define("_SSHMVSERVERSTOP","Der VServer wird auf dem Server beendet!");
-define("_SSHMVSERVERSTOPERROR","Der VServer konnte auf dem Server nicht beendet werden!");
-define("_SSHMVSERVERDEL","Der VServer wird auf dem Server gelöscht!");
-define("_SSHMVSERVERDELERROR","Der VServer konnte auf dem Server nicht gelöscht werden!");
-define("_SSHUSERMOD","Der Kundenstatus wurde auf dem Server geändert!");
-define("_SSHUSERMODERROR","Der Kundenstatus konnte auf dem Server nicht geändert werden!");
-define("_SSHUSERDEL","Der Kunde wird auf dem Server gelöscht!");
-define("_SSHUSERDELERROR","Der Kunde konnte auf dem Server nicht gelöscht werden!");
-define("_SSHUSERERROR","Der Kunde konnte auf dem Server nicht erstellt werden!");
+define("_SSHAPPSTART", "The program has been started on the server!");
+define("_SSHAPPSTARTERROR", "The program could not be started on the server!");
+define("_SSHAPPSTOP", "The program has been stopped on the server!");
+define("_SSHAPPSTOPERROR", "The program could not be stopped on the server!");
+define("_SSHAPPDEL", "The program is being deleted from the server!");
+define("_SSHAPPDELERROR", "The program could not be deleted from the server!");
+define("_SSHDATABASEDEL", "The database is being deleted from the server!");
+define("_SSHDATABASEDELERROR", "The database could not be deleted from the server!");
+define("_SSHDATABASERENAMEERROR", "The database could not be renamed on the server!");
+define("_SSHSTREAMSTART", "The stream has been started on the server!");
+define("_SSHSTREAMSTARTERROR", "The stream could not be started on the server!");
+define("_SSHSTREAMSTOP", "The stream has been stopped on the server!");
+define("_SSHSTREAMSTOPERROR", "The stream could not be stopped on the server!");
+define("_SSHSTREAMDEL", "The stream is being deleted from the server!");
+define("_SSHSTREAMDELERROR", "The stream could not be deleted from the server!");
+define("_SSHVSTREAMSTART", "The video stream has been started on the server!");
+define("_SSHVSTREAMSTARTERROR", "The video stream could not be started on the server!");
+define("_SSHVSTREAMSTOP", "The video stream has been stopped on the server!");
+define("_SSHVSTREAMSTOPERROR", "The video stream could not be stopped on the server!");
+define("_SSHVSTREAMDEL", "The video stream is being deleted from the server!");
+define("_SSHVSTREAMDELERROR", "The video stream could not be deleted from the server!");
+define("_SSHGAMESTART", "The game server has been started on the server!");
+define("_SSHGAMESTARTERROR", "The game server could not be started on the server!");
+define("_SSHGAMESTOP", "The game server has been stopped on the server!");
+define("_SSHGAMESTOPERROR", "The game server could not be stopped on the server!");
+define("_SSHGAMEDEL", "The game server is being deleted from the server!");
+define("_SSHGAMEDELERROR", "The game server could not be deleted from the server!");
+define("_SSHVOICESTART", "The voice server has been started on the server!");
+define("_SSHVOICESTARTERROR", "The voice server could not be started on the server!");
+define("_SSHVOICESTOP", "The voice server has been stopped on the server!");
+define("_SSHVOICESTOPERROR", "The voice server could not be stopped on the server!");
+define("_SSHVOICEDEL", "The voice server is being deleted from the server!");
+define("_SSHVOICEDELERROR", "The voice server could not be deleted from the server!");
+define("_SSHMVSERVERSTART", "The virtual server has been started on the server!");
+define("_SSHMVSERVERSTARTERROR", "The virtual server could not be started on the server!");
+define("_SSHMVSERVERSTOP", "The virtual server has been stopped on the server!");
+define("_SSHMVSERVERSTOPERROR", "The virtual server could not be stopped on the server!");
+define("_SSHMVSERVERDEL", "The virtual server is being deleted from the server!");
+define("_SSHMVSERVERDELERROR", "The virtual server could not be deleted from the server!");
+define("_SSHUSERMOD", "The customer status has been changed on the server!");
+define("_SSHUSERMODERROR", "The customer status could not be changed on the server!");
+define("_SSHUSERDEL","The customer is being deleted from the server!");
+define("_SSHUSERDELERROR","The customer could not be deleted from the server!");
+define("_SSHUSERERROR","The customer could not be created on the server!");
 
-define("_SSHSERVEROFFLINE","Der Server ist offline oder der Port ist nicht erreichbar!");
-define("_SSHKEYERROR","Die SSH-Keys sind falsch, es konnte keine Verbindung hergestellt werden!");
-define("_SSHBADLOGIN","Das Root Passwort ist falsch, es konnte keine Verbindung hergestellt werden!");
-define("_SSHDAEMONBADLOGIN","Das Daemon Passwort ist falsch, es konnte keine Verbindung hergestellt werden!");
+define("_SSHSERVEROFFLINE","The server is offline or the port is not accessible!");
+define("_SSHKEYERROR","The SSH keys are incorrect, a connection could not be established!");
+define("_SSHBADLOGIN","The root password is incorrect, a connection could not be established!");
+define("_SSHDAEMONBADLOGIN","The daemon password is incorrect, a connection could not be established!");
 
 ////////////////////////////////////////////
 // Teamspeak Messages
 ////////////////////////////////////////////
-define("_TSNOCONNECT","Der Queryport ist falsch oder der Server ist nicht erreichbar!");
-define("_TSNOSUPERADMIN","Der Teamspeak Superadmin/Serveradmin Login ist nicht korrekt!");
-define("_TSNOUDPPORT","Der Teamspeak Server konnte auf dem Server nicht gefunden werden!");
-define("_TSSTOP","Der Teamspeak Server wurde auf dem Server beendet!");
-define("_TSSTOPERROR","Der Teamspeak Server konnte auf dem Server nicht beendet werden!");
-define("_TSSTART","Der Teamspeak Server wurde auf dem Server gestartet!");
-define("_TSSTARTERROR","Der Teamspeak Server konnte auf dem Server nicht gestartet werden!");
-define("_TSCHANGE","Der Befehl wurde soeben ausgeführt!");
-define("_TSCHANGEERROR","Der Befehl konnte nicht ausgeführt werden!");
-
+define("_TSNOCONNECT","The query port is incorrect or the server is not reachable!");
+define("_TSNOSUPERADMIN","The Teamspeak superadmin/serveradmin login is not correct!");
+define("_TSNOUDPPORT","The Teamspeak server could not be found on the server!");
+define("_TSSTOP","The Teamspeak server has been stopped on the server!");
+define("_TSSTOPERROR","The Teamspeak server could not be stopped on the server!");
+define("_TSSTART","The Teamspeak server has been started on the server!");
+define("_TSSTARTERROR","The Teamspeak server could not be started on the server!");
+define("_TSCHANGE","The command has just been executed!");
+define("_TSCHANGEERROR","The command could not be executed!");
 
 ////////////////////////////////////////////
 // Logs
 ////////////////////////////////////////////
-define("_LOGTODOOK","erledigen");
-define("_LOGLOGOUT","ausloggen");
-define("_LOGLOGIN","einloggen");
-define("_LOGUP","bearbeiten");
-define("_LOGSERVICE","warten");
-define("_LOGNEW","erstellen");
-define("_LOGINST","installieren");
-define("_LOGREINST","neu installieren");
-define("_LOGUPLOAD","hochladen");
-define("_LOGDOWNLOAD","runterladen");
-define("_LOGCONNECT","verbinden");
-define("_LOGDEL","löschen");
-define("_LOGDELALL","alles löschen");
-define("_LOGSTART","starten");
-define("_LOGSTOP","stoppen");
-define("_LOGSAVE","speichern");
-define("_LOGSEND","senden");
-define("_LOGIMPORT","importieren");
-define("_LOGEXPORT","exportieren");
-define("_LOGRESET","reseten");
-define("_LOGACTIVATE","aktivieren");
-define("_LOGDEACTIVATE","deaktivieren");
-define("_LOGCLOSE","schließen");
-define("_LOGOPTIMIZE","optimieren");
-define("_LOGARCHIVE","archivieren");
-define("_LOGREAD","lesen");
-define("_LOGANSWER","antworten");
-define("_LOGBALANCE","ausgleichen");
-define("_LOGDTA","DTA übergeben");
-define("_LOGDEBTOR","Schuldner übergeben");
-define("_LOGASSIGN","zuweisen");
-define("_LOGCANCEL","stornieren");
+define("_LOGTODOOK","complete");
+define("_LOGLOGOUT","logout");
+define("_LOGLOGIN","login");
+define("_LOGUP","edit");
+define("_LOGSERVICE","service");
+define("_LOGNEW","create");
+define("_LOGINST","install");
+define("_LOGREINST","reinstall");
+define("_LOGUPLOAD","upload");
+define("_LOGDOWNLOAD","download");
+define("_LOGCONNECT","connect");
+define("_LOGDEL","delete");
+define("_LOGDELALL","delete all");
+define("_LOGSTART","start");
+define("_LOGSTOP","stop");
+define("_LOGSAVE","save");
+define("_LOGSEND","send");
+define("_LOGIMPORT","import");
+define("_LOGEXPORT","export");
+define("_LOGRESET","reset");
+define("_LOGACTIVATE","activate");
+define("_LOGDEACTIVATE","deactivate");
+define("_LOGCLOSE","close");
+define("_LOGOPTIMIZE","optimize");
+define("_LOGARCHIVE","archive");
+define("_LOGREAD","read");
+define("_LOGANSWER","answer");
+define("_LOGBALANCE","balance");
+define("_LOGDTA","submit DTA");
+define("_LOGDEBTOR","submit debtor");
+define("_LOGASSIGN","assign");
+define("_LOGCANCEL","cancel");
 define("_LOGBACKUP","backup");
 define("_LOGRESTORE","restore");
-
 
 ////////////////////////////////////////////
 // UPDATER
 ////////////////////////////////////////////
 define("_UPDATE","Update");
-define("_UPSTEPONE","Dieses Skript wird ihre Datenbank updaten. Bitte sichern sie
-vorher ihre Datenbank, denn TekLab übernimmt keine Haftung für eventuelle Schäden!<br><br>
-Haben sie vorher ihre Datenbank gesichert? Wenn nicht, dann klicken sie bitte auf Datenbank sichern.");
-define("_UPSTEPDBSAVE","<b>Datenbank sichern</b>");
-define("_UPSTEPTWO","Das Updaten der Datenbank ist nun abgeschlossen. Sicherheitshalber sollten sie noch
-einmal die Datenbank Struktur überprüfen und gegebenfalls Änderungen vornehmen. Sie finden die original 
-Datenbank im Verzeichnis install.<br><br>Bitte löschen sie nach der Überprüfung die Dateien tekbaseXX-XX.php (XX steht für Zahlen) und das Verzeichnis install!");
-define("_UPSTEPONEDBSAVE","<b>Datenbank sichern</b>");
-define("_UPNEXT","weiter");
-define("_UPBACK","zurück");
-
+define("_UPSTEPONE","This script will update your database. Please backup your database before proceeding, as TekLab assumes no liability for any damages!<br><br>Have you backed up your database? If not, please click on Backup database.");
+define("_UPSTEPDBSAVE","<b>Backup database</b>");
+define("_UPSTEPTWO","The database update is now complete. For safety reasons, please check the database structure again and make any necessary changes. You will find the original database in the install directory.<br><br>Please delete the files tekbaseXX-XX.php (XX stands for numbers) and the install directory after checking!");
+define("_UPSTEPONEDBSAVE","<b>Backup database</b>");
+define("_UPNEXT","Next");
+define("_UPBACK","Back");
 
 ////////////////////////////////////////////
 // DATA PRIVACY
@@ -774,37 +762,35 @@ define("_DATAPRIVACYPROFILECREATED","Profil created");
 ////////////////////////////////////////////
 // ASSISTENT
 ////////////////////////////////////////////
-define("_ASSISTENTHOME","Dies ist der Begrüßungsbildschirm, hier sehen sie die neusten News von TekLab.de und auch
-einige anderen Informationen, wie zum Beispiel die neu eingegangenen Supportanfragen. Mit dem Menü links können sie
-einfach und schnell zwischen den verschiedenen Modulen hin und her wechseln. Jedes Modul besitzt diesen Assistenten
-er wird ihnen kurz und knapp die Module erklären.<br><br>
-Einige Module wie zum Beispiel das Kunden Modul haben für verschiedene Bereiche auch verschiedene Assistenten Texte. ");
+efine("_ASSISTENTHOME","This is the welcome screen, where you can see the latest news from TekLab.de and other information,
+such as new support requests. You can easily switch between different modules using the menu on the left. Each module has
+this assistant which will briefly explain the module to you.<br><br>
+Some modules, such as the customer module, have different assistant texts for different areas.");
 
-define("_ASSISTENTFINANCEMODULES","Hier befinden sich die Rechnungs Module, damit können sie ihre Einnahmen und Ausgaben verwalten,
-neue Rechnungen erstellen und Produkte einem Kundenpaket hinzufügen.");
+define("_ASSISTENTFINANCEMODULES","Here are the billing modules, where you can manage your income and expenses,
+create new invoices and add products to a customer package.");
 
-define("_ASSISTENTSETTINGMODULES","Hier befinden sich die Module, mit denen sie die Grundeinstellungen des Webinterfaces 
-ihren Wünschen anpassen können.");
+define("_ASSISTENTSETTINGMODULES","Here are the modules with which you can adjust the basic settings of the web interface according to your wishes.");
 
-define("_ASSISTENTMEMMODULES","Hier befinden sich die Kunden Module, wie zum Beispiel das Kontakt Modul zum Nachrichten
-verschicken an einzelne Kunden oder wie das Kunden Modul selbst, wo sie Kunden anlegen, ändern, sperren und löschen können.");
+define("_ASSISTENTMEMMODULES","Here are the customer modules, such as the contact module for sending messages
+to individual customers or the customer module itself, where you can create, modify, block and delete customers.");
 
-define("_ASSISTENTAPPMODULES","Hier befinden sich die Programm Module, mit denen sie neue Programme hinzufügen oder einzelne
-Dateien für ihre Kunden freigeben können.");
+define("_ASSISTENTAPPMODULES","Here are the program modules with which you can add new programs or release individual
+files for your customers.");
 
-define("_ASSISTENTSERVERMODULES","Hier befinden sich die Server Module, mit denen sie neue Server hinzufügen oder einzelne
-Dateien für ihre Kunden freigeben können.");
+define("_ASSISTENTSERVERMODULES","Here are the server modules with which you can add new servers or release individual
+files for your customers.");
 
-define("_ASSISTENTSTREAMMODULES","Hier befinden sich die Stream Module, mit denen sie neue Streams hinzufügen oder einzelne
-Dateien für ihre Kunden freigeben können.");
+define("_ASSISTENTSTREAMMODULES","Here are the stream modules with which you can add new streams or release individual
+files for your customers.");
 
-define("_ASSISTENTCMSMODULES","Hier befinden sich die CMS Module, mit denen sie ihre Website erstellen und verwalten können.");
+define("_ASSISTENTCMSMODULES","Here are the CMS modules with which you can create and manage your website.");
 
-define("_ASSISTENTGAMEMODULES","Hier befinden sich die Spiele Module zum erstellen von Spielen, freigeben von Maps und Settingdateien, ...");
+define("_ASSISTENTGAMEMODULES","Here are the game modules for creating games, releasing maps and setting files, ...");
 
-define("_ASSISTENTVOICEMODULES","Hier befinden sich die Voice Module, mit denen sie die Voicserver verwalten können.");
+define("_ASSISTENTVOICEMODULES","Here are the voice modules with which you can manage the voice servers.");
 
-define("_ASSISTENTSHOPMODULES","Hier befinden sich die Shop Module, mit denen sie Artikel und Variationen sowie Kategorien anlegen können.");
+define("_ASSISTENTSHOPMODULES","Here are the shop modules with which you can create articles and variations as well as categories.");
 
-define("_ASSISTENTWEBMODULES","Hier befinden sich die Webspace Module, mit denen sie Webspace, Emails, FTP und Datenbanken verwalten können.");
+define("_ASSISTENTWEBMODULES","Here are the webspace modules with which you can manage webspace, emails, FTP and databases.");
 ?>
