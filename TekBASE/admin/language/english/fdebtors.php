@@ -1,59 +1,55 @@
 <?php
 
-define("_FDEBTORSNEW","Schuldner eintragen");
-define("_FDEBTORSNOTALLFIELDS","Es wurden nicht alle mit einem * gekennzeichneten Felder ausgefüllt!");
-define("_FDEBTORSEXIST","Die Rechnungsnummer existiert schon als Inkasso/Schulder Eintrag!");
-define("_FDEBTORSDBUPERROR","Datenbankfehler! Der Schuldner konnte nicht geändert werden!");
-define("_FDEBTORSDBUPDATED","Der Schuldner wurde geändert!");
-define("_FDEBTORSDBSAVEERROR","Datenbankfehler! Der Schuldner konnte nicht eingetragen werden!");
-define("_FDEBTORSCREATED","Der Schuldner wurde soeben eingetragen!");
-define("_FDEBTORSDBDELERROR","Datenbankfehler! Der Schuldner konnte nicht gelöscht werden!");
-define("_FDEBTORSDBDELETED","Der Schuldner wurde soeben aus dem Webinterface gelöscht!");
-define("_FDEBTORSSTATUS","Die ausgewählten Schuldner werden nun gelöscht!");
-define("_FDEBTORSNOENTRY","<b>Keine Schuldner vorhanden!</b>");
-define("_FDEBTORSADDRESS","<b>Adresse:</b>");
-define("_FDEBTORSINFOS","<b>Infos:</b>");
-define("_FDEBTORSPHONE","Telefon:");
+define("_FDEBTORSNEW","Enter debtor");
+define("_FDEBTORSNOTALLFIELDS","Not all fields marked with * have been filled out!");
+define("_FDEBTORSEXIST","The invoice number already exists as an entry in debt collection/debtors!");
+define("_FDEBTORSDBUPERROR","Database error! The debtor could not be changed!");
+define("_FDEBTORSDBUPDATED","The debtor has been changed!");
+define("_FDEBTORSDBSAVEERROR","Database error! The debtor could not be entered!");
+define("_FDEBTORSCREATED","The debtor has just been entered!");
+define("_FDEBTORSDBDELERROR","Database error! The debtor could not be deleted!");
+define("_FDEBTORSDBDELETED","The debtor has just been deleted from the web interface!");
+define("_FDEBTORSSTATUS","The selected debtors are now being deleted!");
+define("_FDEBTORSNOENTRY","<b>No debtors available!</b>");
+define("_FDEBTORSADDRESS","<b>Address:</b>");
+define("_FDEBTORSINFOS","<b>Info:</b>");
+define("_FDEBTORSPHONE","Phone:");
 define("_FDEBTORSEMAIL","Email:");
-define("_FDEBTORSMEMID","Kundenkennung*:");
-define("_FDEBTORSTITLE","Titel*:");
-define("_FDEBTORSFIRM","Firmenname:");
-define("_FDEBTORSFORENAME","Vorname*:");
-define("_FDEBTORSSURNAME","Name*:");
-define("_FDEBTORSSTREET","Strasse*:");
-define("_FDEBTORSCITY","Ort*:");
-define("_FDEBTORSZIPCODE","PLZ*:");
-define("_FDEBTORSCOUNTRY","Land*:");
-define("_FDEBTORSBIRTHDAY","Geburtstag*:");
-define("_FDEBTORSBDAYEXAMPLE","(z.B. 31.10.1980)");
-define("_FDEBTORSTYP","Übergeben an*:");
-define("_FDEBTORSTYPONE","Schuldnerdatenbank lokal");
-define("_FDEBTORSTYPTWO","Schuldnerdatenbank global");
-define("_FDEBTORSTYPTHREE","Inkasso - Adebio");
-define("_FDEBTORSTYPFOUR","Inkasso - Eurotreuhand");
-define("_FDEBTORSTYPFIVE","Inkasso - Mediafinanz");
-define("_FDEBTORSREFID","Aktenzeichen für SDB global*:");
-define("_FDEBTORSBILLID","Rechnungsnummer(n)*:");
-define("_FDEBTORSDEBTS","Rechnungsbetrag*:");
-define("_FDEBTORSFINES","Mahngebühr:");
-define("_FDEBTORSBILLDATE","Rechnungsdatum*:");
-define("_FDEBTORSREMINDERDATE","Mahndatum*:");
-define("_FDEBTORSINFO","Anmerkung:");
-define("_FDEBTORSINFOTEXT","Bei Mediafinanz hier die<br>Produkte oder Leistungen<br>eintragen.");
-define("_FDEBTORSTYPONE","Schuldner");
-define("_FDEBTORSTYPTWO","Inkasso");
-define("_FDEBTORSSTATUSONE","Lokal");
-define("_FDEBTORSSTATUSTWO","Übermittelt");
-define("_FDEBTORSSTATUSTHREE","Übertragungsfehler");
-define("_FDEBTORSDELETESEL","markierte Schuldner löschen");
+define("_FDEBTORSMEMID","Customer ID*:");
+define("_FDEBTORSTITLE","Title*:");
+define("_FDEBTORSFIRM","Company name:");
+define("_FDEBTORSFORENAME","First name*:");
+define("_FDEBTORSSURNAME","Last name*:");
+define("_FDEBTORSSTREET","Street*:");
+define("_FDEBTORSCITY","City*:");
+define("_FDEBTORSZIPCODE","Zip code*:");
+define("_FDEBTORSCOUNTRY","Country*:");
+define("_FDEBTORSBIRTHDAY","Birthday*:");
+define("_FDEBTORSBDAYEXAMPLE","(e.g. 31.10.1980)");
+define("_FDEBTORSTYP","Handed over to*:");
+define("_FDEBTORSTYPONE","Debtor database local");
+define("_FDEBTORSTYPTWO","Debtor database global");
+define("_FDEBTORSTYPTHREE","Debt collection - Adebio");
+define("_FDEBTORSTYPFOUR","Debt collection - Eurotreuhand");
+define("_FDEBTORSTYPFIVE","Debt collection - Mediafinanz");
+define("_FDEBTORSREFID","File reference for SDB global*:");
+define("_FDEBTORSBILLID","Invoice number(s):");
+define("_FDEBTORSDEBTS","Invoice amount:");
+define("_FDEBTORSFINES","Reminder fee:");
+define("_FDEBTORSBILLDATE","Invoice date*:");
+define("_FDEBTORSREMINDERDATE","Reminder date*:");
+define("_FDEBTORSINFO","Note:");
+define("_FDEBTORSINFOTEXT","For Mediafinanz, please enter the products or services here.");
+define("_FDEBTORSTYPONE","Debtor");
+define("_FDEBTORSTYPTWO","Debt collection");
+define("_FDEBTORSSTATUSONE","Local");
+define("_FDEBTORSSTATUSTWO","Transmitted");
+define("_FDEBTORSSTATUSTHREE","Transmission error");
+define("_FDEBTORSDELETESEL","Delete marked debtors");
 
+define("_QUESTIONFDEBTORSCHANGE","Do you really want to change the status?");
 
-define("_QUESTIONFDEBTORSCHANGE","Wollen sie den Status wirklich ändern?");
-
-define("_ASSISTENTFDEBTORS","In diesem Modul können sie ihre Schuldner sowie deren Status verwalten. Mit einem Account bei adorius.de
-haben sie zusätzlich die Möglichkeit, Inkassofälle und Schuldner in die adorius Schuldnerdatenbank zu übergeben. Wenn sie das TekShop
-Modul nutzen, so wird falls gewünscht ein neuer Kunde auf Bonität überprüft.<br><br>
-Wenn Sie einen Schuldner in die globale Schuldnerdatenbank übergeben wollen, so müssen Sie ein Aktenzeichen angeben. Sollte der Schuldner
-die Zahlung bei einem Inkasso verweigern so tragen Sie bitte das Aktenzeichen des Inkassos ein.");
+define("_ASSISTENTFDEBTORS","In this module, you can manage your debtors and their status. With an account at adorius.de, you also have the option to submit collection cases and debtors to the adorius debtor database. If you use the TekShop module, a new customer will be checked for creditworthiness if desired.<br><br>
+If you want to submit a debtor to the global debtor database, you must specify a file number. If the debtor refuses payment at a collection agency, please enter the file number of the collection agency.");
 
 ?>
