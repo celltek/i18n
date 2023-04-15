@@ -1015,7 +1015,7 @@ define("_PROFILSIXMONTHS","6 months");
 define("_PROFILTWELVEMONTHS","12 months");
 define("_PROFILTWENTYFOURMONTHS","24 months");
 define("_PROFILSEPAINFO","Important: You have not yet provided an IBAN and BIC for the SEPA direct debit procedure. Without this, we will not be able to debit your account in the near future. Please click on Edit.");
-define("_PROFILIBANBICINFO","With the automatically generated IBAN and BIC, you must check whether it is correct. For example, if the sub-account numbers are missing in the account number, the generated IBAN is also invalid.")
+define("_PROFILIBANBICINFO","With the automatically generated IBAN and BIC, you must check whether it is correct. For example, if the sub-account numbers are missing in the account number, the generated IBAN is also invalid.");
 
 ////////////////////////////////////////////
 // Voices
@@ -1369,7 +1369,7 @@ define("_MINUTES","minutes");
 ////////////////////////////////////////////
 // SSH Questions
 ////////////////////////////////////////////
-efine("_QUESTIONLOGOUT","Do you really want to log out?");
+define("_QUESTIONLOGOUT","Do you really want to log out?");
 define("_QUESTIONGAMEFILESCHANGE","Do you really want to change the status?");
 define("_QUESTIONSTREAMFILESCHANGE","Do you really want to change the status?");
 define("_QUESTIONAPPFILESCHANGE","Do you really want to change the status?");
@@ -1455,8 +1455,8 @@ define("_SSHSTREAMSTOPERROR","The stream or AutoDJ could not be stopped!");
 define("_SSHSTREAMDEL","The stream has been deleted!");
 define("_SSHSTREAMDELERROR","The stream could not be deleted!");
 define("_SSHSTREAMINSTALLERROR","The stream server could not be installed!");
-define("_SSHVSTREAMSTARTWAIT","The stream has been started! <span id="box_countershow">Please wait <b id="box_counter">3</b> seconds!</span>");
-define("_SSHVSTREAMSTOPWAIT","The stream has been stopped! <span id="box_countershow">Please wait <b id="box_counter">3</b> seconds!</span>");
+define("_SSHVSTREAMSTARTWAIT","The stream has been started! <span id=\"box_countershow\">Please wait <b id=\"box_counter\">3</b> seconds!</span>");
+define("_SSHVSTREAMSTOPWAIT","The stream has been stopped! <span id=\"box_countershow\">Please wait <b id=\"box_counter\">3</b> seconds!</span>");
 define("_SSHVSTREAMSTART","The stream has been started!");
 define("_SSHVSTREAMSTARTERROR","The stream could not be started!");
 define("_SSHVSTREAMSTOP","The stream has been stopped!");
@@ -1670,7 +1670,7 @@ define("_MONITORINGMINUTE","Min.");
 // Clan-ID
 ////////////////////////////////////////////
 define("_CLANID","Clan ID");
-define("_CLANIDREGINFO","To use the Clan ID here, you must first register or log in with an existing Clan ID. Information about the Clan ID can be found at the following link: <a href="http://teklab.de/support/topic/4278-clan-id-vorstellung/\"><b>Clan ID presentation</b></a>");
+define("_CLANIDREGINFO","To use the Clan ID here, you must first register or log in with an existing Clan ID. Information about the Clan ID can be found at the following link: <a href=\"http://teklab.de/support/topic/4278-clan-id-vorstellung/\"><b>Clan ID presentation</b></a>");
 define("_CLANIDUSERNAMENOTALLOWED","The username is not allowed!");
 define("CLANIDBADUSERNAME","The username may only contain numbers, letters, and .- as special characters!");
 define("CLANIDBADCLANNAME","The clan/web radio name may only contain numbers, letters, and .- as special characters!");
@@ -1785,7 +1785,7 @@ define("_CLANIDPROFILPASSWD", "New Password:");
 define("_CLANIDPROFILPASSWDCHK", "Password Confirmation:");
 define("_CLANIDLOSTPASSWD", "Request Password");
 define("_CLANIDEMAILNOTFOUNDED", "No Clan-ID account was found for this email!");
-define("_CLANIDPASSWDEMAIL", "You will receive an email with your new password in a few minutes! Please click the link in the email to confirm your password. <b>Link:</b> <a href="members.php?op=Clanid">to Login</a>");
+define("_CLANIDPASSWDEMAIL", "You will receive an email with your new password in a few minutes! Please click the link in the email to confirm your password. <b>Link:</b> <a href=\"members.php?op=Clanid\">to Login</a>");
 define("_CLANIDPASSWDTOSHORT", "The specified password is too short! It must be at least 6 characters long.");
 define("_CLANIDLOGOUT", "Logout");
 define("_CLANIDMATCHCONFIRMED", "The match date has just been confirmed! We wish you success.");
