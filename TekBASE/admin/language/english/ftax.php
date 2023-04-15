@@ -1,22 +1,22 @@
 <?php
 
-define("_FTAXNEW","Steuerschlüssel eintragen");
-define("_FTAXDBSAVEERROR","Datenbankfehler! Der Steuerschlüssel konnte nicht hinzugefügt werden!");
-define("_FTAXCREATED","Der Steuerschlüssel wurde soeben hinzugefügt!");
-define("_FTAXDBUPERROR","Datenbankfehler! Der Steuerschlüssel konnte nicht geändert werden!");
-define("_FTAXDBUPDATED","Der Steuerschlüssel wurde geändert!");
-define("_FTAXDBDELERROR","Datenbankfehler! Der Steuerschlüssel konnte nicht gelöscht werden!");
-define("_FTAXDBDELETED","Der Steuerschlüssel wurde soeben aus dem Webinterface gelöscht!");
-define("_FTAXSTATUS","Die ausgewählten Konten werden nun gelöscht!");
-define("_FTAXNOTALLFIELDS","Es wurden nicht alle mit einem * gekennzeichneten Felder ausgefüllt!");
-define("_FTAXEXIST","Dieser Steuerschlüssel existiert schon!");
-define("_FTAXNOENTRY","<b>Keine Steuerschlüssel vorhanden!</b>");
-define("_FTAXDELETESEL","markierte Steuerschlüssel löschen");
-define("_FTAXNAME","Steuerschlüssel*:");
-define("_FTAXPERCENT","Prozentsatz*:");
+define("_FTAXNEW","Enter tax key");
+define("_FTAXDBSAVEERROR","Database error! The tax key could not be added!");
+define("_FTAXCREATED","The tax key has just been added!");
+define("_FTAXDBUPERROR","Database error! The tax key could not be changed!");
+define("_FTAXDBUPDATED","The tax key has been changed!");
+define("_FTAXDBDELERROR","Database error! The tax key could not be deleted!");
+define("_FTAXDBDELETED","The tax key has just been deleted from the web interface!");
+define("_FTAXSTATUS","The selected accounts are now being deleted!");
+define("_FTAXNOTALLFIELDS","Not all fields marked with * have been filled out!");
+define("_FTAXEXIST","This tax key already exists!");
+define("_FTAXNOENTRY","<b>No tax keys available!</b>");
+define("_FTAXDELETESEL","delete selected tax keys");
+define("_FTAXNAME","Tax key*:");
+define("_FTAXPERCENT","Percentage*:");
 
-define("_QUESTIONFTAXCHANGE","Wollen sie den Status wirklich ändern?");
+define("_QUESTIONFTAXCHANGE","Do you really want to change the status?");
 
-define("_ASSISTENTFTAX","Hier können Sie verschiedene Steuerschlüssel verwalten.");
+define("_ASSISTENTFTAX","Here you can manage different tax keys.");
 
 ?>
