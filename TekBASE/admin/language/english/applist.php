@@ -30,7 +30,7 @@ define("_APPLISTPIDFILE","PID file if necessary:");
 define("_QUESTIONAPPLISTCHANGE","Do you really want to change the status?");
 
 define("_ASSISTENTAPPLIST","In this module you can add programs to the list. These can then be selected when creating a program in the program module.
-You can only install programs on the servers that have been previously registered here. In addition, you need to create an image once and copy it to your "install path".
+You can only install programs on the servers that have been previously registered here. In addition, you need to create an image once and copy it to your \"install path\".
 The name of the image must correspond to the specified short name. Here you can enter gsip and gsport into the start script as variables. This will then be replaced by the corresponding port for the respective customer program in the program module.<br><br>
 32Bit - for programs that are only available as 32-bit versions but also run on 64-bit systems<br>
 64Bit - for programs that are only available as 64-bit versions<br>
