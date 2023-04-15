@@ -16,8 +16,8 @@ define("_COPTIONSEMAIL","Email:");
 define("_COPTIONSGENERALTERMS","Shop Terms and Conditions:");
 define("_COPTIONSINFOS","Shop Cancellation Policy:");
 define("_COPTIONSVENUE","Jurisdiction:");
-define("_COPTIONSREGISTER","Registration Number:");
-define("_COPTIONSCONTENTBY","Person responsible for content:");
+define("_COPTIONSREGISTER","Register number:");
+define("_COPTIONSCONTENTBY","Responsible for content:");
 define("_COPTIONSWEBSITE","Website:");
 define("_COPTIONSDISCLAIMER","Disclaimer:");
 define("_COPTIONSCOPYRIGHT","Copyright:");
@@ -35,16 +35,17 @@ define("_COPTIONSAGECHECKONE","Content 12+");
 define("_COPTIONSAGECHECKTWO","Content 16+");
 define("_COPTIONSAGECHECKTHREE","Content 18+");
 define("_COPTIONSCURRENCY","Shop currency:");
-define("_COPTIONSCURRENCYTWO","Secondary shop currency:");
+define("_COPTIONSCURRENCYTWO","Shop second currency:");
 define("_COPTIONSCURRENCYCALC","Exchange rate:");
-define("_COPTIONSCURRENCYTWOACTIVE","Show secondary currency:");
-define("_COPTIONSCURRENCYSHORT","(Symbol)");
-define("_COPTIONSCURRENCYLONG","(Code)");
+define("_COPTIONSCURRENCYTWOACTIVE","Show second currency:");
+define("_COPTIONSCURRENCYSHORT","(symbol)");
+define("_COPTIONSCURRENCYLONG","(code)");
 define("_COPTIONSLANGUAGETWO","<b>Settings for the second language</b>");
 define("_COPTIONSNEWS","News per page:");
 define("_COPTIONSAFFILIATE","Customer referral commission:");
 define("_COPTIONSINPERCENT","in percent");
 
-define("_ASSISTENTCOPTIONS","In this module, you can make the basic settings for your website.");
+
+define("_ASSISTENTCOPTIONS","In this module, you can make basic settings for your website.");
 
 ?>
