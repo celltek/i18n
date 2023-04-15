@@ -748,27 +748,27 @@ define("_UPBACK","zurück");
 
 
 ////////////////////////////////////////////
-// DATA PRIVACY
+// DATENSCHUTZ
 ////////////////////////////////////////////
-define("_DATAPRIVACYPROCESSING","Data processing");
+define("_DATAPRIVACYPROCESSING","Datenverarbeitung");
 define("_DATAPRIVACYNAME","Name");
-define("_DATAPRIVACYADDRESS","Address");
-define("_DATAPRIVACYBIRTHDAY","Birthday");
-define("_DATAPRIVACYEMAIL","Email");
-define("_DATAPRIVACYPHONE","Phone");
-define("_DATAPRIVACYIDCARD","ID Card");
-define("_DATAPRIVACYBANKACCOUNT","Bank details");
+define("_DATAPRIVACYADDRESS","Adresse");
+define("_DATAPRIVACYBIRTHDAY","Geburtstag");
+define("_DATAPRIVACYEMAIL","E-Mail");
+define("_DATAPRIVACYPHONE","Telefon");
+define("_DATAPRIVACYIDCARD","Ausweis");
+define("_DATAPRIVACYBANKACCOUNT","Bankdaten");
 define("_DATAPRIVACYID","ID:");
-define("_DATAPRIVACYCOLLECTEDDATA","Collected data:");
+define("_DATAPRIVACYCOLLECTEDDATA","Gesammelte Daten:");
 define("_DATAPRIVACYSTATUS","Status:");
-	
-define("_DATAPRIVACYINVOICECREATED","Invoice created");
-define("_DATAPRIVACYINVOICESENDED","Invoice sended");
-define("_DATAPRIVACYPAYMENTRECEIVED","Payment received");
-define("_DATAPRIVACYNEWSLETTERSENDED","Newsletter sended");
-define("_DATAPRIVACYAFFILIATECREDITED","Affiliate credited");
-define("_DATAPRIVACYPROFILEDITED","Profil edited");
-define("_DATAPRIVACYPROFILECREATED","Profil created");
+
+define("_DATAPRIVACYINVOICECREATED","Rechnung erstellt");
+define("_DATAPRIVACYINVOICESENDED","Rechnung versendet");
+define("_DATAPRIVACYPAYMENTRECEIVED","Zahlung erhalten");
+define("_DATAPRIVACYNEWSLETTERSENDED","Newsletter versendet");
+define("_DATAPRIVACYAFFILIATECREDITED","Partnerprogramm-Gutschrift");
+define("_DATAPRIVACYPROFILEDITED","Profil bearbeitet");
+define("_DATAPRIVACYPROFILECREATED","Profil erstellt");
 
 
 ////////////////////////////////////////////
