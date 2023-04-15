@@ -8,7 +8,7 @@ define("_FAQDBCREATED","The FAQ article was successfully added!");
 define("_FAQNEW","Add a FAQ article");
 define("_FAQDELETESEL","delete selected FAQ articles");
 define("_FAQNOENTRY","<b>No FAQ articles available!</b>");
-define("_FAQSTATUS","The selected FAQ article status will be changed!");");
+define("_FAQSTATUS","The selected FAQ article status will be changed!");
 define("_FAQDBDELERROR","Database error! The FAQ article couldn't be deleted!");
 define("_FAQDBDELETED","The FAQ article has been successfully deleted!");
 define("_FAQEXIST","A FAQ article with this title already exists!");
