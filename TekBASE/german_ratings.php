@@ -24,15 +24,9 @@ define("_RATINGSPOSITIVE","positiv");
 define("_RATINGSNEUTRAL","neutral");
 define("_RATINGSNEGATIVE","negativ");
 define("_RATINGSWEGARANTEE","Wir garantieren");
-define("_RATINGSGARANTEEINFO","Es werden von uns zu keiner Zeit Bewertungen gelöscht, ausser es handelt sich dabei nachweislich um unrechtmässige Bewertungen z.B.,
-wenn der Kunde seine Leistungen nicht bezahlt oder vorab von seinem Widerrufsrecht gebrauch gemacht hat.<br><br>
-Schlechte Bewertungen, welche im Schlichtungsverfahren zur vollen Zufriedenheit des Kunde geklärt werden konnten bleiben erhalten, werden jedoch nicht gewertet.
-<br><br>
-Wie das Bewertungssystem genau funktioniert und welche Sicherheiten es für Sie als Kunde bietet können Sie unter folgendem Link lesen.");
+define("_RATINGSGARANTEEINFO","Es werden von uns zu keiner Zeit Bewertungen gelöscht, ausser es handelt sich dabei nachweislich um unrechtmässige Bewertungen z.B.,wenn der Kunde seine Leistungen nicht bezahlt oder vorab von seinem Widerrufsrecht gebrauch gemacht hat.<br><br>Schlechte Bewertungen, welche im Schlichtungsverfahren zur vollen Zufriedenheit des Kunde geklärt werden konnten bleiben erhalten, werden jedoch nicht gewertet.<br><br>Wie das Bewertungssystem genau funktioniert und welche Sicherheiten es für Sie als Kunde bietet können Sie unter folgendem Link lesen.");
 define("_RATINGSNOTYET","Fehler - Keine Bewertung möglich");
-define("_RATINGSNOTYETINFO","Sie sind leider nicht berechtigt den Shopbetreiber zu bewerten. Falls Sie eine Email erhalten haben, mit der Bitte Ihren Anbieter zu
-bewerten, so rufen Sie den Link aus der Email noch einmal auf. Sollten Sie dann immer noch diesen Fehler hier sehen, senden Sie uns bitte Ihren Link an service@teklab.de.
-Wir werden dies dann umgehend kontrollieren.");
+define("_RATINGSNOTYETINFO","Sie sind leider nicht berechtigt den Shopbetreiber zu bewerten. Falls Sie eine Email erhalten haben, mit der Bitte Ihren Anbieter zu bewerten, so rufen Sie den Link aus der Email noch einmal auf. Sollten Sie dann immer noch diesen Fehler hier sehen, senden Sie uns bitte Ihren Link an service@teklab.de. Wir werden dies dann umgehend kontrollieren.");
 define("_RATINGSBACK","Zurück");
 define("_RATINGSNORATING","Sie haben keine Bewertung vorgenommen. Bitte gehen Sie zurück und bewerten Sie den Shopbetreiber.");
 define("_RATINGSNOCOMMENT","Sie haben keinen Kommentar geschrieben. Bitte gehen Sie zurück und schreiben Sie einen Kommentar.");
@@ -55,8 +49,7 @@ define("_RATINGSTEPFOURINFO","Bitte kontrollieren Sie noch einmal Ihre Bewertung
 define("_RATINGSTEPFIVEINFO","Klicken Sie jetzt auf den Button \"Bewertung veröffentlichen\", wenn Sie die Bewertung so abgeben wollen.");
 define("_RATINGSSENDBUTTON","Bewertung veröffentlichen");
 define("_RATINGSNOTCONFIRMED","Fehler - Keine Bestätigung der Schlichtung möglich");
-define("_RATINGSNOTCONFIRMEDINFO","Sie sind leider nicht berechtigt die erfolgreiche Schlichtung zu bestätigen. Falls Sie eine Email erhalten haben, mit der Bitte, 
-eine Schlichtung des offenen Falls zu bestätigen,so rufen Sie den Link aus der Email noch einmal auf. Sollten Sie dann immer noch diesen Fehler hier sehen, setzen Sie sich mit Ihrem Shopbetreiber in Verbindung.");
+define("_RATINGSNOTCONFIRMEDINFO","Sie sind leider nicht berechtigt die erfolgreiche Schlichtung zu bestätigen. Falls Sie eine Email erhalten haben, mit der Bitte, eine Schlichtung des offenen Falls zu bestätigen,so rufen Sie den Link aus der Email noch einmal auf. Sollten Sie dann immer noch diesen Fehler hier sehen, setzen Sie sich mit Ihrem Shopbetreiber in Verbindung.");
 define("_RATINGSCONFIRMED","Schlichtung erfolgreich");
 define("_RATINGSCONFIRMEDINFO","Wir bedanken uns, dass Sie sich die Zeit genommen haben, die erfolgreiche Schlichtung des Falles zu bestätigen.");
 define("_RATINGSCOUNT","Stimmen");
