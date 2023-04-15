@@ -1,26 +1,26 @@
 <?php
 
-define("_DATABASESTATUS","Die ausgewählten Datenbanken werden nun gelöscht!");
+define("_DATABASESTATUS","The selected databases will now be deleted!");
 
-define("_DATABASENEW","Datenbank erstellen");
-define("_DATABASEDBDELERROR","Datenbankfehler! Die Datenbank konnte nicht gelöscht werden!");
-define("_DATABASEDBDELETED","Die Datenbank wurde soeben aus dem Webinterface gelöscht!");
-define("_DATABASECREATED","Die Datenbank wurde soeben hinzugefügt!");
-define("_DATABASEDBSAVEERROR","Datenbankfehler! Die Datenbank konnte nicht hinzugefügt werden!");
-define("_DATABASEINSTALLERROR","Die Datenbank konnte nicht angelegt werden!");
-define("_DATABASEDBUPDATED","Die Datenbank wurde geändert!");
-define("_DATABASEDBUPERROR","Datenbankfehler! Die Datenbank konnte nicht geändert werden!");
-define("_DATABASENAMEEXIST","Es existiert schon eine Datenbank mit diesem Namen!");
-define("_DATABASENOTALLFIELDS","Es wurden nicht alle mit einem * gekennzeichneten Felder ausgefüllt!");
-define("_DATABASEDELETESEL","markierte Datenbanken löschen");
-define("_DATABASENOENTRY","<b>Keine Datenbanken vorhanden!</b>");
-define("_DATABASEMEMBER","Kunde*:");
+define("_DATABASENEW","Create Database");
+define("_DATABASEDBDELERROR","Database error! The database could not be deleted!");
+define("_DATABASEDBDELETED","The database has just been deleted from the web interface!");
+define("_DATABASECREATED","The database has just been added!");
+define("_DATABASEDBSAVEERROR","Database error! The database could not be added!");
+define("_DATABASEINSTALLERROR","The database could not be created!");
+define("_DATABASEDBUPDATED","The database has been updated!");
+define("_DATABASEDBUPERROR","Database error! The database could not be updated!");
+define("_DATABASENAMEEXIST","A database with this name already exists!");
+define("_DATABASENOTALLFIELDS","Not all fields marked with a * were filled out!");
+define("_DATABASEDELETESEL","Delete selected databases");
+define("_DATABASENOENTRY","<b>No databases available!</b>");
+define("_DATABASEMEMBER","Customer*:");
 define("_DATABASESERVER","Server IP*:");
-define("_DATABASENAME","Datenbank Name:");
-define("_DATABASELINKTOPRODUCT","Produkt zuweisen:");
+define("_DATABASENAME","Database name:");
+define("_DATABASELINKTOPRODUCT","Assign to product:");
 
-define("_QUESTIONSDATABASECHANGE","Wollen sie den Status wirklich ändern?");
+define("_QUESTIONSDATABASECHANGE","Do you really want to change the status?");
 
-define("_ASSISTENTDATABASE","In diesem Modul können sie Datenbanken anlegen, die der Kunde dann im Webinterface verwalten kann.");
+define("_ASSISTENTDATABASE","In this module you can create databases that the customer can manage in the web interface.");
 
 ?>
