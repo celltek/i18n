@@ -1,12 +1,12 @@
 <?php
 
-define("_DESIGNOMATSTANDARD","Standardwerte");
-define("_DESIGNOMATMAIN","Hauptfarbe:");
+define("_DESIGNOMATSTANDARD","Default Values");
+define("_DESIGNOMATMAIN","Main Color:");
 define("_DESIGNOMATBRANDING","Login Branding:");
 
-define("_DESIGNOMATDBUPERROR","Datenbankfehler! Die Einstellungen konnten nicht geändert werden!");
-define("_DESIGNOMATDBUPDATED","Die Einstellungen wurden geändert!");
+define("_DESIGNOMATDBUPERROR","Database error! The settings could not be changed!");
+define("_DESIGNOMATDBUPDATED","The settings have been changed!");
 
-define("_ASSISTENTDESIGNOMAT","Falls Sie das Theme designomat gewählt haben, so können Sie hier Ihr TekBASE mit Ihrer Wunsch-Farbe anpassen.");
+define("_ASSISTENTDESIGNOMAT","If you have chosen the designomat theme, you can customize your TekBASE with your desired color here.");
 
 ?>
