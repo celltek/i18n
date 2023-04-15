@@ -1,5 +1,5 @@
 <?php
 
-define("_ASSISTENTUPDATES","Hier können Sie neue Updates installieren, sowie die Änderungen zu älteren Updates einsehen.");
+define("_ASSISTENTUPDATES","Here you can install new updates and view the changes to older updates.");
 
 ?>
