@@ -1,0 +1,98 @@
+<?php
+
+define("_FBILLNOTALLFIELDS","Es wurden nicht alle mit einem * gekennzeichneten Felder ausgefüllt!");
+define("_FBILLIDEXIST","Die Rechnungsnummer ist bereits vorhanden!");
+define("_FBILLNOENTRY","<b>Keine Rechnungen vorhanden!</b>");
+define("_FBILLDELETESEL","markierte Rechnungen löschen");
+define("_FBILLSENDSEL","markierte Rechnungen neu versenden");
+define("_FBILLSAVESEL","markierte Rechnungen speichern");
+define("_FBILLCANCELSEL","markierte Rechnungen stornieren");
+define("_FBILLCREATESTATUS","Die Rechnungen werden nun erstellt!");
+define("_FBILLCREATESTATUSERROR","Die Rechnungen können nicht erstellt werden!");
+define("_FBILLDBUPERROR","Datenbankfehler! Die Rechnung konnte nicht geändert werden!");
+define("_FBILLDBUPDATED","Die Rechnung wurde geändert!");
+define("_FBILLDELETED","Die Rechnung wurde gelöscht!");
+define("_FBILLDBDELERROR","Datenbankfehler! Die Rechnung konnte nicht gelöscht werden!");
+define("_FBILLDBDELETED","Die Rechnung wurde soeben aus dem Webinterface gelöscht!");
+define("_FBILLDBCANCELERROR","Datenbankfehler! Die Rechnung konnte nicht storniert werden!");
+define("_FBILLDBCANCELED","Die Rechnung wurde soeben storniert!");
+define("_FBILLNOPRODUCTS","Der Kunde hat keine Produkte in seinem Kundenpaket!");
+define("_FBILLDBSAVEERROR","Datenbankfehler! Die Rechnung konnte nicht erstellt werden!");
+define("_FBILLDBCREATED","Die Rechnung wurde soeben erstellt!");
+define("_FBILLSAVED","Die Rechnung wurde gespeichert!");
+define("_FBILLCANTSAVED","Die Rechnung konnte nicht gespeichert werden!");
+define("_FBILLSTATUS","Die ausgewählten Rechnungen werden nun gelöscht!");
+define("_FBILLSTATUSSAVE","Die ausgewählten Rechnungen werden nun neu versendet, gespeichert bzw. storniert!");
+define("_FBILLNOBILL","Der Kunde bekommt diesen Monat keine Rechnung!");
+define("_FBILLNOBILLNOW","Der Kunde hat keine Artikel in diesem Zeitraum!");
+define("_FBILLNOEMAIL","Es wurde noch kein Email Konto für Rechnungs Mails angelegt!");
+define("_FBILLALL","Alle Kunden");
+define("_FBILLDUEONE","1.X. - 9.X.");
+define("_FBILLDUETWO","10.X. - 19.X.");
+define("_FBILLDUETHREE","20.X. - 31.X.");
+define("_FBILLONE","Einzelrechnung");
+define("_FBILLSEND","Rechnungen versenden");
+define("_FBILLVIEW","Rechnung ansehen");
+define("_FBILLVIEWMEMBERID","Kundennr.:");
+define("_FBILLVIEWDATE","Datum:");
+define("_FBILLVIEWBILL","Rechnung");
+define("_FBILLVIEWPHONEONE","Telefon:");
+define("_FBILLVIEWPHONETWO","Hotline:");
+define("_FBILLVIEWFAX","Fax:");
+define("_FBILLVIEWTAXID","<b>Steuernummer</b>");
+define("_FBILLVIEWVATID","<b>USt-IdNr.</b>");
+define("_FBILLVIEWNUMBER","<b>Anzahl</b>");
+define("_FBILLVIEWTEXT","<b>Beschreibung</b>");
+define("_FBILLVIEWPRICE","<b>Preis</b>");
+define("_FBILLVIEWNETTO","<b>Netto</b>");
+define("_FBILLVIEWNETPRICE","Nettopreis:");
+define("_FBILLVIEWTAXMONEY","enthaltene {%tax%}% MwSt.:");
+define("_FBILLVIEWPRICEALL","<b>Gesamtpreis:</b>");
+define("_FBILLVIEWPAYTEXT","Bei Zahlungsart Lastschrift wird der Betrag in den nächsten Tagen von ihrem Konto abgebucht.");
+define("_FBILLVIEWBANKCODE","<b>BLZ:</b>");
+define("_FBILLVIEWACCOUNT","<b>Konto:</b>");
+define("_FBILLVIEWBANKDATA","<b>Bankverbindung</b>");
+define("_FBILLVIEWIBAN","<b>IBAN:</b>");
+define("_FBILLVIEWBIC","<b>BIC / SWIFT-Code:</b>");
+define("_FBILLID","Rechnungsnr.:");
+define("_FBILLDATE","Datum*:");
+define("_FBILLMEMBER","Kunde*:");
+define("_FBILLMONTH","Monat*:");
+define("_FBILLADDRESS","Adresse*:");
+define("_FBILLVATID","UstID:");
+define("_FBILLPRODUCT","Artikel");
+define("_FBILLPRODUCTONE","Artikel:");
+define("_FBILLPRODUCTTAX","Steuerschlüssel:");
+define("_FBILLONEPRODUCT","<b>Einmalige Artikel</b>");
+define("_FBILLPRODUCTIDONE","Artikelnummer");
+define("_FBILLPRODUCTNAMEONE","Artikelname");
+define("_FBILLPRODUCTPRICEONE","Preis");
+define("_FBILLINCLUDE","Artikel verwenden:");
+define("_FBILLPRODUCTDELETE","Artikel löschen?");
+define("_FBILLARCH","Archiv");
+define("_FBILLADDRESSTWO","<b>Adresse:</b>");
+define("_FBILLPRODUCTS","<b>Artikel:</b>");
+define("_FBILLACCOUNT","Konto:");
+define("_FBILLBANKWIRE","Vorkasse");
+define("_FBILLDEBIT","Lastschrift");
+define("_FBILLCREDITNOTE","Mit Guthaben verrechnet.");
+define("_FBILLCANCELTEXT","Storno Buchungssatz");
+define("_FBILLSTATEOFACCOUNT","Kontostand");
+define("_FBILLSTARTSEND","Die Rechnungen werden nun versendet! Die Seite läd sich mehrmals neu bitte warten sie!");
+define("_FBILLALLSENDED","Die Rechnungen wurden alle verschickt!");
+define("_FBILLSTARTERROR","Es sind keine Rechnungen zum versenden vorhanden!");
+define("_FBILLSEND","Dem Kunden wurde die Rechnung per Email gesendet!");
+define("_FBILLSENDERROR","Es konnte keine Email an den Kunden gesendet werden!");
+define("_FBILLSENDLETTER","Dem Kunden wird die Rechnung per Post zugeschickt!");
+
+define("_QUESTIONFBILLCHANGE","Wollen sie den Status wirklich ändern?");
+define("_QUESTIONFBILLALL","ACHTUNG: Wollen sie wirklich für alle Kunden eine Rechnung erstellen?");
+define("_QUESTIONFBILLDUE","Wollen sie wirklich für die fälligen Kunden eine Rechnung erstellen?");
+define("_QUESTIONFBILLSEND","Haben sie die Rechnungen kontrolliert und wollen sie diese jetzt versenden?");
+
+define("_ASSISTENTFBILL","In diesem Modul können sie wahlweise an alle, alle fälligen Kunden oder nur an einen Kunden schicken. Nachdem sie die Rechnung erstellt haben, können 
+sie diese noch bearbeiten, denn erst wenn sie die Rechnungen im Modul Geschäftsvorfälle einlesen bekommt der Kunde seine Rechnung geschickt.");
+
+define("_ASSISTENTFBILLARCHIVE","Hier befinden sich alle archivierten Rechnungen.");
+
+?>
